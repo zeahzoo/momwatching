@@ -34,7 +34,7 @@ async function getData(): Promise<Database> {
 
 async function getLatestNews(): Promise<NewsArticle[]> {
   try {
-    const filePath = path.join(process.cwd(), 'data', 'news.json');
+    const filePath = path.join(process.cwd(), 'public', 'data', 'news.json');
     const fileContents = await fs.readFile(filePath, 'utf8');
     const articles = JSON.parse(fileContents);
     return articles.sort((a: NewsArticle, b: NewsArticle) => 

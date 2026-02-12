@@ -5,7 +5,7 @@ import path from 'path';
 
 async function getNewsData(): Promise<NewsArticle[]> {
   try {
-    const filePath = path.join(process.cwd(), 'data', 'news.json');
+    const filePath = path.join(process.cwd(), 'public', 'data', 'news.json');
     const fileContents = await fs.readFile(filePath, 'utf8');
     const articles = JSON.parse(fileContents);
     // Sort by date, newest first
