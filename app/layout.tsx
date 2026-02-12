@@ -62,8 +62,16 @@ export default function RootLayout({
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                     </svg>
                   </button>
-                  <div className="absolute left-0 mt-2 w-32 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-                    <Link href="/medical/2024" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-t-md">
+                  <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                    <div className="px-4 py-2 text-xs text-gray-500 font-semibold uppercase border-b">서울대 의대</div>
+                    <Link href="/medical/2026" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">
+                      2026년
+                    </Link>
+                    <Link href="/medical/2025" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">
+                      2025년
+                    </Link>
+                    <div className="px-4 py-2 text-xs text-gray-500 font-semibold uppercase border-b mt-2">전국 의대</div>
+                    <Link href="/medical/2024" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">
                       2024년
                     </Link>
                     <Link href="/medical/2023" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 opacity-50 cursor-not-allowed">

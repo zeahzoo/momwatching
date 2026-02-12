@@ -118,3 +118,43 @@ export function getMedicalSchools(data: Database, year: string = '2024'): Ranked
 
   return schools.sort((a, b) => b.total - a.total);
 }
+
+export function getSnuMedicalSchools(data: Database, year: string = '2026'): RankedSchool[] {
+  const schools: RankedSchool[] = [];
+
+  Object.entries(data.schools).forEach(([name, schoolData]) => {
+    const medicalData = schoolData.admissions?.서울대_의대?.[year];
+
+    if (medicalData && medicalData.total) {
+      // Get historical data
+      const yearDataArray = [];
+      for (const y of ['2025', '2026']) {
+        const yMed = schoolData.admissions?.서울대_의대?.[y];
+        if (yMed && yMed.total) {
+          yearDataArray.push({
+            year: y,
+            total: yMed.total || 0,
+            susi: yMed.susi || 0,
+            jeongsi: yMed.jeongsi || 0,
+          });
+        }
+      }
+
+      schools.push({
+        name,
+        total: medicalData.total,
+        susi: medicalData.susi || 0,
+        jeongsi: medicalData.jeongsi || 0,
+        region: schoolData.metadata?.region,
+        type: schoolData.metadata?.type,
+        rank: medicalData.rank,
+        yearData: yearDataArray,
+      });
+    }
+  });
+
+  return schools.sort((a, b) => {
+    if (a.rank && b.rank) return a.rank - b.rank;
+    return b.total - a.total;
+  });
+}

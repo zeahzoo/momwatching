@@ -51,6 +51,7 @@ export interface RankedSchool {
   jeongsi: number;
   region?: string;
   type?: string;
+  rank?: number;
   yearData: {
     year: string;
     total: number;

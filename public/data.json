@@ -3,19 +3,21 @@
     "collection_date": "2026-02-10",
     "data_source": "베리타스알파, 공공데이터",
     "years_covered": [
-      "2021",
-      "2022",
-      "2023",
       "2024",
-      "2025"
+      "2026",
+      "2021",
+      "2025",
+      "2022",
+      "2023"
     ],
     "universities_covered": [
+      "의대",
       "서울대",
-      "의대"
+      "서울대_의대"
     ],
-    "total_schools": 70,
+    "total_schools": 165,
     "description": "한국 주요 고등학교의 대학 진학 실적 데이터베이스 (2021-2025)",
-    "last_updated": "2026-02-11T14:39:16.458550"
+    "last_updated": "2026-02-12T07:18:45.186875"
   },
   "schools": {
     "강서고": {
@@ -246,6 +248,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
         }
       },
       "metadata": {
@@ -322,6 +338,20 @@
             "jeongsi": 17,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 3,
+            "susi": 1,
+            "jeongsi": 1,
+            "rank": 5
+          },
+          "2025": {
+            "total": 1,
+            "susi": 0,
+            "jeongsi": 1,
+            "rank": null
           }
         }
       },
@@ -467,6 +497,20 @@
             "jeongsi": 21,
             "source": "서울대_최종",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=496662"
+          }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
           }
         }
       },
@@ -638,7 +682,14 @@
             "jeongsi": 5
           }
         },
-        "의대": {},
+        "의대": {
+          "2024": {
+            "total": 2,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        },
         "2025": {
           "서울대": {
             "total": 5,
@@ -702,6 +753,20 @@
             "jeongsi": 6,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
           }
         }
       },
@@ -784,6 +849,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
         }
       },
       "metadata": {
@@ -805,6 +884,13 @@
           "2024": {
             "rank": 1,
             "total": 157
+          },
+          "2021": {
+            "total": 154,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=364963"
+            ],
+            "note": "기사 제목에서 확인"
           }
         },
         "2024": {
@@ -852,6 +938,20 @@
             "jeongsi": 23,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 3,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 5
+          },
+          "2025": {
+            "total": 1,
+            "susi": 0,
+            "jeongsi": 1,
+            "rank": null
           }
         }
       },
@@ -984,6 +1084,14 @@
             "jeongsi": 8,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
           }
         }
       },
@@ -1133,6 +1241,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 4,
+            "susi": 1,
+            "jeongsi": 2,
+            "rank": 3
+          },
+          "2025": {
+            "total": 1,
+            "susi": 0,
+            "jeongsi": 1,
+            "rank": null
+          }
         }
       },
       "metadata": {
@@ -1225,7 +1347,14 @@
             "jeongsi": 29
           }
         },
-        "의대": {},
+        "의대": {
+          "2024": {
+            "total": 3,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        },
         "2024": {
           "의대": {
             "total": 3,
@@ -1284,6 +1413,14 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 5,
+            "susi": 3,
+            "jeongsi": 2,
+            "rank": 1
+          }
         }
       },
       "metadata": {
@@ -1318,7 +1455,14 @@
             "jeongsi": 2
           }
         },
-        "의대": {},
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        },
         "2021": {
           "서울대": {
             "total": 22,
@@ -1471,6 +1615,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
           }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 4,
+            "susi": 1,
+            "jeongsi": 2,
+            "rank": 3
+          },
+          "2025": {
+            "total": 2,
+            "susi": 0,
+            "jeongsi": 2,
+            "rank": null
+          }
         }
       },
       "metadata": {
@@ -1512,7 +1670,14 @@
             "jeongsi": 3
           }
         },
-        "의대": {},
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        },
         "2022": {
           "서울대": {
             "total": 42,
@@ -1596,6 +1761,20 @@
             "jeongsi": 15,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
           }
         }
       },
@@ -1685,7 +1864,14 @@
             "jeongsi": 25
           }
         },
-        "의대": {},
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        },
         "2025": {
           "의대": {
             "total": 2,
@@ -1790,6 +1976,13 @@
           "2024": {
             "rank": 2,
             "total": 114
+          },
+          "2021": {
+            "total": 107,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=364963"
+            ],
+            "note": "기사 제목에서 확인"
           }
         },
         "2024": {
@@ -1895,6 +2088,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 5,
+            "susi": 2,
+            "jeongsi": 2,
+            "rank": 1
+          },
+          "2025": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 1,
+            "rank": null
+          }
         }
       },
       "metadata": {
@@ -1969,6 +2176,22 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
         }
       }
     },
@@ -2012,6 +2235,20 @@
             "jeongsi": 14,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 2,
+            "susi": 2,
+            "jeongsi": 0,
+            "rank": 10
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
           }
         }
       }
@@ -2063,6 +2300,14 @@
             "jeongsi": 2,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
           }
         }
       }
@@ -2136,6 +2381,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "rank": 5
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
         }
       }
     },
@@ -2184,6 +2443,14 @@
             "jeongsi": 1,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
           }
         }
       }
@@ -2250,6 +2517,28 @@
             "jeongsi": 5,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "의대": {
+          "2024": {
+            "total": 3,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 3,
+            "susi": 1,
+            "jeongsi": 1,
+            "rank": 5
+          },
+          "2025": {
+            "total": 1,
+            "susi": 0,
+            "jeongsi": 1,
+            "rank": null
           }
         }
       }
@@ -2349,6 +2638,14 @@
             "jeongsi": 9,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
           }
         }
       }
@@ -2620,6 +2917,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 2,
+            "susi": 2,
+            "jeongsi": 0,
+            "rank": 10
+          },
+          "2025": {
+            "total": 1,
+            "susi": 0,
+            "jeongsi": 1,
+            "rank": null
+          }
         }
       }
     },
@@ -2668,6 +2979,14 @@
             "jeongsi": 1,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
           }
         }
       }
@@ -2891,6 +3210,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
         }
       }
     },
@@ -2990,6 +3323,22 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
         }
       }
     },
@@ -3070,6 +3419,20 @@
             "jeongsi": 16,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 0,
+            "jeongsi": 1,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
           }
         }
       }
@@ -3155,6 +3518,14 @@
             "jeongsi": 2,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
           }
         }
       }
@@ -3255,6 +3626,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
         }
       }
     },
@@ -3319,6 +3704,28 @@
             "jeongsi": 9,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "의대": {
+          "2024": {
+            "total": 2,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 0,
+            "jeongsi": 1,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
           }
         }
       }
@@ -3529,6 +3936,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 2,
+            "susi": 2,
+            "jeongsi": 0,
+            "rank": 10
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
         }
       }
     },
@@ -3606,6 +4027,14 @@
             "jeongsi": 4,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
           }
         }
       }
@@ -3719,6 +4148,14 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
         }
       }
     },
@@ -3782,6 +4219,14 @@
               "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
             }
           ]
+        },
+        "의대": {
+          "2024": {
+            "total": 2,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
         }
       }
     },
@@ -3835,6 +4280,14 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "의대": {
+          "2024": {
+            "total": 2,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
         }
       }
     },
@@ -3857,6 +4310,14 @@
             "jeongsi": 6,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
           }
         }
       }
@@ -3895,6 +4356,14 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
           }
+        },
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
         }
       }
     },
@@ -3908,6 +4377,22 @@
             "jeongsi": 8,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "의대": {
+          "2024": {
+            "total": 2,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
           }
         }
       }
@@ -3932,6 +4417,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
         }
       }
     },
@@ -3945,6 +4444,14 @@
             "jeongsi": 8,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
           }
         }
       }
@@ -4108,6 +4615,14 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
         }
       }
     },
@@ -4219,6 +4734,14 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
           }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
         }
       }
     },
@@ -4279,6 +4802,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
         }
       }
     },
@@ -4292,6 +4829,22 @@
             "jeongsi": 5,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
           }
         }
       }
@@ -4316,6 +4869,14 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
         }
       }
     },
@@ -4329,6 +4890,14 @@
             "jeongsi": 7,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
           }
         }
       }
@@ -4418,6 +4987,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
           }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
         }
       }
     },
@@ -4468,6 +5051,14 @@
             "jeongsi": 2,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
           }
         }
       }
@@ -4743,6 +5334,28 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
         }
       }
     },
@@ -4756,6 +5369,14 @@
             "jeongsi": 2,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
           }
         }
       }
@@ -4813,6 +5434,14 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
         }
       }
     },
@@ -4826,6 +5455,21 @@
             "jeongsi": 5,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "의대": {
+          "2024": {
+            "total": 4,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          },
+          "2021": {
+            "total": 84,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=364963"
+            ],
+            "note": "기사 제목에서 확인"
           }
         }
       }
@@ -4912,6 +5556,1289 @@
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
         }
+      }
+    },
+    "경북고": {
+      "name": "경북고",
+      "admissions": {
+        "의대": {
+          "2024": {
+            "total": 2,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "전국"
+      }
+    },
+    "대구여고": {
+      "name": "대구여고",
+      "admissions": {
+        "의대": {
+          "2024": {
+            "total": 2,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "전국"
+      }
+    },
+    "충남고": {
+      "name": "충남고",
+      "admissions": {
+        "의대": {
+          "2024": {
+            "total": 2,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "전국"
+      }
+    },
+    "거창대성고": {
+      "name": "거창대성고",
+      "admissions": {
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "전국"
+      }
+    },
+    "고려고": {
+      "name": "고려고",
+      "admissions": {
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "전국"
+      }
+    },
+    "광주인성고": {
+      "name": "광주인성고",
+      "admissions": {
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "전국"
+      }
+    },
+    "대구중앙고": {
+      "name": "대구중앙고",
+      "admissions": {
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "전국"
+      }
+    },
+    "대전대신고": {
+      "name": "대전대신고",
+      "admissions": {
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "전국"
+      }
+    },
+    "백마고": {
+      "name": "백마고",
+      "admissions": {
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "전국"
+      }
+    },
+    "선정고": {
+      "name": "선정고",
+      "admissions": {
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        },
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "전국"
+      }
+    },
+    "성광고": {
+      "name": "성광고",
+      "admissions": {
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "전국"
+      }
+    },
+    "소하고": {
+      "name": "소하고",
+      "admissions": {
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "전국"
+      }
+    },
+    "신봉고": {
+      "name": "신봉고",
+      "admissions": {
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "전국"
+      }
+    },
+    "용인고": {
+      "name": "용인고",
+      "admissions": {
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "전국"
+      }
+    },
+    "창평고": {
+      "name": "창평고",
+      "admissions": {
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "전국"
+      }
+    },
+    "충주대원고": {
+      "name": "충주대원고",
+      "admissions": {
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "전국"
+      }
+    },
+    "충주중산고": {
+      "name": "충주중산고",
+      "admissions": {
+        "의대": {
+          "2024": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "전국"
+      }
+    },
+    "석관고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 3,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 5
+          },
+          "2025": {
+            "total": 2,
+            "susi": 0,
+            "jeongsi": 2,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고(특구)",
+        "region": "서울"
+      }
+    },
+    "잠실고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 2,
+            "susi": 2,
+            "jeongsi": 0,
+            "rank": 10
+          },
+          "2025": {
+            "total": 1,
+            "susi": 0,
+            "jeongsi": 1,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고(특구)",
+        "region": "서울"
+      }
+    },
+    "덕명여상고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 2,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 10
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "자사고(전국)",
+        "region": "울산"
+      }
+    },
+    "강신고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 2,
+            "susi": 2,
+            "jeongsi": 0,
+            "rank": 10
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고(특구)",
+        "region": "대구"
+      }
+    },
+    "강남고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 2,
+            "susi": 2,
+            "jeongsi": 0,
+            "rank": 10
+          },
+          "2025": {
+            "total": 2,
+            "susi": 0,
+            "jeongsi": 2,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고(특구)",
+        "region": "서울"
+      }
+    },
+    "성남고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경남"
+      }
+    },
+    "기흥고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경기"
+      }
+    },
+    "인사고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고(전국)",
+        "region": "강원"
+      }
+    },
+    "포항영신고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고(비평준)",
+        "region": "경북"
+      }
+    },
+    "중곡고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "전북"
+      }
+    },
+    "포천고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경기"
+      }
+    },
+    "세종고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "서울"
+      }
+    },
+    "세실고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고(특구)",
+        "region": "대구"
+      }
+    },
+    "대전동신과학고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "자사고(광역)",
+        "region": "대전"
+      }
+    },
+    "대신고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "대전"
+      }
+    },
+    "진주고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경남"
+      }
+    },
+    "무학여고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "충북"
+      }
+    },
+    "아주고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고(비평준)",
+        "region": "경기"
+      }
+    },
+    "청주고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "충북"
+      }
+    },
+    "영남고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 0,
+            "jeongsi": 1,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경북"
+      }
+    },
+    "경산고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 1,
+            "susi": 0,
+            "jeongsi": 1,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고(광역)",
+        "region": "경북"
+      }
+    },
+    "진수고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 2,
+            "susi": 0,
+            "jeongsi": 2,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경기"
+      }
+    },
+    "용인한국외대부고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "자사고(전국)",
+        "region": "경기"
+      }
+    },
+    "평촌경영고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 0,
+            "jeongsi": 1,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "자사고(전국)",
+        "region": "경기"
+      }
+    },
+    "방산고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고(특구)",
+        "region": "서울"
+      }
+    },
+    "영훈고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "자사고(전국)",
+        "region": "서울"
+      }
+    },
+    "대성고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 0,
+            "jeongsi": 1,
+            "rank": 19
+          },
+          "2025": {
+            "total": 1,
+            "susi": 0,
+            "jeongsi": 1,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고(특구)",
+        "region": "대구"
+      }
+    },
+    "선린인터넷고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "특목고",
+        "region": "서울"
+      }
+    },
+    "대전노은고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "대전"
+      }
+    },
+    "울산고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "울산"
+      }
+    },
+    "남산고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 0,
+            "jeongsi": 1,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고(특구)",
+        "region": "대구"
+      }
+    },
+    "김성고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "광주"
+      }
+    },
+    "봉일천고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고(비평준)",
+        "region": "경기"
+      }
+    },
+    "의정부고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경기"
+      }
+    },
+    "서라벌고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경북"
+      }
+    },
+    "대원고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "서울"
+      }
+    },
+    "대구상원고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "자사고(광역)",
+        "region": "대구"
+      }
+    },
+    "상일고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고(특구)",
+        "region": "서울"
+      }
+    },
+    "흥덕고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 0,
+            "jeongsi": 1,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경기"
+      }
+    },
+    "대광고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고(특구)",
+        "region": "서울"
+      }
+    },
+    "남주고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "제주"
+      }
+    },
+    "금오고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경북"
+      }
+    },
+    "광주고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고(비평준)",
+        "region": "경기"
+      }
+    },
+    "용호고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고(특구)",
+        "region": "서울"
+      }
+    },
+    "배명고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 0,
+            "jeongsi": 1,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고(특구)",
+        "region": "서울"
+      }
+    },
+    "삼성고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고(특구)",
+        "region": "서울"
+      }
+    },
+    "신광고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고(특구)",
+        "region": "서울"
+      }
+    },
+    "용문고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 0,
+            "jeongsi": 1,
+            "rank": 19
+          },
+          "2025": {
+            "total": 0,
+            "susi": 0,
+            "jeongsi": 0,
+            "rank": null
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고(비평준)",
+        "region": "경기"
+      }
+    },
+    "용인외대부고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "자사고(전국)",
+        "region": "경기"
+      }
+    },
+    "충남여고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "대전"
+      }
+    },
+    "풀빛고": {
+      "admissions": {
+        "서울대_의대": {
+          "2026": {
+            "total": 1,
+            "susi": 1,
+            "jeongsi": 0,
+            "rank": 19
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경기"
       }
     }
   },
