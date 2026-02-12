@@ -29,7 +29,7 @@ export default function RootLayout({
               </Link>
               <div className="flex gap-6">
                 <Link href="/" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors">
-                  학교 순위
+                  고등학교 순위
                 </Link>
                 <Link href="/news" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors">
                   입시 뉴스
