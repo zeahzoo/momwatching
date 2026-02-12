@@ -74,3 +74,47 @@ export function getSchoolById(data: Database, id: string): RankedSchool | null {
 export function getAvailableYears(data: Database): string[] {
   return data.metadata.years_covered.sort().reverse();
 }
+
+export function getSchoolsByYear(data: Database, year: string): RankedSchool[] {
+  const schools: RankedSchool[] = [];
+
+  Object.entries(data.schools).forEach(([name, schoolData]) => {
+    const seoulUnivData = schoolData.admissions?.[year]?.seoul_univ || schoolData.admissions?.서울대?.[year];
+
+    if (seoulUnivData && seoulUnivData.total) {
+      schools.push({
+        name,
+        total: seoulUnivData.total,
+        susi: seoulUnivData.susi || 0,
+        jeongsi: seoulUnivData.jeongsi || 0,
+        region: schoolData.metadata?.region,
+        type: schoolData.metadata?.type,
+        yearData: [],
+      });
+    }
+  });
+
+  return schools.sort((a, b) => b.total - a.total);
+}
+
+export function getMedicalSchools(data: Database, year: string = '2024'): RankedSchool[] {
+  const schools: RankedSchool[] = [];
+
+  Object.entries(data.schools).forEach(([name, schoolData]) => {
+    const medicalData = schoolData.admissions?.의대?.[year];
+
+    if (medicalData && medicalData.total) {
+      schools.push({
+        name,
+        total: medicalData.total,
+        susi: 0,
+        jeongsi: 0,
+        region: schoolData.metadata?.region,
+        type: schoolData.metadata?.type,
+        yearData: [],
+      });
+    }
+  });
+
+  return schools.sort((a, b) => b.total - a.total);
+}

@@ -58,7 +58,7 @@ export default async function Home() {
         {/* Header */}
         <header className="text-center mb-12">
           <h1 className="text-5xl font-bold text-gray-900 mb-8">
-            고등학교 입시 순위
+            2025년 서울대 진학 순위 Top 20
           </h1>
         </header>
 
