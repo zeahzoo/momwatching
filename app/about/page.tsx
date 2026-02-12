@@ -61,19 +61,6 @@ export default function AboutPage() {
             </ul>
           </section>
 
-          {/* 데이터 출처 */}
-          <section>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              📊 데이터 출처
-            </h2>
-            <div className="bg-blue-50 border-l-4 border-blue-600 p-4 rounded">
-              <p className="text-gray-700 leading-relaxed">
-                데이터는 공개 자료 및 사용자 제보를 종합하여 제공합니다. 
-                모든 데이터는 정기적으로 업데이트됩니다.
-              </p>
-            </div>
-          </section>
-
           {/* 사이트 특징 */}
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
