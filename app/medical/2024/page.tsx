@@ -57,9 +57,6 @@ export default async function MedicalPage() {
             <p className="text-gray-700 text-sm">
               <span className="font-semibold">집계 대상:</span> 전국 의과대학 및 의학전문대학원
             </p>
-            <p className="text-gray-500 text-xs mt-2">
-              * 출처: 베리타스알파
-            </p>
           </div>
         </div>
 

@@ -120,7 +120,7 @@ export default function RootLayout({
           <div className="container mx-auto px-4 max-w-7xl">
             <div className="text-center">
               <p className="text-gray-500 text-xs">
-                데이터 출처: 베리타스알파
+                © 2025 momwatching.com
               </p>
             </div>
           </div>

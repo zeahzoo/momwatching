@@ -73,9 +73,6 @@ export default async function Seoul2025Page() {
               <p className="text-gray-600 text-sm">정시 합격</p>
             </div>
           </div>
-          <p className="text-gray-500 text-xs mt-4 text-center">
-            * 출처: 베리타스알파
-          </p>
         </div>
 
         <div className="mb-8">
