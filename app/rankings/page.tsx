@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import SchoolCard from '@/components/SchoolCard';
+import SchoolTable from '@/components/SchoolTable';
 import SearchBar from '@/components/SearchBar';
 import { getRankedSchools, getAvailableYears } from '@/lib/utils';
 import { Database, RankedSchool } from '@/lib/types';
@@ -126,17 +126,7 @@ export default function Rankings() {
         </div>
 
         {/* Rankings List */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {filteredSchools.map((school, index) => (
-            <SchoolCard key={school.name} school={school} rank={index + 1} />
-          ))}
-        </div>
-
-        {filteredSchools.length === 0 && (
-          <div className="text-center py-12">
-            <p className="text-xl text-gray-500">해당 조건에 맞는 학교가 없습니다.</p>
-          </div>
-        )}
+        <SchoolTable schools={filteredSchools} startRank={1} />
       </div>
     </main>
   );

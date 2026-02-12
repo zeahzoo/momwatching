@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import SearchBar from '@/components/SearchBar';
-import SchoolCard from '@/components/SchoolCard';
+import SchoolTable from '@/components/SchoolTable';
 import NewsCard from '@/components/NewsCard';
 import { getRankedSchools } from '@/lib/utils';
 import { Database } from '@/lib/types';
@@ -80,11 +80,7 @@ export default async function Home() {
               전체 순위 보기 →
             </Link>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {top20.map((school, index) => (
-              <SchoolCard key={school.name} school={school} rank={index + 1} />
-            ))}
-          </div>
+          <SchoolTable schools={top20} startRank={1} />
         </div>
 
         {/* Latest News Section */}
