@@ -4,6 +4,16 @@ export function getRankedSchools(data: Database, year: string = '2025'): RankedS
   const schools: RankedSchool[] = [];
 
   Object.entries(data.schools).forEach(([name, schoolData]) => {
+    // Exclude art schools (예술고등학교)
+    // Art schools compete on a different level (music/art colleges)
+    const isArtSchool = name.includes('예고') || 
+                       name.includes('예술고') || 
+                       schoolData.metadata?.type === '예술고';
+    
+    if (isArtSchool) {
+      return; // Skip art schools
+    }
+
     const seoulUnivData = schoolData.admissions?.서울대?.[year] || schoolData.admissions?.seoul_univ?.[year];
 
     if (seoulUnivData && seoulUnivData.total) {
