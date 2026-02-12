@@ -6,10 +6,34 @@ export const metadata: Metadata = {
   title: "고등학교 입시 순위 - 서울대 진학 실적",
   description: "전국 주요 고등학교의 서울대 진학 실적을 한눈에 확인하세요. 5개년 추이 분석, 수시/정시 비율, 지역별 순위 제공.",
   keywords: "고등학교, 입시, 순위, 서울대, 진학 실적, 수시, 정시",
+  metadataBase: new URL('https://momwatching.com'),
   openGraph: {
-    title: "고등학교 입시 순위",
+    title: "고등학교 입시 순위 - momwatching.com",
     description: "전국 주요 고등학교의 서울대 진학 실적 분석",
     type: "website",
+    url: "https://momwatching.com",
+    siteName: "momwatching.com",
+    locale: "ko_KR",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "고등학교 입시 순위 - momwatching.com",
+    description: "전국 주요 고등학교의 서울대 진학 실적 분석",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  verification: {
+    // Google Search Console verification tag
+    // Replace 'YOUR_VERIFICATION_CODE' with actual code from Google Search Console
+    google: 'YOUR_VERIFICATION_CODE',
   },
 };
 
