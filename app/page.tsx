@@ -72,6 +72,7 @@ export default async function Home() {
             
             <div className="max-w-3xl mx-auto text-sm leading-snug space-y-1">
               <p className="font-medium">고등학교 대학 합격 정보를 제공해주세요! (사진, 동영상, 문서 형태 모두 가능)</p>
+              <p className="font-medium">각 대학별 합격 인원에 대한 정보를 제공해 주세요. 모든 대학의 정보가 소중합니다.</p>
               <p className="font-medium">중복되지 않은 유효한 정보 제공 시 5,000원 상당의 상품권을 드립니다.</p>
               <p className="text-xs mt-2 opacity-90">📧 정보 제공: contact@momwatching.com</p>
             </div>
