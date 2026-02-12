@@ -3,25 +3,39 @@ import SearchBar from '@/components/SearchBar';
 import SchoolCard from '@/components/SchoolCard';
 import { getRankedSchools } from '@/lib/utils';
 import { Database } from '@/lib/types';
+import { promises as fs } from 'fs';
+import path from 'path';
 
-async function getData() {
-  const res = await fetch('http://localhost:3000/data.json', { cache: 'no-store' });
-  if (!res.ok) {
-    // Fallback to file system in case fetch fails
-    const fs = require('fs');
-    const path = require('path');
+async function getData(): Promise<Database> {
+  try {
+    // Read data.json from the file system
     const filePath = path.join(process.cwd(), 'public', 'data.json');
-    const fileContents = fs.readFileSync(filePath, 'utf8');
-    return JSON.parse(fileContents);
+    const fileContents = await fs.readFile(filePath, 'utf8');
+    const data = JSON.parse(fileContents);
+    return data;
+  } catch (error) {
+    console.error('Error loading data.json:', error);
+    // Fallback data in case of error
+    return {
+      schools: {},
+      metadata: {
+        collection_date: new Date().toISOString(),
+        data_source: '데이터 로드 실패',
+        years_covered: ['2025'],
+        universities_covered: ['서울대'],
+        total_schools: 0,
+        description: 'Error loading data',
+        last_updated: new Date().toISOString()
+      }
+    };
   }
-  return res.json();
 }
 
 export default async function Home() {
   const data: Database = await getData();
   const rankedSchools = getRankedSchools(data, '2025');
   const top20 = rankedSchools.slice(0, 20);
-  const schoolNames = Object.keys(data.schools);
+  const schoolNames = Object.keys(data.schools || {});
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
