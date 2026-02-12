@@ -174,11 +174,32 @@ def commit_and_push(article_title):
     try:
         os.chdir(PROJECT_ROOT)
         
+        # Check if there are changes to commit
+        status_result = subprocess.run(
+            ["git", "status", "--porcelain"], 
+            check=True, 
+            capture_output=True, 
+            text=True
+        )
+        
+        if not status_result.stdout.strip():
+            print("ℹ️  No changes to commit")
+            return
+        
+        # Pull latest changes first (avoid conflicts)
+        print("⬇️  Pulling latest changes...")
+        subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=True)
+        
         # Git operations
+        print("📝 Adding changes...")
         subprocess.run(["git", "add", "data/news.json"], check=True)
+        
+        print(f"💬 Committing: {article_title}")
         subprocess.run([
-            "git", "commit", "-m", f"자동 뉴스 업데이트: {article_title}"
+            "git", "commit", "-m", f"Auto: Daily news update - {article_title}"
         ], check=True)
+        
+        print("⬆️  Pushing to origin/main...")
         subprocess.run(["git", "push", "origin", "main"], check=True)
         
         print("✅ Successfully pushed to Git")
@@ -186,6 +207,7 @@ def commit_and_push(article_title):
         
     except subprocess.CalledProcessError as e:
         print(f"❌ Git error: {e}")
+        print(f"Error output: {e.stderr if hasattr(e, 'stderr') else 'N/A'}")
         raise
 
 def main():

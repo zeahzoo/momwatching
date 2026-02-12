@@ -31,9 +31,28 @@ export default function RootLayout({
                 <Link href="/about" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors">
                   About
                 </Link>
-                <Link href="/medical" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors">
-                  의대 진학
-                </Link>
+                <div className="relative group">
+                  <button className="text-gray-700 hover:text-blue-600 font-semibold transition-colors flex items-center gap-1">
+                    의대 진학
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </button>
+                  <div className="absolute left-0 mt-2 w-32 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                    <Link href="/medical/2024" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-t-md">
+                      2024년
+                    </Link>
+                    <Link href="/medical/2023" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 opacity-50 cursor-not-allowed">
+                      2023년 (준비중)
+                    </Link>
+                    <Link href="/medical/2022" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 opacity-50 cursor-not-allowed">
+                      2022년 (준비중)
+                    </Link>
+                    <Link href="/medical/2021" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 opacity-50 cursor-not-allowed rounded-b-md">
+                      2021년 (준비중)
+                    </Link>
+                  </div>
+                </div>
                 <div className="relative group">
                   <button className="text-gray-700 hover:text-blue-600 font-semibold transition-colors flex items-center gap-1">
                     서울대 진학
@@ -41,7 +60,7 @@ export default function RootLayout({
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                     </svg>
                   </button>
-                  <div className="absolute left-0 mt-2 w-32 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                  <div className="absolute left-0 mt-2 w-32 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                     <Link href="/seoul/2025" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-t-md">
                       2025년
                     </Link>
