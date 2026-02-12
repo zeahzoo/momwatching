@@ -65,29 +65,15 @@ export default async function Home() {
         {/* Event Banner */}
         <a 
           href="mailto:contact@momwatching.com"
-          className="block mb-12 p-8 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-[1.02] text-white"
+          className="block mb-12 py-5 px-6 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-[1.01] text-white"
         >
           <div className="text-center">
-            <div className="text-4xl mb-4">🎉</div>
-            <h2 className="text-3xl font-bold mb-6">momwatching.com 오픈 기념 이벤트</h2>
+            <h2 className="text-2xl font-bold mb-2">🎉 오픈 기념 이벤트</h2>
             
-            <div className="max-w-2xl mx-auto text-lg leading-relaxed">
-              <p className="mb-4 font-semibold text-xl">학부모님과 학생 여러분께 드리는 특별한 기회!</p>
-              
-              <p className="mb-4">귀하의 학교 또는 자녀 학교의 진학 정보를 공유해주세요.</p>
-              
-              <ul className="mb-4 space-y-2">
-                <li>• 서울대/의대 합격 실적</li>
-                <li>• 수시/정시 합격 인원</li>
-                <li>• 연도별 데이터</li>
-              </ul>
-              
-              <p className="mb-6 font-semibold text-xl">중복되지 않은 유효한 정보 제공 시 상품권을 드립니다!</p>
-              
-              <div className="flex items-center justify-center gap-2 text-2xl">
-                <span>📧</span>
-                <span className="font-bold underline">제보: contact@momwatching.com</span>
-              </div>
+            <div className="max-w-3xl mx-auto text-sm leading-snug space-y-1">
+              <p className="font-medium">고등학교 대학 합격 정보를 제공해주세요! (사진, 동영상, 문서 형태 모두 가능)</p>
+              <p className="font-medium">중복되지 않은 유효한 정보 제공 시 5,000원 상당의 상품권을 드립니다.</p>
+              <p className="text-xs mt-2 opacity-90">📧 정보 제공: contact@momwatching.com</p>
             </div>
           </div>
         </a>
