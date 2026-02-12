@@ -34,6 +34,12 @@ export default function RootLayout({
                 <Link href="/news" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors">
                   입시 뉴스
                 </Link>
+                <Link href="/about" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors">
+                  About
+                </Link>
+                <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors">
+                  Contact
+                </Link>
               </div>
             </div>
           </div>
