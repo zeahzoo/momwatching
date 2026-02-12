@@ -68,9 +68,8 @@ export default function AboutPage() {
             </h2>
             <div className="bg-blue-50 border-l-4 border-blue-600 p-4 rounded">
               <p className="text-gray-700 leading-relaxed">
-                <strong className="text-blue-900">베리타스알파</strong>의 공개 데이터를 기반으로 하며, 
-                각 고등학교의 서울대 진학 실적 및 주요 대학 합격자 정보를 종합하여 제공합니다. 
-                모든 데이터는 정기적으로 업데이트되며, 출처를 명확히 표기합니다.
+                데이터는 공개 자료 및 사용자 제보를 종합하여 제공합니다. 
+                모든 데이터는 정기적으로 업데이트됩니다.
               </p>
             </div>
           </section>
