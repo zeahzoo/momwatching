@@ -1,0 +1,91 @@
+import Link from 'next/link';
+import SearchBar from '@/components/SearchBar';
+import SchoolCard from '@/components/SchoolCard';
+import { getRankedSchools } from '@/lib/utils';
+import { Database } from '@/lib/types';
+
+async function getData() {
+  const res = await fetch('http://localhost:3000/data.json', { cache: 'no-store' });
+  if (!res.ok) {
+    // Fallback to file system in case fetch fails
+    const fs = require('fs');
+    const path = require('path');
+    const filePath = path.join(process.cwd(), 'public', 'data.json');
+    const fileContents = fs.readFileSync(filePath, 'utf8');
+    return JSON.parse(fileContents);
+  }
+  return res.json();
+}
+
+export default async function Home() {
+  const data: Database = await getData();
+  const rankedSchools = getRankedSchools(data, '2025');
+  const top20 = rankedSchools.slice(0, 20);
+  const schoolNames = Object.keys(data.schools);
+
+  return (
+    <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+      <div className="container mx-auto px-4 py-8 max-w-7xl">
+        {/* Header */}
+        <header className="text-center mb-12">
+          <h1 className="text-5xl font-bold text-gray-900 mb-4">
+            고등학교 입시 순위
+          </h1>
+          <p className="text-xl text-gray-600 mb-2">
+            서울대 진학 실적 기준 (2025년)
+          </p>
+          <p className="text-sm text-gray-500">
+            출처: {data.metadata.data_source} | 업데이트: {new Date(data.metadata.last_updated).toLocaleDateString('ko-KR')}
+          </p>
+        </header>
+
+        {/* Search Bar */}
+        <div className="flex justify-center mb-12">
+          <SearchBar schools={schoolNames} />
+        </div>
+
+        {/* Introduction */}
+        <div className="bg-white rounded-lg shadow-md p-8 mb-8 border-t-4 border-blue-500">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">📊 서비스 소개</h2>
+          <div className="text-gray-700 space-y-2">
+            <p>전국 주요 고등학교의 서울대 진학 실적을 한눈에 확인할 수 있습니다.</p>
+            <ul className="list-disc list-inside ml-4 space-y-1">
+              <li><strong>{data.metadata.total_schools}개 학교</strong> 데이터 제공</li>
+              <li><strong>{data.metadata.years_covered.join(', ')}년</strong> 5개년 추이 분석</li>
+              <li>수시/정시 합격자 비율 시각화</li>
+              <li>지역별, 학교 유형별 필터링</li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Top 20 Rankings */}
+        <div className="mb-8">
+          <div className="flex items-center justify-between mb-6">
+            <h2 className="text-3xl font-bold text-gray-900">🏆 Top 20 순위</h2>
+            <Link 
+              href="/rankings"
+              className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold shadow-md"
+            >
+              전체 순위 보기 →
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {top20.map((school, index) => (
+              <SchoolCard key={school.name} school={school} rank={index + 1} />
+            ))}
+          </div>
+        </div>
+
+        {/* Data Notice */}
+        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-lg">
+          <h3 className="font-bold text-yellow-900 mb-2">⚠️ 데이터 유의사항</h3>
+          <p className="text-sm text-yellow-800">
+            본 데이터는 {data.metadata.data_source}에서 수집한 공개 정보를 기반으로 합니다. 
+            학교별 진학 실적은 다양한 요인에 의해 영향을 받으며, 이 순위가 학교의 전반적인 교육 품질을 대표하지 않습니다.
+            참고 자료로만 활용해 주시기 바랍니다.
+          </p>
+        </div>
+      </div>
+    </main>
+  );
+}

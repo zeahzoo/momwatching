@@ -1,0 +1,4919 @@
+{
+  "metadata": {
+    "collection_date": "2026-02-10",
+    "data_source": "베리타스알파, 공공데이터",
+    "years_covered": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "universities_covered": [
+      "서울대",
+      "의대"
+    ],
+    "total_schools": 70,
+    "description": "한국 주요 고등학교의 대학 진학 실적 데이터베이스 (2021-2025)",
+    "last_updated": "2026-02-11T14:39:16.458550"
+  },
+  "schools": {
+    "강서고": {
+      "admissions": {
+        "서울대": {},
+        "의대": {
+          "2024": {
+            "rank": 6,
+            "total": 51
+          }
+        },
+        "2025": {
+          "seoul_univ": {
+            "total": 25,
+            "susi": 2,
+            "jeongsi": 23,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=543782"
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 12,
+            "susi": 0,
+            "jeongsi": 12,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 13,
+            "susi": 1,
+            "jeongsi": 12,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "서울"
+      }
+    },
+    "경기과고": {
+      "admissions": {
+        "서울대": {
+          "2023": {
+            "rank": 3,
+            "total": 57,
+            "susi": 46,
+            "jeongsi": 11
+          },
+          "2022": {
+            "rank": 3,
+            "total": 53,
+            "susi": 47,
+            "jeongsi": 6
+          }
+        },
+        "의대": {},
+        "2021": {
+          "서울대": {
+            "total": 53,
+            "susi": 47,
+            "jeongsi": 6,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "서울대": {
+            "total": 6,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+            ]
+          },
+          "seoul_univ": {
+            "total": 57,
+            "susi": 46,
+            "jeongsi": 11,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 53,
+            "susi": 47,
+            "jeongsi": 6,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      },
+      "metadata": {
+        "type": "영재학교",
+        "region": "경기"
+      }
+    },
+    "광주과고": {
+      "admissions": {
+        "서울대": {
+          "2023": {
+            "rank": 9,
+            "total": 38,
+            "susi": 38,
+            "jeongsi": 0
+          }
+        },
+        "의대": {},
+        "2021": {
+          "서울대": {
+            "total": 30,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 38,
+            "susi": 38,
+            "jeongsi": 0,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 32,
+            "susi": 31,
+            "jeongsi": 1,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      },
+      "metadata": {
+        "type": "영재학교",
+        "region": "광주"
+      }
+    },
+    "낙생고": {
+      "admissions": {
+        "서울대": {
+          "2025": {
+            "rank": 4,
+            "total": 39,
+            "susi": 2,
+            "jeongsi": 37
+          },
+          "2024": {
+            "rank": 10,
+            "total": 29,
+            "susi": 2,
+            "jeongsi": 27
+          }
+        },
+        "의대": {},
+        "2023": {
+          "서울대": {
+            "total": 22,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=446029"
+            ]
+          },
+          "seoul_univ": {
+            "total": 24,
+            "susi": 1,
+            "jeongsi": 23,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2025": {
+          "서울대": {
+            "total": 39,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=543782"
+            ]
+          },
+          "의대": {
+            "total": 2,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            ]
+          },
+          "medical": [
+            {
+              "department": "의대",
+              "count": 2,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            },
+            {
+              "department": "치대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            }
+          ]
+        },
+        "2021": {
+          "서울대": {
+            "total": 18,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 19,
+            "susi": 2,
+            "jeongsi": 17,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경기"
+      }
+    },
+    "단대부고": {
+      "admissions": {
+        "서울대": {
+          "2025": {
+            "rank": 8,
+            "total": 37,
+            "susi": 7,
+            "jeongsi": 30
+          }
+        },
+        "의대": {
+          "2024": {
+            "rank": 7,
+            "total": 51
+          }
+        },
+        "2024": {
+          "서울대": {
+            "total": 25,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493155"
+            ]
+          }
+        },
+        "2021": {
+          "서울대": {
+            "total": 16,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2025": {
+          "seoul_univ": {
+            "total": 37,
+            "susi": 7,
+            "jeongsi": 30,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=543782"
+          },
+          "medical": [
+            {
+              "department": "치대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            }
+          ]
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 22,
+            "susi": 7,
+            "jeongsi": 15,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 20,
+            "susi": 3,
+            "jeongsi": 17,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "서울"
+      }
+    },
+    "대구과고": {
+      "admissions": {
+        "서울대": {
+          "2023": {
+            "rank": 6,
+            "total": 43,
+            "susi": 37,
+            "jeongsi": 6
+          },
+          "2022": {
+            "rank": 9,
+            "total": 34,
+            "susi": 32,
+            "jeongsi": 2
+          }
+        },
+        "의대": {},
+        "2021": {
+          "서울대": {
+            "total": 35,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 43,
+            "susi": 37,
+            "jeongsi": 6,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 34,
+            "susi": 32,
+            "jeongsi": 2,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      },
+      "metadata": {
+        "type": "영재학교",
+        "region": "대구"
+      }
+    },
+    "대원외고": {
+      "admissions": {
+        "서울대": {
+          "2025": {
+            "rank": 2,
+            "total": 52,
+            "susi": 31,
+            "jeongsi": 21
+          },
+          "2024": {
+            "rank": 2,
+            "total": 45,
+            "susi": 24,
+            "jeongsi": 21
+          },
+          "2023": {
+            "rank": 5,
+            "total": 53,
+            "susi": 28,
+            "jeongsi": 25
+          },
+          "2022": {
+            "rank": 4,
+            "total": 49,
+            "susi": 33,
+            "jeongsi": 16
+          },
+          "2021": {
+            "rank": 3,
+            "total": 41,
+            "susi": 32,
+            "jeongsi": 9
+          }
+        },
+        "의대": {},
+        "2023": {
+          "서울대": {
+            "total": 53,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=446029",
+              "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+            ]
+          }
+        },
+        "2025": {
+          "서울대": {
+            "total": 52,
+            "susi": 31,
+            "jeongsi": 21,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=543782",
+              "http://www.veritas-a.com/news/articleView.html?idxno=535030"
+            ]
+          }
+        },
+        "2021": {
+          "서울대": {
+            "total": 43,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=356500",
+              "http://www.veritas-a.com/news/articleView.html?idxno=351416",
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2022": {
+          "서울대": {
+            "total": 49,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+            ]
+          }
+        },
+        "2024": {
+          "seoul_univ": {
+            "total": 45,
+            "susi": 24,
+            "jeongsi": 21,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=496662"
+          }
+        }
+      },
+      "metadata": {
+        "type": "외고",
+        "region": "서울"
+      }
+    },
+    "대일외고": {
+      "admissions": {
+        "서울대": {
+          "2021": {
+            "rank": 5,
+            "total": 25,
+            "susi": 24,
+            "jeongsi": 1
+          }
+        },
+        "의대": {},
+        "2025": {
+          "서울대": {
+            "total": 24,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=535030"
+            ]
+          }
+        },
+        "2021": {
+          "서울대": {
+            "total": 24,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 25,
+            "susi": 25,
+            "jeongsi": 0,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 23,
+            "susi": 21,
+            "jeongsi": 2,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      },
+      "metadata": {
+        "type": "외고",
+        "region": "서울"
+      }
+    },
+    "대전과고": {
+      "admissions": {
+        "서울대": {
+          "2022": {
+            "rank": 6,
+            "total": 40,
+            "susi": 38,
+            "jeongsi": 2
+          }
+        },
+        "의대": {},
+        "2021": {
+          "서울대": {
+            "total": 43,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2022": {
+          "서울대": {
+            "total": 40,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+            ]
+          },
+          "seoul_univ": {
+            "total": 40,
+            "susi": 38,
+            "jeongsi": 2,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 27,
+            "susi": 26,
+            "jeongsi": 1,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      },
+      "metadata": {
+        "type": "영재학교",
+        "region": "대전"
+      }
+    },
+    "명덕외고": {
+      "admissions": {
+        "서울대": {
+          "2021": {
+            "rank": 6,
+            "total": 25,
+            "susi": 24,
+            "jeongsi": 1
+          }
+        },
+        "의대": {},
+        "2021": {
+          "서울대": {
+            "total": 25,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 17,
+            "susi": 14,
+            "jeongsi": 3,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 23,
+            "susi": 18,
+            "jeongsi": 5,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      },
+      "metadata": {
+        "type": "외고",
+        "region": "서울"
+      }
+    },
+    "민사고": {
+      "admissions": {
+        "서울대": {
+          "2021": {
+            "rank": 7,
+            "total": 25,
+            "susi": 20,
+            "jeongsi": 5
+          }
+        },
+        "의대": {},
+        "2025": {
+          "서울대": {
+            "total": 5,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=535030"
+            ]
+          },
+          "의대": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            ]
+          },
+          "seoul_univ": {
+            "total": 20,
+            "susi": 18,
+            "jeongsi": 2,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=543782"
+          },
+          "medical": [
+            {
+              "department": "의대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            },
+            {
+              "department": "치대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            }
+          ]
+        },
+        "2021": {
+          "서울대": {
+            "total": 31,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 27,
+            "susi": 21,
+            "jeongsi": 6,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 30,
+            "susi": 24,
+            "jeongsi": 6,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      },
+      "metadata": {
+        "type": "전국자사고",
+        "region": "강원"
+      }
+    },
+    "보인고": {
+      "admissions": {
+        "서울대": {
+          "2025": {
+            "rank": 6,
+            "total": 38,
+            "susi": 8,
+            "jeongsi": 30
+          },
+          "2024": {
+            "rank": 9,
+            "total": 33,
+            "susi": 6,
+            "jeongsi": 27
+          }
+        },
+        "의대": {},
+        "2024": {
+          "의대": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          },
+          "medical": [
+            {
+              "department": "의대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            },
+            {
+              "department": "치대",
+              "count": 2,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            }
+          ]
+        },
+        "2025": {
+          "서울대": {
+            "total": 33,
+            "susi": 3,
+            "jeongsi": 27,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=543782",
+              "http://www.veritas-a.com/news/articleView.html?idxno=541581"
+            ]
+          },
+          "seoul_univ": {
+            "total": 38,
+            "susi": 8,
+            "jeongsi": 30,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=543782"
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 21,
+            "susi": 4,
+            "jeongsi": 17,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 18,
+            "susi": 7,
+            "jeongsi": 11,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      },
+      "metadata": {
+        "type": "광역자사고",
+        "region": "서울"
+      }
+    },
+    "상산고": {
+      "admissions": {
+        "서울대": {
+          "2024": {
+            "rank": 5,
+            "total": 36,
+            "susi": 3,
+            "jeongsi": 33
+          }
+        },
+        "의대": {
+          "2024": {
+            "rank": 1,
+            "total": 157
+          }
+        },
+        "2024": {
+          "서울대": {
+            "total": 9,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=496662"
+            ]
+          }
+        },
+        "2021": {
+          "서울대": {
+            "total": 19,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2025": {
+          "seoul_univ": {
+            "total": 25,
+            "susi": 6,
+            "jeongsi": 19,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=543782"
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 28,
+            "susi": 4,
+            "jeongsi": 24,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 31,
+            "susi": 8,
+            "jeongsi": 23,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      },
+      "metadata": {
+        "type": "전국자사고",
+        "region": "전북"
+      }
+    },
+    "서울과고": {
+      "admissions": {
+        "서울대": {
+          "2023": {
+            "rank": 1,
+            "total": 77,
+            "susi": 55,
+            "jeongsi": 22
+          },
+          "2022": {
+            "rank": 2,
+            "total": 67,
+            "susi": 54,
+            "jeongsi": 13
+          }
+        },
+        "의대": {},
+        "2022": {
+          "서울대": {
+            "total": 67,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=405739",
+              "http://www.veritas-a.com/news/articleView.html?idxno=405918",
+              "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+            ]
+          },
+          "seoul_univ": {
+            "total": 67,
+            "susi": 54,
+            "jeongsi": 13,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "2021": {
+          "서울대": {
+            "total": 68,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "서울대": {
+            "total": 77,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "type": "영재학교",
+        "region": "서울"
+      }
+    },
+    "선덕고": {
+      "admissions": {
+        "서울대": {
+          "2024": {
+            "rank": 6,
+            "total": 36,
+            "susi": 19,
+            "jeongsi": 17
+          }
+        },
+        "의대": {},
+        "2023": {
+          "서울대": {
+            "total": 27,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=446029"
+            ]
+          },
+          "seoul_univ": {
+            "total": 23,
+            "susi": 7,
+            "jeongsi": 16,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2024": {
+          "서울대": {
+            "total": 35,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493155"
+            ]
+          },
+          "seoul_univ": {
+            "total": 35,
+            "susi": null,
+            "jeongsi": null,
+            "source": "서울대_수시정시",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493155"
+          }
+        },
+        "2021": {
+          "서울대": {
+            "total": 17,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 15,
+            "susi": 7,
+            "jeongsi": 8,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      },
+      "metadata": {
+        "type": "광역자사고",
+        "region": "서울"
+      }
+    },
+    "세종영재": {
+      "admissions": {
+        "서울대": {
+          "2022": {
+            "rank": 10,
+            "total": 34,
+            "susi": 34,
+            "jeongsi": 0
+          }
+        },
+        "의대": {}
+      },
+      "metadata": {
+        "type": "영재학교",
+        "region": "세종"
+      }
+    },
+    "세화고": {
+      "admissions": {
+        "서울대": {
+          "2025": {
+            "rank": 5,
+            "total": 38,
+            "susi": 2,
+            "jeongsi": 36
+          },
+          "2024": {
+            "rank": 8,
+            "total": 35,
+            "susi": 7,
+            "jeongsi": 28
+          },
+          "2023": {
+            "rank": 7,
+            "total": 43,
+            "susi": 3,
+            "jeongsi": 40
+          },
+          "2022": {
+            "rank": 7,
+            "total": 39,
+            "susi": 6,
+            "jeongsi": 33
+          },
+          "2021": {
+            "rank": 4,
+            "total": 27,
+            "susi": 6,
+            "jeongsi": 21
+          }
+        },
+        "의대": {
+          "2024": {
+            "rank": 3,
+            "total": 67
+          }
+        },
+        "2023": {
+          "서울대": {
+            "total": 46,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=446029"
+            ]
+          },
+          "seoul_univ": {
+            "total": 43,
+            "susi": 3,
+            "jeongsi": 40,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2024": {
+          "서울대": {
+            "total": 31,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493155"
+            ]
+          },
+          "의대": {
+            "total": 3,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          },
+          "medical": [
+            {
+              "department": "의대",
+              "count": 3,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            },
+            {
+              "department": "치대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            }
+          ]
+        },
+        "2025": {
+          "서울대": {
+            "total": 38,
+            "susi": 1,
+            "jeongsi": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=543782",
+              "http://www.veritas-a.com/news/articleView.html?idxno=541581"
+            ]
+          }
+        },
+        "2021": {
+          "서울대": {
+            "total": 25,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2022": {
+          "서울대": {
+            "total": 39,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+            ]
+          },
+          "seoul_univ": {
+            "total": 39,
+            "susi": 6,
+            "jeongsi": 33,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      },
+      "metadata": {
+        "type": "광역자사고",
+        "region": "서울"
+      }
+    },
+    "숙명여고": {
+      "admissions": {
+        "서울대": {},
+        "의대": {
+          "2024": {
+            "rank": 5,
+            "total": 56
+          }
+        },
+        "2023": {
+          "서울대": {
+            "total": 22,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=446029"
+            ]
+          },
+          "seoul_univ": {
+            "total": 23,
+            "susi": 6,
+            "jeongsi": 17,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2024": {
+          "서울대": {
+            "total": 22,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=496662"
+            ]
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 14,
+            "susi": 9,
+            "jeongsi": 5,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "서울"
+      }
+    },
+    "외대부고": {
+      "admissions": {
+        "서울대": {
+          "2025": {
+            "rank": 1,
+            "total": 56,
+            "susi": 26,
+            "jeongsi": 30
+          },
+          "2024": {
+            "rank": 1,
+            "total": 66,
+            "susi": 28,
+            "jeongsi": 38
+          },
+          "2023": {
+            "rank": 2,
+            "total": 60,
+            "susi": 24,
+            "jeongsi": 36
+          },
+          "2022": {
+            "rank": 1,
+            "total": 72,
+            "susi": 31,
+            "jeongsi": 41
+          },
+          "2021": {
+            "rank": 1,
+            "total": 63,
+            "susi": 34,
+            "jeongsi": 29
+          }
+        },
+        "의대": {},
+        "2024": {
+          "의대": {
+            "total": 3,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          },
+          "medical": [
+            {
+              "department": "의대",
+              "count": 3,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            },
+            {
+              "department": "치대",
+              "count": 2,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            }
+          ]
+        },
+        "2021": {
+          "서울대": {
+            "total": 60,
+            "susi": 30,
+            "jeongsi": 30,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=351416",
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "서울대": {
+            "total": 60,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+            ]
+          },
+          "seoul_univ": {
+            "total": 60,
+            "susi": 24,
+            "jeongsi": 36,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 72,
+            "susi": 31,
+            "jeongsi": 41,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      },
+      "metadata": {
+        "type": "전국자사고",
+        "region": "경기"
+      }
+    },
+    "인천영재": {
+      "admissions": {
+        "서울대": {
+          "2023": {
+            "rank": 10,
+            "total": 33,
+            "susi": 32,
+            "jeongsi": 1
+          }
+        },
+        "의대": {}
+      },
+      "metadata": {
+        "type": "영재학교",
+        "region": "인천"
+      }
+    },
+    "인천하늘고": {
+      "admissions": {
+        "서울대": {
+          "2021": {
+            "rank": 8,
+            "total": 24,
+            "susi": 22,
+            "jeongsi": 2
+          }
+        },
+        "의대": {},
+        "2021": {
+          "서울대": {
+            "total": 22,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 6,
+            "jeongsi": 3,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 18,
+            "susi": 16,
+            "jeongsi": 2,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      },
+      "metadata": {
+        "type": "전국자사고",
+        "region": "인천"
+      }
+    },
+    "중동고": {
+      "admissions": {
+        "서울대": {
+          "2025": {
+            "rank": 10,
+            "total": 30,
+            "susi": 3,
+            "jeongsi": 27
+          },
+          "2024": {
+            "rank": 3,
+            "total": 42,
+            "susi": 6,
+            "jeongsi": 36
+          }
+        },
+        "의대": {
+          "2024": {
+            "rank": 4,
+            "total": 57
+          }
+        },
+        "2024": {
+          "서울대": {
+            "total": 36,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=496662",
+              "http://www.veritas-a.com/news/articleView.html?idxno=493155"
+            ]
+          },
+          "의대": {
+            "total": 8,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          },
+          "seoul_univ": {
+            "total": 42,
+            "susi": 6,
+            "jeongsi": 36,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=496662"
+          },
+          "medical": [
+            {
+              "department": "의대",
+              "count": 8,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            },
+            {
+              "department": "치대",
+              "count": 13,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            },
+            {
+              "department": "한의대",
+              "count": 8,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            }
+          ]
+        },
+        "2021": {
+          "서울대": {
+            "total": 19,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2022": {
+          "서울대": {
+            "total": 27,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=405918"
+            ]
+          },
+          "seoul_univ": {
+            "total": 30,
+            "susi": 6,
+            "jeongsi": 24,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "2025": {
+          "seoul_univ": {
+            "total": 30,
+            "susi": 3,
+            "jeongsi": 27,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=543782"
+          },
+          "medical": [
+            {
+              "department": "치대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            }
+          ]
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 28,
+            "susi": 2,
+            "jeongsi": 26,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      },
+      "metadata": {
+        "type": "광역자사고",
+        "region": "서울"
+      }
+    },
+    "하나고": {
+      "admissions": {
+        "서울대": {
+          "2025": {
+            "rank": 7,
+            "total": 37,
+            "susi": 25,
+            "jeongsi": 12
+          },
+          "2024": {
+            "rank": 4,
+            "total": 39,
+            "susi": 31,
+            "jeongsi": 8
+          },
+          "2023": {
+            "rank": 4,
+            "total": 57,
+            "susi": 42,
+            "jeongsi": 15
+          },
+          "2022": {
+            "rank": 5,
+            "total": 47,
+            "susi": 38,
+            "jeongsi": 9
+          },
+          "2021": {
+            "rank": 2,
+            "total": 48,
+            "susi": 45,
+            "jeongsi": 3
+          }
+        },
+        "의대": {},
+        "2022": {
+          "서울대": {
+            "total": 42,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=405739"
+            ]
+          },
+          "seoul_univ": {
+            "total": 47,
+            "susi": 38,
+            "jeongsi": 9,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "2024": {
+          "서울대": {
+            "total": 37,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493155"
+            ]
+          },
+          "seoul_univ": {
+            "total": 31,
+            "susi": null,
+            "jeongsi": null,
+            "source": "서울대_수시정시",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493155"
+          }
+        },
+        "2025": {
+          "서울대": {
+            "total": 4,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=535030"
+            ]
+          },
+          "의대": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            ]
+          },
+          "medical": [
+            {
+              "department": "의대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            },
+            {
+              "department": "치대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            }
+          ]
+        },
+        "2021": {
+          "서울대": {
+            "total": 48,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=356500",
+              "http://www.veritas-a.com/news/articleView.html?idxno=351416",
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 57,
+            "susi": 42,
+            "jeongsi": 15,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      },
+      "metadata": {
+        "type": "전국자사고",
+        "region": "서울"
+      }
+    },
+    "한국영재": {
+      "admissions": {
+        "서울대": {
+          "2022": {
+            "rank": 8,
+            "total": 39,
+            "susi": 35,
+            "jeongsi": 4
+          }
+        },
+        "의대": {}
+      },
+      "metadata": {
+        "type": "영재학교",
+        "region": "경기"
+      }
+    },
+    "한영외고": {
+      "admissions": {
+        "서울대": {
+          "2021": {
+            "rank": 10,
+            "total": 23,
+            "susi": 22,
+            "jeongsi": 1
+          }
+        },
+        "의대": {},
+        "2021": {
+          "서울대": {
+            "total": 24,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2024": {
+          "seoul_univ": {
+            "total": 25,
+            "susi": 21,
+            "jeongsi": 4,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=496662"
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 26,
+            "susi": 19,
+            "jeongsi": 7,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 20,
+            "susi": 13,
+            "jeongsi": 7,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      },
+      "metadata": {
+        "type": "외고",
+        "region": "서울"
+      }
+    },
+    "화성고": {
+      "admissions": {
+        "서울대": {
+          "2025": {
+            "rank": 9,
+            "total": 30,
+            "susi": 5,
+            "jeongsi": 25
+          }
+        },
+        "의대": {},
+        "2025": {
+          "의대": {
+            "total": 2,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            ]
+          },
+          "seoul_univ": {
+            "total": 30,
+            "susi": 5,
+            "jeongsi": 25,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=543782"
+          },
+          "medical": [
+            {
+              "department": "의대",
+              "count": 2,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            },
+            {
+              "department": "치대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            }
+          ]
+        },
+        "2021": {
+          "서울대": {
+            "total": 15,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2024": {
+          "seoul_univ": {
+            "total": 25,
+            "susi": 4,
+            "jeongsi": 21,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=496662"
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 15,
+            "susi": 1,
+            "jeongsi": 14,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 19,
+            "susi": 0,
+            "jeongsi": 19,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경기"
+      }
+    },
+    "휘문고": {
+      "admissions": {
+        "서울대": {
+          "2025": {
+            "rank": 3,
+            "total": 42,
+            "susi": 1,
+            "jeongsi": 41
+          },
+          "2024": {
+            "rank": 7,
+            "total": 36,
+            "susi": 3,
+            "jeongsi": 33
+          },
+          "2023": {
+            "rank": 8,
+            "total": 43,
+            "susi": 3,
+            "jeongsi": 40
+          },
+          "2021": {
+            "rank": 9,
+            "total": 24,
+            "susi": 5,
+            "jeongsi": 19
+          }
+        },
+        "의대": {
+          "2024": {
+            "rank": 2,
+            "total": 114
+          }
+        },
+        "2024": {
+          "서울대": {
+            "total": 8,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=496662"
+            ]
+          },
+          "의대": {
+            "total": 18,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          },
+          "medical": [
+            {
+              "department": "의대",
+              "count": 18,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            },
+            {
+              "department": "치대",
+              "count": 26,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            },
+            {
+              "department": "한의대",
+              "count": 18,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            }
+          ]
+        },
+        "2025": {
+          "서울대": {
+            "total": 42,
+            "susi": 1,
+            "jeongsi": 2,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=543782",
+              "http://www.veritas-a.com/news/articleView.html?idxno=541581"
+            ]
+          },
+          "의대": {
+            "total": 3,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            ]
+          },
+          "medical": [
+            {
+              "department": "의대",
+              "count": 3,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            },
+            {
+              "department": "치대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            }
+          ]
+        },
+        "2021": {
+          "서울대": {
+            "total": 24,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=356500",
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "서울대": {
+            "total": 43,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+            ]
+          },
+          "seoul_univ": {
+            "total": 43,
+            "susi": 3,
+            "jeongsi": 40,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 32,
+            "susi": 3,
+            "jeongsi": 29,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      },
+      "metadata": {
+        "type": "광역자사고",
+        "region": "서울"
+      }
+    },
+    "배재고": {
+      "name": "배재고",
+      "admissions": {
+        "2023": {
+          "서울대": {
+            "total": 19,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=446029"
+            ]
+          },
+          "seoul_univ": {
+            "total": 18,
+            "susi": 5,
+            "jeongsi": 13,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2024": {
+          "의대": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          },
+          "seoul_univ": {
+            "total": 23,
+            "susi": 11,
+            "jeongsi": 12,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=496662"
+          },
+          "medical": [
+            {
+              "department": "의대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            },
+            {
+              "department": "치대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            }
+          ]
+        },
+        "2021": {
+          "서울대": {
+            "total": 19,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 19,
+            "susi": 7,
+            "jeongsi": 12,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "상문고": {
+      "name": "상문고",
+      "admissions": {
+        "2024": {
+          "서울대": {
+            "total": 26,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=496662"
+            ]
+          }
+        },
+        "2021": {
+          "서울대": {
+            "total": 18,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=356500",
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 17,
+            "susi": 5,
+            "jeongsi": 12,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 24,
+            "susi": 10,
+            "jeongsi": 14,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "한민고": {
+      "name": "한민고",
+      "admissions": {
+        "2024": {
+          "서울대": {
+            "total": 21,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493155"
+            ]
+          },
+          "medical": [
+            {
+              "department": "치대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            }
+          ]
+        },
+        "2021": {
+          "서울대": {
+            "total": 13,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 12,
+            "susi": 12,
+            "jeongsi": 0,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 11,
+            "susi": 9,
+            "jeongsi": 2,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "세화여고": {
+      "name": "세화여고",
+      "admissions": {
+        "2024": {
+          "서울대": {
+            "total": 3,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493155"
+            ]
+          }
+        },
+        "2025": {
+          "의대": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            ]
+          },
+          "seoul_univ": {
+            "total": 19,
+            "susi": 6,
+            "jeongsi": 13,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=543782"
+          },
+          "medical": [
+            {
+              "department": "의대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            },
+            {
+              "department": "치대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            }
+          ]
+        },
+        "2021": {
+          "서울대": {
+            "total": 15,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 15,
+            "susi": 5,
+            "jeongsi": 10,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 4,
+            "jeongsi": 4,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "안양외고": {
+      "name": "안양외고",
+      "admissions": {
+        "2024": {
+          "서울대": {
+            "total": 15,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493155"
+            ]
+          },
+          "seoul_univ": {
+            "total": 19,
+            "susi": 15,
+            "jeongsi": 4,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=496662"
+          }
+        },
+        "2025": {
+          "seoul_univ": {
+            "total": 15,
+            "susi": 11,
+            "jeongsi": 4,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=543782"
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 14,
+            "susi": 14,
+            "jeongsi": 0,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 10,
+            "susi": 9,
+            "jeongsi": 1,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "중산고": {
+      "name": "중산고",
+      "admissions": {
+        "2024": {
+          "서울대": {
+            "total": 3,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493155"
+            ]
+          },
+          "의대": {
+            "total": 3,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          },
+          "medical": [
+            {
+              "department": "의대",
+              "count": 3,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            }
+          ]
+        },
+        "2021": {
+          "서울대": {
+            "total": 11,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2025": {
+          "seoul_univ": {
+            "total": 16,
+            "susi": 6,
+            "jeongsi": 10,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=543782"
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 13,
+            "susi": 2,
+            "jeongsi": 11,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 12,
+            "susi": 7,
+            "jeongsi": 5,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "일반고": {
+      "name": "일반고",
+      "admissions": {
+        "2024": {
+          "의대": {
+            "total": 4,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          },
+          "medical": [
+            {
+              "department": "의대",
+              "count": 4,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            }
+          ]
+        },
+        "2025": {
+          "의대": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            ]
+          },
+          "medical": [
+            {
+              "department": "의대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            },
+            {
+              "department": "치대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            }
+          ]
+        }
+      }
+    },
+    "반포고": {
+      "name": "반포고",
+      "admissions": {
+        "2024": {
+          "의대": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          },
+          "medical": [
+            {
+              "department": "의대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            },
+            {
+              "department": "치대",
+              "count": 2,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            }
+          ]
+        },
+        "2021": {
+          "서울대": {
+            "total": 18,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=356500",
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 11,
+            "susi": 5,
+            "jeongsi": 6,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 13,
+            "susi": 4,
+            "jeongsi": 9,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "있다고": {
+      "name": "있다고",
+      "admissions": {
+        "2024": {
+          "의대": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          },
+          "medical": [
+            {
+              "department": "의대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            },
+            {
+              "department": "치대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            }
+          ]
+        }
+      }
+    },
+    "양정고": {
+      "name": "양정고",
+      "admissions": {
+        "2024": {
+          "의대": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          },
+          "medical": [
+            {
+              "department": "의대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            }
+          ]
+        },
+        "2021": {
+          "서울대": {
+            "total": 12,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 11,
+            "susi": 2,
+            "jeongsi": 9,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 11,
+            "susi": 3,
+            "jeongsi": 8,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "분당중앙고": {
+      "name": "분당중앙고",
+      "admissions": {
+        "2024": {
+          "의대": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            ]
+          },
+          "medical": [
+            {
+              "department": "의대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            }
+          ]
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 13,
+            "susi": 1,
+            "jeongsi": 12,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 14,
+            "susi": 5,
+            "jeongsi": 9,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "양천고": {
+      "name": "양천고",
+      "admissions": {
+        "2025": {
+          "서울대": {
+            "total": 13,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=543782"
+            ]
+          },
+          "seoul_univ": {
+            "total": 17,
+            "susi": 5,
+            "jeongsi": 12,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=543782"
+          }
+        }
+      }
+    },
+    "경남과고": {
+      "name": "경남과고",
+      "admissions": {
+        "2025": {
+          "서울대": {
+            "total": 20,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=535030"
+            ]
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 9,
+            "jeongsi": 0,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 16,
+            "susi": 16,
+            "jeongsi": 0,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "고양국제고": {
+      "name": "고양국제고",
+      "admissions": {
+        "2025": {
+          "서울대": {
+            "total": 17,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=535030"
+            ]
+          },
+          "seoul_univ": {
+            "total": 18,
+            "susi": 17,
+            "jeongsi": 1,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=543782"
+          }
+        },
+        "2023": {
+          "서울대": {
+            "total": 14,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+            ]
+          },
+          "seoul_univ": {
+            "total": 14,
+            "susi": 14,
+            "jeongsi": 0,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 12,
+            "susi": 12,
+            "jeongsi": 0,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "진선여고": {
+      "name": "진선여고",
+      "admissions": {
+        "2025": {
+          "의대": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            ]
+          },
+          "seoul_univ": {
+            "total": 16,
+            "susi": 2,
+            "jeongsi": 14,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=543782"
+          },
+          "medical": [
+            {
+              "department": "의대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            },
+            {
+              "department": "치대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            }
+          ]
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 11,
+            "susi": 1,
+            "jeongsi": 10,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 16,
+            "susi": 6,
+            "jeongsi": 10,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "인천포스코고": {
+      "name": "인천포스코고",
+      "admissions": {
+        "2025": {
+          "의대": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            ]
+          },
+          "medical": [
+            {
+              "department": "의대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            }
+          ]
+        },
+        "2021": {
+          "서울대": {
+            "total": 11,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 11,
+            "susi": 11,
+            "jeongsi": 0,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 10,
+            "susi": 9,
+            "jeongsi": 1,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "보평고": {
+      "name": "보평고",
+      "admissions": {
+        "2025": {
+          "의대": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            ]
+          },
+          "medical": [
+            {
+              "department": "의대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            }
+          ]
+        }
+      }
+    },
+    "세광고": {
+      "name": "세광고",
+      "admissions": {
+        "2025": {
+          "의대": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            ]
+          },
+          "medical": [
+            {
+              "department": "의대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            }
+          ]
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 6,
+            "jeongsi": 2,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "무학고": {
+      "name": "무학고",
+      "admissions": {
+        "2025": {
+          "의대": {
+            "total": 1,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            ]
+          },
+          "medical": [
+            {
+              "department": "의대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            }
+          ]
+        }
+      }
+    },
+    "서울예고": {
+      "name": "서울예고",
+      "admissions": {
+        "2021": {
+          "서울대": {
+            "total": 74,
+            "susi": 70,
+            "jeongsi": 4,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "서울대": {
+            "total": 91,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+            ]
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 85,
+            "susi": 69,
+            "jeongsi": 16,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "세종과고": {
+      "name": "세종과고",
+      "admissions": {
+        "2021": {
+          "서울대": {
+            "total": 19,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2022": {
+          "서울대": {
+            "total": 30,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+            ]
+          },
+          "seoul_univ": {
+            "total": 30,
+            "susi": 21,
+            "jeongsi": 9,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 13,
+            "susi": 11,
+            "jeongsi": 2,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "인천국제고": {
+      "name": "인천국제고",
+      "admissions": {
+        "2021": {
+          "서울대": {
+            "total": 13,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 7,
+            "jeongsi": 2,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 6,
+            "jeongsi": 3,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "현대고": {
+      "name": "현대고",
+      "admissions": {
+        "2021": {
+          "서울대": {
+            "total": 24,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2025": {
+          "seoul_univ": {
+            "total": 20,
+            "susi": 6,
+            "jeongsi": 14,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=543782"
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 14,
+            "susi": 4,
+            "jeongsi": 10,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 11,
+            "susi": 6,
+            "jeongsi": 5,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "서울고": {
+      "name": "서울고",
+      "admissions": {
+        "2021": {
+          "서울대": {
+            "total": 18,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 10,
+            "susi": 5,
+            "jeongsi": 5,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 17,
+            "susi": 9,
+            "jeongsi": 8,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "한성과고": {
+      "name": "한성과고",
+      "admissions": {
+        "2021": {
+          "서울대": {
+            "total": 17,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 17,
+            "susi": 13,
+            "jeongsi": 4,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 20,
+            "susi": 13,
+            "jeongsi": 7,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "북일고": {
+      "name": "북일고",
+      "admissions": {
+        "2021": {
+          "서울대": {
+            "total": 16,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 20,
+            "susi": 12,
+            "jeongsi": 8,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 20,
+            "susi": 14,
+            "jeongsi": 6,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "안산동산고": {
+      "name": "안산동산고",
+      "admissions": {
+        "2021": {
+          "서울대": {
+            "total": 16,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 15,
+            "susi": 8,
+            "jeongsi": 7,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 10,
+            "susi": 5,
+            "jeongsi": 5,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "계원예술고": {
+      "name": "계원예술고",
+      "admissions": {
+        "2021": {
+          "서울대": {
+            "total": 15,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        }
+      }
+    },
+    "경기고": {
+      "name": "경기고",
+      "admissions": {
+        "2021": {
+          "서울대": {
+            "total": 13,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 20,
+            "susi": 3,
+            "jeongsi": 17,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 22,
+            "susi": 6,
+            "jeongsi": 16,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "고양외고": {
+      "name": "고양외고",
+      "admissions": {
+        "2021": {
+          "서울대": {
+            "total": 13,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2025": {
+          "seoul_univ": {
+            "total": 19,
+            "susi": 15,
+            "jeongsi": 4,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=543782"
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 10,
+            "susi": 10,
+            "jeongsi": 0,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 14,
+            "susi": 13,
+            "jeongsi": 1,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "공주사대부고": {
+      "name": "공주사대부고",
+      "admissions": {
+        "2021": {
+          "서울대": {
+            "total": 13,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2024": {
+          "medical": [
+            {
+              "department": "치대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            }
+          ]
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 17,
+            "susi": 15,
+            "jeongsi": 2,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 13,
+            "susi": 11,
+            "jeongsi": 2,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "대전외고": {
+      "name": "대전외고",
+      "admissions": {
+        "2021": {
+          "서울대": {
+            "total": 13,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2025": {
+          "seoul_univ": {
+            "total": 15,
+            "susi": 13,
+            "jeongsi": 2,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=543782"
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 13,
+            "susi": 8,
+            "jeongsi": 5,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 8,
+            "jeongsi": 1,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "인천과고": {
+      "name": "인천과고",
+      "admissions": {
+        "2021": {
+          "서울대": {
+            "total": 13,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 9,
+            "jeongsi": 0,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "포항제철고": {
+      "name": "포항제철고",
+      "admissions": {
+        "2021": {
+          "서울대": {
+            "total": 12,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 22,
+            "susi": 13,
+            "jeongsi": 9,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 13,
+            "susi": 11,
+            "jeongsi": 2,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "한일고": {
+      "name": "한일고",
+      "admissions": {
+        "2021": {
+          "서울대": {
+            "total": 12,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2022": {
+          "서울대": {
+            "total": 18,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=405918"
+            ]
+          },
+          "seoul_univ": {
+            "total": 18,
+            "susi": 5,
+            "jeongsi": 13,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 13,
+            "susi": 7,
+            "jeongsi": 6,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "현대청운고": {
+      "name": "현대청운고",
+      "admissions": {
+        "2021": {
+          "서울대": {
+            "total": 12,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 11,
+            "susi": 2,
+            "jeongsi": 9,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "경기북과고": {
+      "name": "경기북과고",
+      "admissions": {
+        "2021": {
+          "서울대": {
+            "total": 11,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 10,
+            "susi": 7,
+            "jeongsi": 3,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "대구일과고": {
+      "name": "대구일과고",
+      "admissions": {
+        "2021": {
+          "서울대": {
+            "total": 11,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        }
+      }
+    },
+    "대진고": {
+      "name": "대진고",
+      "admissions": {
+        "2021": {
+          "서울대": {
+            "total": 11,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 4,
+            "jeongsi": 4,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "서울국제고": {
+      "name": "서울국제고",
+      "admissions": {
+        "2021": {
+          "서울대": {
+            "total": 11,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 6,
+            "jeongsi": 3,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 10,
+            "susi": 7,
+            "jeongsi": 3,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "세마고": {
+      "name": "세마고",
+      "admissions": {
+        "2021": {
+          "서울대": {
+            "total": 11,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=358881"
+            ]
+          }
+        },
+        "2025": {
+          "seoul_univ": {
+            "total": 15,
+            "susi": 4,
+            "jeongsi": 11,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=543782"
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 18,
+            "susi": 1,
+            "jeongsi": 17,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 15,
+            "susi": 1,
+            "jeongsi": 14,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "경희고": {
+      "name": "경희고",
+      "admissions": {
+        "2022": {
+          "서울대": {
+            "total": 5,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=405918"
+            ]
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 7,
+            "susi": 7,
+            "jeongsi": 0,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "동아고": {
+      "name": "동아고",
+      "admissions": {
+        "2022": {
+          "서울대": {
+            "total": 4,
+            "susi": null,
+            "jeongsi": null,
+            "sources": [
+              "http://www.veritas-a.com/news/articleView.html?idxno=405918"
+            ]
+          }
+        }
+      }
+    },
+    "충남삼성고": {
+      "name": "충남삼성고",
+      "admissions": {
+        "2025": {
+          "seoul_univ": {
+            "total": 16,
+            "susi": 16,
+            "jeongsi": 0,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=543782"
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 11,
+            "susi": 11,
+            "jeongsi": 0,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 14,
+            "susi": 13,
+            "jeongsi": 1,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "부산외고": {
+      "name": "부산외고",
+      "admissions": {
+        "2025": {
+          "seoul_univ": {
+            "total": 15,
+            "susi": 14,
+            "jeongsi": 1,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=543782"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 12,
+            "susi": 11,
+            "jeongsi": 1,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "분당대진고": {
+      "name": "분당대진고",
+      "admissions": {
+        "2025": {
+          "seoul_univ": {
+            "total": 15,
+            "susi": 7,
+            "jeongsi": 8,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=543782"
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 11,
+            "susi": 1,
+            "jeongsi": 10,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 11,
+            "susi": 4,
+            "jeongsi": 7,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "중대부고": {
+      "name": "중대부고",
+      "admissions": {
+        "2025": {
+          "seoul_univ": {
+            "total": 15,
+            "susi": 6,
+            "jeongsi": 9,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=543782"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 5,
+            "jeongsi": 4,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "양서고": {
+      "name": "양서고",
+      "admissions": {
+        "2025": {
+          "seoul_univ": {
+            "total": 17,
+            "susi": 2,
+            "jeongsi": 15,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=543782"
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 11,
+            "susi": 3,
+            "jeongsi": 8,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 11,
+            "susi": 4,
+            "jeongsi": 7,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "동화고": {
+      "name": "동화고",
+      "admissions": {
+        "2025": {
+          "seoul_univ": {
+            "total": 17,
+            "susi": 8,
+            "jeongsi": 9,
+            "source": "서울대_최종",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=543782"
+          }
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 10,
+            "susi": 5,
+            "jeongsi": 5,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 10,
+            "susi": 6,
+            "jeongsi": 4,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "덕원고": {
+      "name": "덕원고",
+      "admissions": {
+        "2025": {
+          "medical": [
+            {
+              "department": "치대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            }
+          ]
+        }
+      }
+    },
+    "목동고": {
+      "name": "목동고",
+      "admissions": {
+        "2025": {
+          "medical": [
+            {
+              "department": "치대",
+              "count": 2,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            }
+          ]
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 10,
+            "susi": 3,
+            "jeongsi": 7,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 4,
+            "jeongsi": 4,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "합격했다고": {
+      "name": "합격했다고",
+      "admissions": {
+        "2025": {
+          "medical": [
+            {
+              "department": "치대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            }
+          ]
+        }
+      }
+    },
+    "김천고": {
+      "name": "김천고",
+      "admissions": {
+        "2025": {
+          "medical": [
+            {
+              "department": "치대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=541679"
+            }
+          ]
+        },
+        "2023": {
+          "seoul_univ": {
+            "total": 11,
+            "susi": 9,
+            "jeongsi": 2,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 14,
+            "susi": 12,
+            "jeongsi": 2,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "남녕고": {
+      "name": "남녕고",
+      "admissions": {
+        "2024": {
+          "medical": [
+            {
+              "department": "치대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            }
+          ]
+        }
+      }
+    },
+    "야탑고": {
+      "name": "야탑고",
+      "admissions": {
+        "2024": {
+          "medical": [
+            {
+              "department": "치대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            }
+          ]
+        }
+      }
+    },
+    "건대부고": {
+      "name": "건대부고",
+      "admissions": {
+        "2024": {
+          "medical": [
+            {
+              "department": "치대",
+              "count": 1,
+              "source": "서울대의대",
+              "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
+            }
+          ]
+        }
+      }
+    },
+    "영동고": {
+      "name": "영동고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 16,
+            "susi": 8,
+            "jeongsi": 8,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 14,
+            "susi": 9,
+            "jeongsi": 5,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "신성고": {
+      "name": "신성고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 15,
+            "susi": 1,
+            "jeongsi": 14,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 11,
+            "susi": 5,
+            "jeongsi": 6,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "운정고": {
+      "name": "운정고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 14,
+            "susi": 4,
+            "jeongsi": 10,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 1,
+            "jeongsi": 8,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "은광여고": {
+      "name": "은광여고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 14,
+            "susi": 7,
+            "jeongsi": 7,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "대건고": {
+      "name": "대건고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 13,
+            "susi": 5,
+            "jeongsi": 8,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "명덕고": {
+      "name": "명덕고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 12,
+            "susi": 1,
+            "jeongsi": 11,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 5,
+            "jeongsi": 3,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "용산고": {
+      "name": "용산고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 12,
+            "susi": 4,
+            "jeongsi": 8,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "과천외고": {
+      "name": "과천외고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 11,
+            "susi": 11,
+            "jeongsi": 0,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 13,
+            "susi": 12,
+            "jeongsi": 1,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "동탄국제고": {
+      "name": "동탄국제고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 11,
+            "susi": 6,
+            "jeongsi": 5,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 12,
+            "susi": 8,
+            "jeongsi": 4,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "잠신고": {
+      "name": "잠신고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 11,
+            "susi": 2,
+            "jeongsi": 9,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "개포고": {
+      "name": "개포고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 10,
+            "susi": 4,
+            "jeongsi": 6,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "대전대성고": {
+      "name": "대전대성고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 10,
+            "susi": 7,
+            "jeongsi": 3,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 5,
+            "jeongsi": 4,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "대진여고": {
+      "name": "대진여고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 10,
+            "susi": 3,
+            "jeongsi": 7,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "신일고": {
+      "name": "신일고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 10,
+            "susi": 3,
+            "jeongsi": 7,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "와부고": {
+      "name": "와부고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 10,
+            "susi": 3,
+            "jeongsi": 7,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "이화여고": {
+      "name": "이화여고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 10,
+            "susi": 5,
+            "jeongsi": 5,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 10,
+            "susi": 5,
+            "jeongsi": 5,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "한가람고": {
+      "name": "한가람고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 10,
+            "susi": 4,
+            "jeongsi": 6,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 1,
+            "jeongsi": 7,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "경기여고": {
+      "name": "경기여고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 3,
+            "jeongsi": 6,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 11,
+            "susi": 6,
+            "jeongsi": 5,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "경기외고": {
+      "name": "경기외고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 7,
+            "jeongsi": 2,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 17,
+            "susi": 13,
+            "jeongsi": 4,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "광양제철고": {
+      "name": "광양제철고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 8,
+            "jeongsi": 1,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "남해해성고": {
+      "name": "남해해성고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 8,
+            "jeongsi": 1,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "서초고": {
+      "name": "서초고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 3,
+            "jeongsi": 6,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "성남외고": {
+      "name": "성남외고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 8,
+            "jeongsi": 1,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 7,
+            "jeongsi": 1,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "신목고": {
+      "name": "신목고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 3,
+            "jeongsi": 6,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "청심국제고": {
+      "name": "청심국제고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 8,
+            "jeongsi": 1,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 10,
+            "susi": 9,
+            "jeongsi": 1,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "청원고": {
+      "name": "청원고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 4,
+            "jeongsi": 5,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "대전고": {
+      "name": "대전고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 8,
+            "jeongsi": 0,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 8,
+            "jeongsi": 1,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "보성고": {
+      "name": "보성고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 1,
+            "jeongsi": 7,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "부산과고": {
+      "name": "부산과고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 6,
+            "jeongsi": 2,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 6,
+            "jeongsi": 3,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "부산국제고": {
+      "name": "부산국제고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 7,
+            "jeongsi": 1,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2021": {
+          "seoul_univ": {
+            "total": 11,
+            "susi": 8,
+            "jeongsi": 3,
+            "source": "서울대_등록자톱50",
+            "source_url": "https://www.veritas-a.com/news/articleView.html?idxno=358881"
+          }
+        }
+      }
+    },
+    "부산일과고": {
+      "name": "부산일과고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 8,
+            "jeongsi": 0,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "분당고": {
+      "name": "분당고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 3,
+            "jeongsi": 5,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "영동일고": {
+      "name": "영동일고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 3,
+            "jeongsi": 5,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "예일여고": {
+      "name": "예일여고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 6,
+            "jeongsi": 2,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "포산고": {
+      "name": "포산고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 6,
+            "jeongsi": 2,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "한영고": {
+      "name": "한영고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 5,
+            "jeongsi": 3,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 10,
+            "susi": 8,
+            "jeongsi": 2,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "김포고": {
+      "name": "김포고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 7,
+            "susi": 1,
+            "jeongsi": 6,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "대덕고": {
+      "name": "대덕고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 7,
+            "susi": 5,
+            "jeongsi": 2,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "병점고": {
+      "name": "병점고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 7,
+            "susi": 0,
+            "jeongsi": 7,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "서울외고": {
+      "name": "서울외고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 7,
+            "susi": 6,
+            "jeongsi": 1,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "세종국제고": {
+      "name": "세종국제고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 7,
+            "susi": 6,
+            "jeongsi": 1,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "수원외고": {
+      "name": "수원외고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 7,
+            "susi": 5,
+            "jeongsi": 2,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "양재고": {
+      "name": "양재고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 7,
+            "susi": 3,
+            "jeongsi": 4,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "중앙고": {
+      "name": "중앙고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 7,
+            "susi": 4,
+            "jeongsi": 3,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 11,
+            "susi": 3,
+            "jeongsi": 8,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "창원과고": {
+      "name": "창원과고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 7,
+            "susi": 7,
+            "jeongsi": 0,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "창현고": {
+      "name": "창현고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 7,
+            "susi": 4,
+            "jeongsi": 3,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "태원고": {
+      "name": "태원고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 7,
+            "susi": 5,
+            "jeongsi": 2,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "선화예고": {
+      "name": "선화예고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 32,
+            "susi": 8,
+            "jeongsi": 24,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 30,
+            "susi": 21,
+            "jeongsi": 9,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "국립국악고": {
+      "name": "국립국악고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 18,
+            "susi": 18,
+            "jeongsi": 0,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 25,
+            "susi": 25,
+            "jeongsi": 0,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "계원예고": {
+      "name": "계원예고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 10,
+            "susi": 2,
+            "jeongsi": 8,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        },
+        "2022": {
+          "seoul_univ": {
+            "total": 14,
+            "susi": 7,
+            "jeongsi": 7,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "국립전통예고": {
+      "name": "국립전통예고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 10,
+            "susi": 10,
+            "jeongsi": 0,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "덕원예고": {
+      "name": "덕원예고",
+      "admissions": {
+        "2023": {
+          "seoul_univ": {
+            "total": 7,
+            "susi": 1,
+            "jeongsi": 6,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
+          }
+        }
+      }
+    },
+    "수지고": {
+      "name": "수지고",
+      "admissions": {
+        "2022": {
+          "seoul_univ": {
+            "total": 13,
+            "susi": 2,
+            "jeongsi": 11,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "대륜고": {
+      "name": "대륜고",
+      "admissions": {
+        "2022": {
+          "seoul_univ": {
+            "total": 10,
+            "susi": 8,
+            "jeongsi": 2,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "미추홀외고": {
+      "name": "미추홀외고",
+      "admissions": {
+        "2022": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 9,
+            "jeongsi": 0,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "서문여고": {
+      "name": "서문여고",
+      "admissions": {
+        "2022": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 5,
+            "jeongsi": 4,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "중앙대사대부고": {
+      "name": "중앙대사대부고",
+      "admissions": {
+        "2022": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 5,
+            "jeongsi": 4,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "진명여고": {
+      "name": "진명여고",
+      "admissions": {
+        "2022": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 6,
+            "jeongsi": 3,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "경신고": {
+      "name": "경신고",
+      "admissions": {
+        "2022": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 3,
+            "jeongsi": 5,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "경원고": {
+      "name": "경원고",
+      "admissions": {
+        "2022": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 4,
+            "jeongsi": 4,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "대전동신과고": {
+      "name": "대전동신과고",
+      "admissions": {
+        "2022": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 8,
+            "jeongsi": 0,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "일산대진고": {
+      "name": "일산대진고",
+      "admissions": {
+        "2022": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 3,
+            "jeongsi": 5,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "정화여고": {
+      "name": "정화여고",
+      "admissions": {
+        "2022": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 5,
+            "jeongsi": 3,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "진성고": {
+      "name": "진성고",
+      "admissions": {
+        "2022": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 2,
+            "jeongsi": 6,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    },
+    "평택고": {
+      "name": "평택고",
+      "admissions": {
+        "2022": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 2,
+            "jeongsi": 6,
+            "source": "서울대_등록자톱100",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        }
+      }
+    }
+  },
+  "last_updated": "2026-02-11T12:20:02.739792"
+}
