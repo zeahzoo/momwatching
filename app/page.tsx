@@ -48,7 +48,7 @@ async function getLatestNews(): Promise<NewsArticle[]> {
 
 export default async function Home() {
   const data: Database = await getData();
-  const rankedSchools = getRankedSchools(data, '2025');
+  const rankedSchools = getRankedSchools(data, '2026');
   const top20 = rankedSchools.slice(0, 20);
   const latestNews = await getLatestNews();
 
@@ -58,7 +58,7 @@ export default async function Home() {
         {/* Header */}
         <header className="text-center mb-12">
           <h1 className="text-5xl font-bold text-gray-900 mb-8">
-            2025년 서울대 진학 순위 Top 20
+            2026년 서울대 진학 순위 Top 20
           </h1>
         </header>
 

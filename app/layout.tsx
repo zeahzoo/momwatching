@@ -93,7 +93,10 @@ export default function RootLayout({
                     </svg>
                   </button>
                   <div className="absolute left-0 mt-2 w-32 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-                    <Link href="/seoul/2025" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-t-md">
+                    <Link href="/seoul/2026" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-t-md">
+                      2026년
+                    </Link>
+                    <Link href="/seoul/2025" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">
                       2025년
                     </Link>
                     <Link href="/seoul/2024" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">

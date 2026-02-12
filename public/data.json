@@ -15,9 +15,9 @@
       "서울대",
       "서울대_의대"
     ],
-    "total_schools": 165,
+    "total_schools": 250,
     "description": "한국 주요 고등학교의 대학 진학 실적 데이터베이스 (2021-2025)",
-    "last_updated": "2026-02-12T07:18:45.186875"
+    "last_updated": "2026-02-12T15:49:00.000000"
   },
   "schools": {
     "강서고": {
@@ -353,6 +353,15 @@
             "jeongsi": 1,
             "rank": null
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 4,
+            "susi": 4,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
       },
       "metadata": {
@@ -512,6 +521,15 @@
             "jeongsi": 0,
             "rank": null
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 28,
+            "susi": 28,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
       },
       "metadata": {
@@ -566,6 +584,15 @@
             "jeongsi": 2,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 17,
+            "susi": 17,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
           }
         }
       },
@@ -664,6 +691,15 @@
             "jeongsi": 5,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 17,
+            "susi": 17,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
           }
         }
       },
@@ -768,11 +804,20 @@
             "jeongsi": 0,
             "rank": null
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 16,
+            "susi": 16,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
       },
       "metadata": {
-        "type": "전국자사고",
-        "region": "강원"
+        "type": "자사고",
+        "region": "경기"
       }
     },
     "보인고": {
@@ -863,10 +908,19 @@
             "jeongsi": 0,
             "rank": null
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 4,
+            "susi": 4,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
       },
       "metadata": {
-        "type": "광역자사고",
+        "type": "일반고",
         "region": "서울"
       }
     },
@@ -953,10 +1007,19 @@
             "jeongsi": 1,
             "rank": null
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
       },
       "metadata": {
-        "type": "전국자사고",
+        "type": "자사고",
         "region": "전북"
       }
     },
@@ -1093,10 +1156,19 @@
             "jeongsi": 0,
             "rank": 19
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 8,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
       },
       "metadata": {
-        "type": "광역자사고",
+        "type": "자사고",
         "region": "서울"
       }
     },
@@ -1255,10 +1327,19 @@
             "jeongsi": 1,
             "rank": null
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 5,
+            "susi": 5,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
       },
       "metadata": {
-        "type": "광역자사고",
+        "type": "일반고",
         "region": "서울"
       }
     },
@@ -1306,10 +1387,19 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 4,
+            "susi": 4,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
       },
       "metadata": {
-        "type": "일반고",
+        "type": "자사고",
         "region": "서울"
       }
     },
@@ -1421,11 +1511,20 @@
             "jeongsi": 2,
             "rank": 1
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 28,
+            "susi": 28,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
       },
       "metadata": {
-        "type": "전국자사고",
-        "region": "경기"
+        "type": "자사고",
+        "region": "용인"
       }
     },
     "인천영재": {
@@ -1490,10 +1589,19 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 8,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
       },
       "metadata": {
-        "type": "전국자사고",
+        "type": "자사고",
         "region": "인천"
       }
     },
@@ -1629,10 +1737,19 @@
             "jeongsi": 2,
             "rank": null
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 10,
+            "susi": 10,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
       },
       "metadata": {
-        "type": "광역자사고",
+        "type": "자사고",
         "region": "서울"
       }
     },
@@ -1776,10 +1893,19 @@
             "jeongsi": 0,
             "rank": null
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 20,
+            "susi": 20,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
       },
       "metadata": {
-        "type": "전국자사고",
+        "type": "자사고",
         "region": "서울"
       }
     },
@@ -1846,6 +1972,15 @@
             "jeongsi": 7,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 17,
+            "susi": 17,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
           }
         }
       },
@@ -1936,6 +2071,15 @@
             "jeongsi": 19,
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
+          }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 5,
+            "susi": 5,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
           }
         }
       },
@@ -2102,10 +2246,19 @@
             "jeongsi": 1,
             "rank": null
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 5,
+            "susi": 5,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
       },
       "metadata": {
-        "type": "광역자사고",
+        "type": "자사고",
         "region": "서울"
       }
     },
@@ -2192,7 +2345,20 @@
             "jeongsi": 0,
             "rank": 19
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 8,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "자사고",
+        "region": "서울"
       }
     },
     "상문고": {
@@ -2250,7 +2416,20 @@
             "jeongsi": 0,
             "rank": null
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 8,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "서울"
       }
     },
     "한민고": {
@@ -2309,7 +2488,20 @@
               "http://www.veritas-a.com/news/articleView.html?idxno=493273"
             ]
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 9,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경기"
       }
     },
     "세화여고": {
@@ -2395,7 +2587,20 @@
             "jeongsi": 0,
             "rank": null
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 6,
+            "susi": 6,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "자사고",
+        "region": "서울"
       }
     },
     "안양외고": {
@@ -2452,7 +2657,20 @@
             "jeongsi": 0,
             "rank": 19
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 9,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "외고",
+        "region": "경기"
       }
     },
     "중산고": {
@@ -2540,7 +2758,20 @@
             "jeongsi": 1,
             "rank": null
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "서울"
       }
     },
     "일반고": {
@@ -2817,7 +3048,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 16,
+            "susi": 16,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "과고",
+        "region": "경남"
       }
     },
     "고양국제고": {
@@ -2865,7 +3109,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 13,
+            "susi": 13,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "국제고",
+        "region": "경기"
       }
     },
     "진선여고": {
@@ -2931,7 +3188,20 @@
             "jeongsi": 1,
             "rank": null
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 4,
+            "susi": 4,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "서울"
       }
     },
     "인천포스코고": {
@@ -2988,7 +3258,20 @@
               "http://www.veritas-a.com/news/articleView.html?idxno=493273"
             ]
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "자사고",
+        "region": "인천"
       }
     },
     "보평고": {
@@ -3039,7 +3322,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 6,
+            "susi": 6,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "서울"
       }
     },
     "무학고": {
@@ -3339,7 +3635,20 @@
             "jeongsi": 0,
             "rank": 19
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 9,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "자사고",
+        "region": "충북"
       }
     },
     "안산동산고": {
@@ -3476,7 +3785,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 16,
+            "susi": 16,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "외고",
+        "region": "경기"
       }
     },
     "공주사대부고": {
@@ -3527,7 +3849,20 @@
               "http://www.veritas-a.com/news/articleView.html?idxno=493273"
             ]
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 4,
+            "susi": 4,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "충남"
       }
     },
     "대전외고": {
@@ -3569,7 +3904,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 7,
+            "susi": 7,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "외고",
+        "region": "대전"
       }
     },
     "인천과고": {
@@ -3640,7 +3988,20 @@
             "jeongsi": 0,
             "rank": null
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 8,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "자사고",
+        "region": "경북"
       }
     },
     "한일고": {
@@ -3727,7 +4088,20 @@
             "jeongsi": 0,
             "rank": null
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "자사고",
+        "region": "울산"
       }
     },
     "경기북과고": {
@@ -3889,7 +4263,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 7,
+            "susi": 7,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "자사고",
+        "region": "서울"
       }
     },
     "동아고": {
@@ -3950,7 +4337,20 @@
             "jeongsi": 0,
             "rank": null
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 15,
+            "susi": 15,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "자사고",
+        "region": "충남"
       }
     },
     "부산외고": {
@@ -4036,7 +4436,20 @@
               "http://www.veritas-a.com/news/articleView.html?idxno=493273"
             ]
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "서울"
       }
     },
     "양서고": {
@@ -4204,7 +4617,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 6,
+            "susi": 6,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "자사고",
+        "region": "경북"
       }
     },
     "남녕고": {
@@ -4227,7 +4653,20 @@
               "http://www.veritas-a.com/news/articleView.html?idxno=493273"
             ]
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "제주"
       }
     },
     "야탑고": {
@@ -4242,7 +4681,20 @@
               "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=493273"
             }
           ]
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경기"
       }
     },
     "건대부고": {
@@ -4288,7 +4740,20 @@
               "http://www.veritas-a.com/news/articleView.html?idxno=493273"
             ]
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 7,
+            "susi": 7,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "서울"
       }
     },
     "신성고": {
@@ -4319,7 +4784,20 @@
               "http://www.veritas-a.com/news/articleView.html?idxno=493273"
             ]
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경기"
       }
     },
     "운정고": {
@@ -4342,7 +4820,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 8,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "자공고",
+        "region": "경기"
       }
     },
     "은광여고": {
@@ -4364,7 +4855,20 @@
               "http://www.veritas-a.com/news/articleView.html?idxno=493273"
             ]
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "서울"
       }
     },
     "대건고": {
@@ -4431,7 +4935,20 @@
             "jeongsi": 0,
             "rank": null
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "서울"
       }
     },
     "용산고": {
@@ -4476,7 +4993,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 8,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "외고",
+        "region": "경기"
       }
     },
     "동탄국제고": {
@@ -4499,7 +5029,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 16,
+            "susi": 16,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "국제고",
+        "region": "경기"
       }
     },
     "잠신고": {
@@ -4550,7 +5093,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 5,
+            "susi": 5,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "대전"
       }
     },
     "대진여고": {
@@ -4578,7 +5134,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 6,
+            "susi": 6,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "서울"
       }
     },
     "와부고": {
@@ -4623,7 +5192,20 @@
               "http://www.veritas-a.com/news/articleView.html?idxno=493273"
             ]
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 9,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "자사고",
+        "region": "서울"
       }
     },
     "한가람고": {
@@ -4692,7 +5274,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 6,
+            "susi": 6,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "외고",
+        "region": "경기"
       }
     },
     "광양제철고": {
@@ -4765,7 +5360,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 7,
+            "susi": 7,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "외고",
+        "region": "경기"
       }
     },
     "신목고": {
@@ -4816,7 +5424,20 @@
             "jeongsi": 0,
             "rank": null
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 7,
+            "susi": 7,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "국제고",
+        "region": "경기"
       }
     },
     "청원고": {
@@ -4846,7 +5467,20 @@
             "jeongsi": 0,
             "rank": 19
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 7,
+            "susi": 7,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "충북"
       }
     },
     "대전고": {
@@ -4877,7 +5511,20 @@
               "http://www.veritas-a.com/news/articleView.html?idxno=493273"
             ]
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 8,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "자공고",
+        "region": "대전"
       }
     },
     "보성고": {
@@ -4945,7 +5592,20 @@
             "source": "서울대_등록자톱50",
             "source_url": "https://www.veritas-a.com/news/articleView.html?idxno=358881"
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 9,
+            "susi": 9,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "국제고",
+        "region": "부산"
       }
     },
     "부산일과고": {
@@ -5015,7 +5675,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "서울"
       }
     },
     "포산고": {
@@ -5060,7 +5733,20 @@
               "http://www.veritas-a.com/news/articleView.html?idxno=493273"
             ]
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "서울"
       }
     },
     "김포고": {
@@ -5074,7 +5760,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 4,
+            "susi": 4,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경기"
       }
     },
     "대덕고": {
@@ -5144,7 +5843,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 7,
+            "susi": 7,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "외고",
+        "region": "경기"
       }
     },
     "양재고": {
@@ -5209,7 +5921,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=448386"
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경기"
       }
     },
     "태원고": {
@@ -5406,7 +6131,20 @@
             "source": "서울대_등록자톱100",
             "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=407796"
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 4,
+            "susi": 4,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "서울"
       }
     },
     "중앙대사대부고": {
@@ -5442,7 +6180,20 @@
               "http://www.veritas-a.com/news/articleView.html?idxno=493273"
             ]
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "서울"
       }
     },
     "경신고": {
@@ -5471,7 +6222,20 @@
             ],
             "note": "기사 제목에서 확인"
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "대구"
       }
     },
     "경원고": {
@@ -5610,11 +6374,20 @@
             "jeongsi": 0,
             "rank": 19
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 4,
+            "susi": 4,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
       },
       "metadata": {
         "type": "일반고",
-        "region": "전국"
+        "region": "대전"
       }
     },
     "거창대성고": {
@@ -5627,11 +6400,20 @@
               "http://www.veritas-a.com/news/articleView.html?idxno=493273"
             ]
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 5,
+            "susi": 5,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
       },
       "metadata": {
         "type": "일반고",
-        "region": "전국"
+        "region": "경남"
       }
     },
     "고려고": {
@@ -5695,11 +6477,20 @@
               "http://www.veritas-a.com/news/articleView.html?idxno=493273"
             ]
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 8,
+            "susi": 8,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
       },
       "metadata": {
-        "type": "일반고",
-        "region": "전국"
+        "type": "자사고",
+        "region": "대전"
       }
     },
     "백마고": {
@@ -5737,11 +6528,20 @@
             "jeongsi": 0,
             "rank": 19
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 4,
+            "susi": 4,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
       },
       "metadata": {
         "type": "일반고",
-        "region": "전국"
+        "region": "서울"
       }
     },
     "성광고": {
@@ -6396,11 +7196,20 @@
             "jeongsi": 1,
             "rank": null
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
       },
       "metadata": {
-        "type": "일반고(특구)",
-        "region": "대구"
+        "type": "일반고",
+        "region": "서울"
       }
     },
     "선린인터넷고": {
@@ -6504,10 +7313,19 @@
             "jeongsi": 0,
             "rank": 19
           }
+        },
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
         }
       },
       "metadata": {
-        "type": "일반고(비평준)",
+        "type": "일반고",
         "region": "경기"
       }
     },
@@ -6839,6 +7657,584 @@
       "metadata": {
         "type": "일반고",
         "region": "경기"
+      }
+    },
+    "오현고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 6,
+            "susi": 6,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "제주"
+      }
+    },
+    "제주제일고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 6,
+            "susi": 6,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "제주"
+      }
+    },
+    "거창고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 5,
+            "susi": 5,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "자사고",
+        "region": "경남"
+      }
+    },
+    "김포외고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 5,
+            "susi": 5,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "외고",
+        "region": "경기"
+      }
+    },
+    "숭덕고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 5,
+            "susi": 5,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "광주"
+      }
+    },
+    "오상고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 5,
+            "susi": 5,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경북"
+      }
+    },
+    "청석고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 5,
+            "susi": 5,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "충북"
+      }
+    },
+    "대기고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 4,
+            "susi": 4,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "제주"
+      }
+    },
+    "백영고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 4,
+            "susi": 4,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경기"
+      }
+    },
+    "서귀포고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 4,
+            "susi": 4,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "제주"
+      }
+    },
+    "영광고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 4,
+            "susi": 4,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경북"
+      }
+    },
+    "용인홍천고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 4,
+            "susi": 4,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경기"
+      }
+    },
+    "유신고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 4,
+            "susi": 4,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경기"
+      }
+    },
+    "저동고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 4,
+            "susi": 4,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경기"
+      }
+    },
+    "풍산고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 4,
+            "susi": 4,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경북"
+      }
+    },
+    "하남고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 4,
+            "susi": 4,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경기"
+      }
+    },
+    "가온고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경기"
+      }
+    },
+    "경남외고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "외고",
+        "region": "경남"
+      }
+    },
+    "경산과고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "과고",
+        "region": "경북"
+      }
+    },
+    "경산여고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경북"
+      }
+    },
+    "경주고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경북"
+      }
+    },
+    "경화여고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경기"
+      }
+    },
+    "금호고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "광주"
+      }
+    },
+    "덕소고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경기"
+      }
+    },
+    "동대부영석고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경기"
+      }
+    },
+    "동덕여고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "자사고",
+        "region": "서울"
+      }
+    },
+    "서대전고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "대전"
+      }
+    },
+    "서울문영여고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "서울"
+      }
+    },
+    "심인고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "대구"
+      }
+    },
+    "온양여고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "충남"
+      }
+    },
+    "유봉여고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "강원"
+      }
+    },
+    "인천외고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "외고",
+        "region": "인천"
+      }
+    },
+    "창녕옥야고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "경남"
+      }
+    },
+    "해룡고": {
+      "admissions": {
+        "2026": {
+          "seoul_univ": {
+            "total": 3,
+            "susi": 3,
+            "jeongsi": 0,
+            "source": "서울대_수시최초",
+            "source_url": "http://www.veritas-a.com/news/articleView.html?idxno=589513"
+          }
+        }
+      },
+      "metadata": {
+        "type": "일반고",
+        "region": "전남"
       }
     }
   },
