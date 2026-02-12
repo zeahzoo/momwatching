@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import SearchBar from '@/components/SearchBar';
 import SchoolTable from '@/components/SchoolTable';
 import NewsCard from '@/components/NewsCard';
 import { getRankedSchools } from '@/lib/utils';
@@ -51,7 +50,6 @@ export default async function Home() {
   const data: Database = await getData();
   const rankedSchools = getRankedSchools(data, '2025');
   const top20 = rankedSchools.slice(0, 20);
-  const schoolNames = Object.keys(data.schools || {});
   const latestNews = await getLatestNews();
 
   return (
@@ -64,10 +62,35 @@ export default async function Home() {
           </h1>
         </header>
 
-        {/* Search Bar */}
-        <div className="flex justify-center mb-12">
-          <SearchBar schools={schoolNames} />
-        </div>
+        {/* Event Banner */}
+        <a 
+          href="mailto:contact@momwatching.com"
+          className="block mb-12 p-8 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-[1.02] text-white"
+        >
+          <div className="text-center">
+            <div className="text-4xl mb-4">🎉</div>
+            <h2 className="text-3xl font-bold mb-6">momwatching.com 오픈 기념 이벤트</h2>
+            
+            <div className="max-w-2xl mx-auto text-lg leading-relaxed">
+              <p className="mb-4 font-semibold text-xl">학부모님과 학생 여러분께 드리는 특별한 기회!</p>
+              
+              <p className="mb-4">귀하의 학교 또는 자녀 학교의 진학 정보를 공유해주세요.</p>
+              
+              <ul className="mb-4 space-y-2">
+                <li>• 서울대/의대 합격 실적</li>
+                <li>• 수시/정시 합격 인원</li>
+                <li>• 연도별 데이터</li>
+              </ul>
+              
+              <p className="mb-6 font-semibold text-xl">중복되지 않은 유효한 정보 제공 시 상품권을 드립니다!</p>
+              
+              <div className="flex items-center justify-center gap-2 text-2xl">
+                <span>📧</span>
+                <span className="font-bold underline">제보: contact@momwatching.com</span>
+              </div>
+            </div>
+          </div>
+        </a>
 
         {/* Top 20 Rankings */}
         <div className="mb-8">
