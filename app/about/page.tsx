@@ -56,7 +56,7 @@ export default function AboutPage() {
               </li>
               <li className="flex items-start">
                 <span className="text-blue-600 mr-2">•</span>
-                <span>최신 입시 뉴스 및 정책 변화 업데이트</span>
+                <span>최신 입시 정보 및 정책 변화 업데이트</span>
               </li>
             </ul>
           </section>
@@ -86,9 +86,9 @@ export default function AboutPage() {
                 </p>
               </div>
               <div className="bg-gray-50 p-4 rounded-lg">
-                <h3 className="font-semibold text-gray-900 mb-2">📰 입시 뉴스</h3>
+                <h3 className="font-semibold text-gray-900 mb-2">📰 정보방</h3>
                 <p className="text-sm text-gray-600">
-                  최신 입시 정책, 대학별 전형 변화, 교육 동향 뉴스 제공
+                  최신 입시 정책, 대학별 전형 변화, 교육 동향 정보 제공
                 </p>
               </div>
             </div>

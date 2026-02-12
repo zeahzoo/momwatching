@@ -97,12 +97,12 @@ export default async function Home() {
         {latestNews.length > 0 && (
           <div className="mb-8">
             <div className="flex items-center justify-between mb-6">
-              <h2 className="text-3xl font-bold text-gray-900">최신 입시 뉴스</h2>
+              <h2 className="text-3xl font-bold text-gray-900">정보방</h2>
               <Link 
                 href="/news"
                 className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold shadow-md"
               >
-                뉴스 전체보기 →
+                정보방 전체보기 →
               </Link>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

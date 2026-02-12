@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   
   if (!article) {
     return {
-      title: '뉴스를 찾을 수 없습니다 - momwatching.com',
+      title: '정보를 찾을 수 없습니다 - momwatching.com',
     };
   }
 
@@ -61,7 +61,7 @@ export default async function NewsDetailPage({ params }: { params: Promise<{ slu
           href="/news"
           className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 mb-6 font-semibold"
         >
-          ← 뉴스 목록으로 돌아가기
+          ← 정보방으로 돌아가기
         </Link>
 
         {/* Article */}
