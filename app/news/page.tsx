@@ -27,7 +27,7 @@ export default async function NewsPage() {
         {/* Header */}
         <header className="text-center mb-12">
           <h1 className="text-5xl font-bold text-gray-900 mb-4">
-            📰 입시 뉴스
+            입시 뉴스
           </h1>
           <p className="text-xl text-gray-600">
             최신 고등학교 입시 및 진학 뉴스를 확인하세요

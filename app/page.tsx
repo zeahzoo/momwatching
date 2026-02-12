@@ -77,7 +77,7 @@ export default async function Home() {
 
         {/* Introduction */}
         <div className="bg-white rounded-lg shadow-md p-8 mb-8 border-t-4 border-blue-500">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">📊 서비스 소개</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">서비스 소개</h2>
           <div className="text-gray-700 space-y-2">
             <p>전국 주요 고등학교의 서울대 진학 실적을 한눈에 확인할 수 있습니다.</p>
             <ul className="list-disc list-inside ml-4 space-y-1">
@@ -92,7 +92,7 @@ export default async function Home() {
         {/* Top 20 Rankings */}
         <div className="mb-8">
           <div className="flex items-center justify-between mb-6">
-            <h2 className="text-3xl font-bold text-gray-900">🏆 Top 20 순위</h2>
+            <h2 className="text-3xl font-bold text-gray-900">Top 20 순위</h2>
             <Link 
               href="/rankings"
               className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold shadow-md"
@@ -111,7 +111,7 @@ export default async function Home() {
         {latestNews.length > 0 && (
           <div className="mb-8">
             <div className="flex items-center justify-between mb-6">
-              <h2 className="text-3xl font-bold text-gray-900">📰 최신 입시 뉴스</h2>
+              <h2 className="text-3xl font-bold text-gray-900">최신 입시 뉴스</h2>
               <Link 
                 href="/news"
                 className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold shadow-md"
@@ -129,7 +129,7 @@ export default async function Home() {
 
         {/* Data Notice */}
         <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-lg">
-          <h3 className="font-bold text-yellow-900 mb-2">⚠️ 데이터 유의사항</h3>
+          <h3 className="font-bold text-yellow-900 mb-2">데이터 유의사항</h3>
           <p className="text-sm text-yellow-800">
             본 데이터는 {data.metadata.data_source}에서 수집한 공개 정보를 기반으로 합니다. 
             학교별 진학 실적은 다양한 요인에 의해 영향을 받으며, 이 순위가 학교의 전반적인 교육 품질을 대표하지 않습니다.

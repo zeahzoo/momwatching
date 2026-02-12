@@ -212,7 +212,7 @@ export default function SchoolDetail({ params }: { params: { id: string } }) {
 
         {/* Historical Data Table */}
         <div className="bg-white rounded-lg shadow-lg p-6">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">📊 연도별 상세 데이터</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">연도별 상세 데이터</h2>
           <div className="overflow-x-auto">
             <table className="w-full">
               <thead>
@@ -243,7 +243,7 @@ export default function SchoolDetail({ params }: { params: { id: string } }) {
 
         {/* Data Notice */}
         <div className="mt-8 bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-lg">
-          <h3 className="font-bold text-yellow-900 mb-2">⚠️ 데이터 유의사항</h3>
+          <h3 className="font-bold text-yellow-900 mb-2">데이터 유의사항</h3>
           <p className="text-sm text-yellow-800">
             본 데이터는 {data.metadata.data_source}에서 수집한 공개 정보입니다. 
             정확한 정보는 해당 학교에 직접 문의하시기 바랍니다.

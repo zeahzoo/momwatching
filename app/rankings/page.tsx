@@ -68,7 +68,7 @@ export default function Rankings() {
 
         {/* Filters */}
         <div className="bg-white rounded-lg shadow-md p-6 mb-8">
-          <h2 className="text-lg font-bold text-gray-900 mb-4">🔍 필터</h2>
+          <h2 className="text-lg font-bold text-gray-900 mb-4">필터</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {/* Year Filter */}
             <div>
