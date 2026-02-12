@@ -26,37 +26,19 @@ export default function ContactPage() {
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
               📧 이메일 문의
             </h2>
-            
-            {/* 일반 문의 */}
-            <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded mb-4">
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                일반 문의 / 정보 제공
-              </h3>
-              <p className="text-gray-700 mb-2 text-sm">
-                데이터 오류, 정보 제공, 사이트 이용 관련 문의
-              </p>
-              <a 
-                href="mailto:contact@momwatching.com" 
-                className="text-xl font-semibold text-blue-600 hover:text-blue-700 hover:underline"
-              >
-                contact@momwatching.com
-              </a>
-            </div>
-
-            {/* CEO 직통 */}
-            <div className="bg-purple-50 border-l-4 border-purple-600 p-6 rounded">
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                CEO 직통 / 제휴 문의
-              </h3>
-              <p className="text-gray-700 mb-2 text-sm">
-                비즈니스 제안, 파트너십, 광고 및 협업 관련 문의
+            <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded">
+              <p className="text-gray-700 mb-2">
+                모든 문의사항은 아래 이메일로 보내주세요:
               </p>
               <a 
                 href="mailto:ceo@momwatching.com" 
-                className="text-xl font-semibold text-purple-600 hover:text-purple-700 hover:underline"
+                className="text-2xl font-semibold text-blue-600 hover:text-blue-700 hover:underline"
               >
                 ceo@momwatching.com
               </a>
+              <p className="text-sm text-gray-600 mt-3">
+                일반 문의, 정보 제공, 제휴 및 비즈니스 제안 등 모든 문의를 받습니다.
+              </p>
             </div>
           </section>
 
@@ -131,7 +113,7 @@ export default function ContactPage() {
                 온라인 문의 양식은 준비 중입니다.
               </p>
               <p className="text-gray-600 text-center">
-                현재는 <a href="mailto:contact@momwatching.com" className="text-blue-600 hover:underline font-semibold">이메일</a>로 문의해 주시기 바랍니다.
+                현재는 <a href="mailto:ceo@momwatching.com" className="text-blue-600 hover:underline font-semibold">이메일</a>로 문의해 주시기 바랍니다.
               </p>
             </div>
           </section>
