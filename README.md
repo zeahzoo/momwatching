@@ -90,6 +90,21 @@ school-ranking-site/
 본 웹사이트의 데이터는 참고 자료로만 활용해 주시기 바랍니다. 
 학교의 진학 실적이 교육의 전반적인 품질을 대표하지 않습니다.
 
+## 🚀 배포
+
+이 프로젝트는 GitHub + Vercel + momwatching.com 도메인으로 배포됩니다.
+
+**배포 가이드:**
+- 📖 **상세 가이드:** [`deployment-guide.md`](./deployment-guide.md)
+- ⚡ **빠른 시작:** [`QUICKSTART.md`](./QUICKSTART.md)
+
+**배포 플랫폼:**
+- GitHub: 코드 저장소 (Public)
+- Vercel: 자동 배포 및 호스팅
+- Namecheap: 도메인 (momwatching.com)
+
+**배포된 사이트:** https://momwatching.com
+
 ## 📝 License
 
 MIT License
