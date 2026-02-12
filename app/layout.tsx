@@ -39,14 +39,11 @@ export default function RootLayout({
           </div>
         </nav>
         {children}
-        <footer className="bg-gray-900 text-white py-8 mt-12">
+        <footer className="bg-gray-900 text-white py-6 mt-12">
           <div className="container mx-auto px-4 max-w-7xl">
             <div className="text-center">
-              <p className="text-gray-400 text-sm">
-                © 2026 고등학교 입시 순위. 본 데이터는 참고 자료로만 활용해 주시기 바랍니다.
-              </p>
-              <p className="text-gray-500 text-xs mt-2">
-                데이터 출처: 베리타스알파, 공공데이터
+              <p className="text-gray-500 text-xs">
+                데이터 출처: 베리타스알파
               </p>
             </div>
           </div>

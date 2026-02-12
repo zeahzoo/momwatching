@@ -158,12 +158,12 @@ export default function SchoolDetail({ params }: { params: { id: string } }) {
             <div className="flex gap-3 mb-6">
               {school.region && (
                 <span className="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg font-semibold">
-                  📍 {school.region}
+                  {school.region}
                 </span>
               )}
               {school.type && (
                 <span className="px-4 py-2 bg-gray-100 text-gray-700 rounded-lg font-semibold">
-                  🏫 {school.type}
+                  {school.type}
                 </span>
               )}
             </div>
@@ -239,15 +239,6 @@ export default function SchoolDetail({ params }: { params: { id: string } }) {
               </tbody>
             </table>
           </div>
-        </div>
-
-        {/* Data Notice */}
-        <div className="mt-8 bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-lg">
-          <h3 className="font-bold text-yellow-900 mb-2">데이터 유의사항</h3>
-          <p className="text-sm text-yellow-800">
-            본 데이터는 {data.metadata.data_source}에서 수집한 공개 정보입니다. 
-            정확한 정보는 해당 학교에 직접 문의하시기 바랍니다.
-          </p>
         </div>
       </div>
     </main>

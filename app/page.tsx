@@ -126,16 +126,6 @@ export default async function Home() {
             </div>
           </div>
         )}
-
-        {/* Data Notice */}
-        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-lg">
-          <h3 className="font-bold text-yellow-900 mb-2">데이터 유의사항</h3>
-          <p className="text-sm text-yellow-800">
-            본 데이터는 {data.metadata.data_source}에서 수집한 공개 정보를 기반으로 합니다. 
-            학교별 진학 실적은 다양한 요인에 의해 영향을 받으며, 이 순위가 학교의 전반적인 교육 품질을 대표하지 않습니다.
-            참고 자료로만 활용해 주시기 바랍니다.
-          </p>
-        </div>
       </div>
     </main>
   );
