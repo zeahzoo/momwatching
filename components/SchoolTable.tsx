@@ -103,7 +103,7 @@ export default function SchoolTable({ schools, startRank = 1 }: SchoolTableProps
                       className="block w-full h-full"
                     >
                       <div className="inline-block px-3 py-1.5 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-lg font-bold text-base shadow-sm">
-                        {school.total}명
+                        {school.total}
                       </div>
                     </Link>
                   </td>
@@ -112,7 +112,7 @@ export default function SchoolTable({ schools, startRank = 1 }: SchoolTableProps
                       href={`/school/${encodeURIComponent(school.name)}`}
                       className="block w-full h-full"
                     >
-                      <div className="text-sm font-semibold text-green-700">{school.susi}명</div>
+                      <div className="text-sm font-semibold text-green-700">{school.susi}</div>
                     </Link>
                   </td>
                   <td className="px-3 py-4 text-center">
@@ -120,7 +120,7 @@ export default function SchoolTable({ schools, startRank = 1 }: SchoolTableProps
                       href={`/school/${encodeURIComponent(school.name)}`}
                       className="block w-full h-full"
                     >
-                      <div className="text-sm font-semibold text-orange-700">{school.jeongsi}명</div>
+                      <div className="text-sm font-semibold text-orange-700">{school.jeongsi}</div>
                     </Link>
                   </td>
                 </tr>
