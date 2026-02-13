@@ -61,23 +61,6 @@ export default async function Home() {
           </h1>
         </header>
 
-        {/* Event Banner */}
-        <a 
-          href="mailto:ceo@momwatching.com"
-          className="block mb-12 py-5 px-6 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-[1.01] text-white"
-        >
-          <div className="text-center">
-            <h2 className="text-2xl font-bold mb-2">🎉 오픈 기념 이벤트</h2>
-            
-            <div className="max-w-3xl mx-auto text-sm leading-snug space-y-1">
-              <p className="font-medium">고등학교 대학 합격 정보를 제공해주세요! (사진, 동영상, 문서 형태 모두 가능)</p>
-              <p className="font-medium">각 대학별 합격 인원에 대한 정보를 제공해 주세요. 모든 대학의 정보가 소중합니다.</p>
-              <p className="font-medium">중복되지 않은 유효한 정보 제공 시 5,000원 상당의 상품권을 드립니다.</p>
-              <p className="text-xs mt-2 opacity-90">📧 정보 제공: ceo@momwatching.com</p>
-            </div>
-          </div>
-        </a>
-
         {/* Full Rankings */}
         <div className="mb-8">
           <div className="flex items-center justify-between mb-6">
