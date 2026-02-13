@@ -16,9 +16,9 @@ async function getData(): Promise<Database> {
       schools: {},
       metadata: {
         collection_date: new Date().toISOString(),
-        data_source: '데이터 로드 실패',
+        data_source: '  ',
         years_covered: ['2025'],
-        universities_covered: ['서울대'],
+        universities_covered: [''],
         total_schools: 0,
         description: 'Error loading data',
         last_updated: new Date().toISOString()
@@ -28,8 +28,8 @@ async function getData(): Promise<Database> {
 }
 
 export const metadata = {
-  title: '2025년 서울대 진학 순위 - momwatching.com',
-  description: '2025학년도 전국 고등학교 서울대 합격자 순위. 수시, 정시 합격자 현황.',
+  title: '2025    - momwatching.com',
+  description: '2025     . ,   .',
 };
 
 export default async function Seoul2025Page() {
@@ -41,10 +41,10 @@ export default async function Seoul2025Page() {
       <div className="container mx-auto px-4 py-8 max-w-7xl">
         <header className="text-center mb-12">
           <h1 className="text-5xl font-bold text-gray-900 mb-4">
-            2025년 서울대 진학 순위
+            2025   
           </h1>
           <p className="text-xl text-gray-600">
-            2025학년도 전국 고등학교 서울대 합격자 현황
+            2025     
           </p>
         </header>
 
@@ -52,25 +52,25 @@ export default async function Seoul2025Page() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="text-center">
               <p className="text-3xl font-bold text-blue-600">{schools.length}</p>
-              <p className="text-gray-600 text-sm">집계 학교 수</p>
+              <p className="text-gray-600 text-sm">  </p>
             </div>
             <div className="text-center">
               <p className="text-3xl font-bold text-blue-600">
                 {schools.reduce((sum, s) => sum + s.total, 0)}
               </p>
-              <p className="text-gray-600 text-sm">총 합격자 수</p>
+              <p className="text-gray-600 text-sm">  </p>
             </div>
             <div className="text-center">
               <p className="text-3xl font-bold text-green-600">
                 {schools.reduce((sum, s) => sum + s.susi, 0)}
               </p>
-              <p className="text-gray-600 text-sm">수시 합격</p>
+              <p className="text-gray-600 text-sm"> </p>
             </div>
             <div className="text-center">
               <p className="text-3xl font-bold text-orange-600">
                 {schools.reduce((sum, s) => sum + s.jeongsi, 0)}
               </p>
-              <p className="text-gray-600 text-sm">정시 합격</p>
+              <p className="text-gray-600 text-sm"> </p>
             </div>
           </div>
         </div>

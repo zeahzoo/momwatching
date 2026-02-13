@@ -3,13 +3,13 @@ import "./globals.css";
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: "고등학교 입시 순위 - 서울대 진학 실적",
-  description: "전국 주요 고등학교의 서울대 진학 실적을 한눈에 확인하세요. 5개년 추이 분석, 수시/정시 비율, 지역별 순위 제공.",
-  keywords: "고등학교, 입시, 순위, 서울대, 진학 실적, 수시, 정시",
+  title: "   -   ",
+  description: "       . 5  , / ,   .",
+  keywords: ", , , ,  , , ",
   metadataBase: new URL('https://momwatching.com'),
   openGraph: {
-    title: "고등학교 입시 순위 - momwatching.com",
-    description: "전국 주요 고등학교의 서울대 진학 실적 분석",
+    title: "   - momwatching.com",
+    description: "      ",
     type: "website",
     url: "https://momwatching.com",
     siteName: "momwatching.com",
@@ -17,8 +17,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "고등학교 입시 순위 - momwatching.com",
-    description: "전국 주요 고등학교의 서울대 진학 실적 분석",
+    title: "   - momwatching.com",
+    description: "      ",
   },
   robots: {
     index: true,
@@ -57,67 +57,67 @@ export default function RootLayout({
                 </Link>
                 <div className="relative group">
                   <button className="text-gray-700 hover:text-blue-600 font-semibold transition-colors flex items-center gap-1">
-                    의대 진학
+                     
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                     </svg>
                   </button>
                   <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-                    <div className="px-4 py-2 text-xs text-gray-500 font-semibold uppercase border-b">서울대 의대</div>
+                    <div className="px-4 py-2 text-xs text-gray-500 font-semibold uppercase border-b"> </div>
                     <Link href="/medical/2026" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">
-                      2026년
+                      2026
                     </Link>
                     <Link href="/medical/2025" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">
-                      2025년
+                      2025
                     </Link>
-                    <div className="px-4 py-2 text-xs text-gray-500 font-semibold uppercase border-b mt-2">전국 의대</div>
+                    <div className="px-4 py-2 text-xs text-gray-500 font-semibold uppercase border-b mt-2"> </div>
                     <Link href="/medical/2024" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">
-                      2024년
+                      2024
                     </Link>
                     <Link href="/medical/2023" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 opacity-50 cursor-not-allowed">
-                      2023년 (준비중)
+                      2023 ()
                     </Link>
                     <Link href="/medical/2022" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 opacity-50 cursor-not-allowed">
-                      2022년 (준비중)
+                      2022 ()
                     </Link>
                     <Link href="/medical/2021" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 opacity-50 cursor-not-allowed rounded-b-md">
-                      2021년 (준비중)
+                      2021 ()
                     </Link>
                   </div>
                 </div>
                 <div className="relative group">
                   <button className="text-gray-700 hover:text-blue-600 font-semibold transition-colors flex items-center gap-1">
-                    서울대 진학
+                     
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                     </svg>
                   </button>
                   <div className="absolute left-0 mt-2 w-32 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                     <Link href="/seoul/2026" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-t-md">
-                      2026년
+                      2026
                     </Link>
                     <Link href="/seoul/2025" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">
-                      2025년
+                      2025
                     </Link>
                     <Link href="/seoul/2024" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">
-                      2024년
+                      2024
                     </Link>
                     <Link href="/seoul/2023" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">
-                      2023년
+                      2023
                     </Link>
                     <Link href="/seoul/2022" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">
-                      2022년
+                      2022
                     </Link>
                     <Link href="/seoul/2021" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-b-md">
-                      2021년
+                      2021
                     </Link>
                   </div>
                 </div>
                 <Link href="/rankings" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors">
-                  종합 순위
+                   
                 </Link>
                 <Link href="/news" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors">
-                  정보방
+                  
                 </Link>
                 <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors">
                   Contact

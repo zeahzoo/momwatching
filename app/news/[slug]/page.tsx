@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   
   if (!article) {
     return {
-      title: '정보를 찾을 수 없습니다 - momwatching.com',
+      title: '    - momwatching.com',
     };
   }
 
@@ -61,7 +61,7 @@ export default async function NewsDetailPage({ params }: { params: Promise<{ slu
           href="/news"
           className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 mb-6 font-semibold"
         >
-          ← 정보방으로 돌아가기
+          ←  
         </Link>
 
         {/* Article */}
@@ -112,7 +112,7 @@ export default async function NewsDetailPage({ params }: { params: Promise<{ slu
 
             {/* Keywords */}
             <div className="border-t pt-6">
-              <h3 className="text-sm font-semibold text-gray-700 mb-3">관련 키워드</h3>
+              <h3 className="text-sm font-semibold text-gray-700 mb-3"> </h3>
               <div className="flex flex-wrap gap-2">
                 {article.keywords.map((keyword) => (
                   <span
@@ -130,16 +130,16 @@ export default async function NewsDetailPage({ params }: { params: Promise<{ slu
         {/* CTA */}
         <div className="mt-8 bg-white rounded-lg shadow-md p-8 text-center">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">
-            고등학교 입시 정보를 찾고 계신가요?
+                ?
           </h2>
           <p className="text-gray-600 mb-6">
-            전국 고등학교 서울대 진학 실적 순위를 확인하세요
+                  
           </p>
           <Link 
             href="/"
             className="inline-block px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold shadow-md"
           >
-            학교 순위 보기 →
+               →
           </Link>
         </div>
       </div>

@@ -16,9 +16,9 @@ async function getData(): Promise<Database> {
       schools: {},
       metadata: {
         collection_date: new Date().toISOString(),
-        data_source: '데이터 로드 실패',
+        data_source: '  ',
         years_covered: ['2025'],
-        universities_covered: ['서울대_의대'],
+        universities_covered: ['_'],
         total_schools: 0,
         description: 'Error loading data',
         last_updated: new Date().toISOString()
@@ -28,8 +28,8 @@ async function getData(): Promise<Database> {
 }
 
 export const metadata = {
-  title: '서울대 의대 진학 순위 2025 - momwatching.com',
-  description: '전국 고등학교 서울대 의과대학 합격자 순위를 확인하세요. 2025년 서울대 의대 진학 실적 데이터.',
+  title: '    2025 - momwatching.com',
+  description: '      . 2025     .',
 };
 
 export default async function SnuMedical2025Page() {
@@ -41,23 +41,23 @@ export default async function SnuMedical2025Page() {
       <div className="container mx-auto px-4 py-8 max-w-7xl">
         <header className="text-center mb-12">
           <h1 className="text-5xl font-bold text-gray-900 mb-4">
-            서울대 의대 진학 순위
+               
           </h1>
           <p className="text-xl text-gray-600">
-            2025년 전국 고등학교 서울대 의대 합격자 순위
+            2025      
           </p>
         </header>
 
         <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
           <div className="mb-4">
             <p className="text-gray-700 text-sm">
-              <span className="font-semibold">데이터 연도:</span> 2025학년도
+              <span className="font-semibold"> :</span> 2025
             </p>
             <p className="text-gray-700 text-sm">
-              <span className="font-semibold">집계 대상:</span> 서울대학교 의과대학
+              <span className="font-semibold"> :</span>  
             </p>
             <p className="text-gray-700 text-sm mt-2">
-              <span className="font-semibold">총 합격자:</span> {medicalSchools.reduce((sum, school) => sum + school.total, 0)}명
+              <span className="font-semibold"> :</span> {medicalSchools.reduce((sum, school) => sum + school.total, 0)}
             </p>
           </div>
         </div>
@@ -67,7 +67,7 @@ export default async function SnuMedical2025Page() {
         </div>
 
         <div className="bg-white rounded-lg shadow-lg p-6 mt-8">
-          <h2 className="text-2xl font-bold mb-4">Top 10 학교</h2>
+          <h2 className="text-2xl font-bold mb-4">Top 10 </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {medicalSchools.slice(0, 10).map((school, index) => (
               <div key={school.name} className="border-l-4 border-blue-500 pl-4 py-2">
@@ -77,8 +77,8 @@ export default async function SnuMedical2025Page() {
                     <span className="text-lg font-semibold">{school.name}</span>
                   </div>
                   <div className="text-right">
-                    <div className="text-2xl font-bold text-blue-600">{school.total}명</div>
-                    <div className="text-sm text-gray-500">수시 {school.susi} / 정시 {school.jeongsi}</div>
+                    <div className="text-2xl font-bold text-blue-600">{school.total}</div>
+                    <div className="text-sm text-gray-500"> {school.susi} /  {school.jeongsi}</div>
                   </div>
                 </div>
               </div>

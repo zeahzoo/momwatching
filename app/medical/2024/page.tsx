@@ -16,9 +16,9 @@ async function getData(): Promise<Database> {
       schools: {},
       metadata: {
         collection_date: new Date().toISOString(),
-        data_source: '데이터 로드 실패',
+        data_source: '  ',
         years_covered: ['2024'],
-        universities_covered: ['의대'],
+        universities_covered: [''],
         total_schools: 0,
         description: 'Error loading data',
         last_updated: new Date().toISOString()
@@ -28,8 +28,8 @@ async function getData(): Promise<Database> {
 }
 
 export const metadata = {
-  title: '의대 진학 순위 Top 20 - momwatching.com',
-  description: '전국 고등학교 의대 합격자 순위를 확인하세요. 2024년 의대 진학 실적 데이터.',
+  title: '   Top 20 - momwatching.com',
+  description: '     . 2024    .',
 };
 
 export default async function MedicalPage() {
@@ -42,20 +42,20 @@ export default async function MedicalPage() {
       <div className="container mx-auto px-4 py-8 max-w-7xl">
         <header className="text-center mb-12">
           <h1 className="text-5xl font-bold text-gray-900 mb-4">
-            의대 진학 순위
+              
           </h1>
           <p className="text-xl text-gray-600">
-            2024년 전국 고등학교 의대 합격자 Top 20
+            2024     Top 20
           </p>
         </header>
 
         <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
           <div className="mb-4">
             <p className="text-gray-700 text-sm">
-              <span className="font-semibold">데이터 연도:</span> 2024학년도
+              <span className="font-semibold"> :</span> 2024
             </p>
             <p className="text-gray-700 text-sm">
-              <span className="font-semibold">집계 대상:</span> 전국 의과대학 및 의학전문대학원
+              <span className="font-semibold"> :</span>    
             </p>
           </div>
         </div>

@@ -21,9 +21,9 @@ async function getData(): Promise<Database> {
       schools: {},
       metadata: {
         collection_date: new Date().toISOString(),
-        data_source: '데이터 로드 실패',
+        data_source: '  ',
         years_covered: ['2025'],
-        universities_covered: ['서울대'],
+        universities_covered: [''],
         total_schools: 0,
         description: 'Error loading data',
         last_updated: new Date().toISOString()
@@ -57,14 +57,14 @@ export default async function Home() {
         {/* Header */}
         <header className="text-center mb-12">
           <h1 className="text-5xl font-bold text-gray-900 mb-8">
-            2026년 서울대 진학 순위
+            2026   
           </h1>
         </header>
 
         {/* Full Rankings */}
         <div className="mb-8">
           <div className="flex items-center justify-between mb-6">
-            <h2 className="text-3xl font-bold text-gray-900">전체 순위 ({rankedSchools.length}개교)</h2>
+            <h2 className="text-3xl font-bold text-gray-900">  ({rankedSchools.length})</h2>
           </div>
           <SchoolTable schools={rankedSchools} startRank={1} />
         </div>
@@ -73,12 +73,12 @@ export default async function Home() {
         {latestNews.length > 0 && (
           <div className="mb-8">
             <div className="flex items-center justify-between mb-6">
-              <h2 className="text-3xl font-bold text-gray-900">정보방</h2>
+              <h2 className="text-3xl font-bold text-gray-900"></h2>
               <Link 
                 href="/news"
                 className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold shadow-md"
               >
-                정보방 전체보기 →
+                  →
               </Link>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

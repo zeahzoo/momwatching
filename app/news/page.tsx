@@ -27,10 +27,10 @@ export default async function NewsPage() {
         {/* Header */}
         <header className="text-center mb-12">
           <h1 className="text-5xl font-bold text-gray-900 mb-4">
-            정보방
+            
           </h1>
           <p className="text-xl text-gray-600">
-            고등학교 입시 정보를 확인하세요
+               
           </p>
         </header>
 
@@ -43,8 +43,8 @@ export default async function NewsPage() {
           </div>
         ) : (
           <div className="bg-white rounded-lg shadow-md p-12 text-center">
-            <p className="text-gray-500 text-lg">아직 등록된 뉴스가 없습니다.</p>
-            <p className="text-gray-400 text-sm mt-2">곧 최신 입시 정보를 제공할 예정입니다.</p>
+            <p className="text-gray-500 text-lg">   .</p>
+            <p className="text-gray-400 text-sm mt-2">     .</p>
           </div>
         )}
       </div>
