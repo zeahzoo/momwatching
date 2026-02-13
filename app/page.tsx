@@ -49,7 +49,6 @@ async function getLatestNews(): Promise<NewsArticle[]> {
 export default async function Home() {
   const data: Database = await getData();
   const rankedSchools = getRankedSchools(data, '2026');
-  const top20 = rankedSchools.slice(0, 20);
   const latestNews = await getLatestNews();
 
   return (
@@ -58,8 +57,11 @@ export default async function Home() {
         {/* Header */}
         <header className="text-center mb-12">
           <h1 className="text-5xl font-bold text-gray-900 mb-8">
-            2026년 서울대 진학 순위 Top 20
+            2026년 서울대 진학 순위
           </h1>
+          <p className="text-xl text-gray-600">
+            전국 {rankedSchools.length}개 고등학교 순위
+          </p>
         </header>
 
         {/* Event Banner */}
@@ -79,18 +81,12 @@ export default async function Home() {
           </div>
         </a>
 
-        {/* Top 20 Rankings */}
+        {/* Full Rankings */}
         <div className="mb-8">
           <div className="flex items-center justify-between mb-6">
-            <h2 className="text-3xl font-bold text-gray-900">Top 20 순위</h2>
-            <Link 
-              href="/rankings"
-              className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold shadow-md"
-            >
-              전체 순위 보기 →
-            </Link>
+            <h2 className="text-3xl font-bold text-gray-900">전체 순위 ({rankedSchools.length}개교)</h2>
           </div>
-          <SchoolTable schools={top20} startRank={1} />
+          <SchoolTable schools={rankedSchools} startRank={1} />
         </div>
 
         {/* Latest News Section */}
