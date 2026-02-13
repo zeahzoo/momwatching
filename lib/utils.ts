@@ -4,13 +4,14 @@ export function getRankedSchools(data: Database, year: string = '2025'): RankedS
   const schools: RankedSchool[] = [];
 
   Object.entries(data.schools).forEach(([name, schoolData]) => {
-    const seoulUnivData = schoolData.admissions?.서울대?.[year] || schoolData.admissions?.seoul_univ?.[year];
+    // Correct data structure: admissions[year].seoul_univ
+    const seoulUnivData = schoolData.admissions?.[year]?.seoul_univ;
 
     if (seoulUnivData && seoulUnivData.total) {
       // Get historical data
       const yearDataArray = [];
-      for (const y of ['2021', '2022', '2023', '2024', '2025']) {
-        const ySeoul = schoolData.admissions?.서울대?.[y] || schoolData.admissions?.seoul_univ?.[y];
+      for (const y of ['2021', '2022', '2023', '2024', '2025', '2026']) {
+        const ySeoul = schoolData.admissions?.[y]?.seoul_univ;
         if (ySeoul && ySeoul.total) {
           yearDataArray.push({
             year: y,
@@ -45,8 +46,8 @@ export function getSchoolById(data: Database, id: string): RankedSchool | null {
   let latestSusi = 0;
   let latestJeongsi = 0;
 
-  for (const y of ['2021', '2022', '2023', '2024', '2025']) {
-    const ySeoul = schoolData.admissions?.서울대?.[y] || schoolData.admissions?.seoul_univ?.[y];
+  for (const y of ['2021', '2022', '2023', '2024', '2025', '2026']) {
+    const ySeoul = schoolData.admissions?.[y]?.seoul_univ;
     if (ySeoul && ySeoul.total) {
       yearDataArray.push({
         year: y,
