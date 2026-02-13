@@ -59,9 +59,6 @@ export default async function Home() {
           <h1 className="text-5xl font-bold text-gray-900 mb-8">
             2026년 서울대 진학 순위
           </h1>
-          <p className="text-xl text-gray-600">
-            전국 {rankedSchools.length}개 고등학교 순위
-          </p>
         </header>
 
         {/* Event Banner */}
