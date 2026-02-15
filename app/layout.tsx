@@ -37,11 +37,8 @@ export const metadata: Metadata = {
     google: 'YOUR_VERIFICATION_CODE',
   },
   icons: {
-    icon: [
-      { url: '/favicon.svg', type: 'image/svg+xml' },
-      { url: '/icon.png', type: 'image/png', sizes: '32x32' },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/favicon.svg',
+    apple: '/logo.svg',
   },
 };
 
