@@ -1,0 +1,13 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- 배경 -->
+  <rect width="32" height="32" fill="#2563EB" rx="6"/>
+  
+  <!-- 눈 모양 -->
+  <ellipse cx="16" cy="16" rx="11" ry="7" fill="white"/>
+  
+  <!-- 눈동자 -->
+  <circle cx="16" cy="16" r="4" fill="#1E40AF"/>
+  
+  <!-- 하이라이트 -->
+  <circle cx="17.5" cy="14.5" r="1.5" fill="white"/>
+</svg>

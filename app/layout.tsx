@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: "엄마가 보고 있다 - 고등학교 서울대 진학 실적 분석",
@@ -35,6 +36,13 @@ export const metadata: Metadata = {
     // Replace 'YOUR_VERIFICATION_CODE' with actual code from Google Search Console
     google: 'YOUR_VERIFICATION_CODE',
   },
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/icon.png', type: 'image/png', sizes: '32x32' },
+    ],
+    apple: '/apple-icon.png',
+  },
 };
 
 export default function RootLayout({
@@ -48,8 +56,9 @@ export default function RootLayout({
         <nav className="bg-white shadow-md sticky top-0 z-50">
           <div className="container mx-auto px-4 py-4 max-w-7xl">
             <div className="flex items-center justify-between">
-              <Link href="/" className="text-2xl font-bold text-blue-600 hover:text-blue-700">
-                엄마가 보고 있다
+              <Link href="/" className="flex items-center gap-3 text-2xl font-bold text-blue-600 hover:text-blue-700">
+                <Image src="/logo.svg" alt="엄마가 보고 있다 로고" width={40} height={40} className="w-10 h-10" />
+                <span>엄마가 보고 있다</span>
               </Link>
               <div className="flex gap-6 items-center">
                 <Link href="/about" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors">
