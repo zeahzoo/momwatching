@@ -3,13 +3,13 @@ import "./globals.css";
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: "   -   ",
-  description: "       . 5  , / ,   .",
-  keywords: ", , , ,  , , ",
+  title: "고등학교 서울대 진학 실적 - 데이터 분석",
+  description: "전국 고등학교의 서울대학교 진학 실적을 분석합니다. 5년간 트렌드, 수시/정시 비교, 지역별 분석을 제공합니다.",
+  keywords: "서울대, 진학실적, 고등학교, 입시정보, 수시, 정시, 대입",
   metadataBase: new URL('https://momwatching.com'),
   openGraph: {
-    title: "   - momwatching.com",
-    description: "      ",
+    title: "고등학교 서울대 진학 실적 - momwatching.com",
+    description: "전국 고등학교 서울대 진학 데이터 분석",
     type: "website",
     url: "https://momwatching.com",
     siteName: "momwatching.com",
@@ -17,8 +17,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "   - momwatching.com",
-    description: "      ",
+    title: "고등학교 서울대 진학 실적 - momwatching.com",
+    description: "전국 고등학교 서울대 진학 데이터 분석",
   },
   robots: {
     index: true,
@@ -57,37 +57,37 @@ export default function RootLayout({
                 </Link>
                 <div className="relative group">
                   <button className="text-gray-700 hover:text-blue-600 font-semibold transition-colors flex items-center gap-1">
-                     
+                    의대 진학 실적
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                     </svg>
                   </button>
                   <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-                    <div className="px-4 py-2 text-xs text-gray-500 font-semibold uppercase border-b"> </div>
+                    <div className="px-4 py-2 text-xs text-gray-500 font-semibold uppercase border-b">최신 데이터</div>
                     <Link href="/medical/2026" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">
                       2026
                     </Link>
                     <Link href="/medical/2025" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">
                       2025
                     </Link>
-                    <div className="px-4 py-2 text-xs text-gray-500 font-semibold uppercase border-b mt-2"> </div>
+                    <div className="px-4 py-2 text-xs text-gray-500 font-semibold uppercase border-b mt-2">과거 데이터</div>
                     <Link href="/medical/2024" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">
                       2024
                     </Link>
                     <Link href="/medical/2023" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 opacity-50 cursor-not-allowed">
-                      2023 ()
+                      2023 (준비중)
                     </Link>
                     <Link href="/medical/2022" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 opacity-50 cursor-not-allowed">
-                      2022 ()
+                      2022 (준비중)
                     </Link>
                     <Link href="/medical/2021" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 opacity-50 cursor-not-allowed rounded-b-md">
-                      2021 ()
+                      2021 (준비중)
                     </Link>
                   </div>
                 </div>
                 <div className="relative group">
                   <button className="text-gray-700 hover:text-blue-600 font-semibold transition-colors flex items-center gap-1">
-                     
+                    서울대 실적
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                     </svg>
@@ -114,10 +114,10 @@ export default function RootLayout({
                   </div>
                 </div>
                 <Link href="/rankings" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors">
-                   
+                  전체 순위
                 </Link>
                 <Link href="/news" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors">
-                  
+                  뉴스
                 </Link>
                 <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors">
                   Contact
