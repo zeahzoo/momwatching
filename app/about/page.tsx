@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'About - momwatching.com',
-  description: '대한민국 고등학교 서울대 진학 실적을 분석하고 제공하는 momwatching.com 소개',
+  title: 'About - 엄마가 보고 있다',
+  description: '대한민국 고등학교 서울대 진학 실적을 분석하고 제공하는 엄마가 보고 있다 소개',
 };
 
 export default function AboutPage() {
@@ -12,7 +12,7 @@ export default function AboutPage() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            About momwatching.com
+            엄마가 보고 있다
           </h1>
           <p className="text-xl text-gray-600">
             대한민국 고등학교 서울대 진학 데이터 분석 플랫폼
@@ -27,7 +27,7 @@ export default function AboutPage() {
               우리의 미션
             </h2>
             <p className="text-gray-700 leading-relaxed">
-              momwatching.com은 대한민국 고등학교의 서울대학교 진학 실적을 체계적으로 분석하고 제공하는 데이터 플랫폼입니다. 
+              엄마가 보고 있다는 대한민국 고등학교의 서울대학교 진학 실적을 체계적으로 분석하고 제공하는 데이터 플랫폼입니다. 
               학부모와 학생들이 객관적인 데이터를 바탕으로 진학 결정을 내릴 수 있도록 돕습니다.
             </p>
           </section>
@@ -100,7 +100,7 @@ export default function AboutPage() {
               우리의 비전
             </h2>
             <p className="text-gray-700 leading-relaxed">
-              momwatching.com은 단순한 순위 나열을 넘어서, 
+              엄마가 보고 있다는 단순한 순위 나열을 넘어서, 
               데이터 기반의 인사이트를 통해 학생과 학부모의 현명한 진로 선택을 돕습니다. 
               앞으로도 더 많은 데이터와 분석을 제공하여 교육 정보의 투명성을 높이겠습니다.
             </p>

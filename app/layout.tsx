@@ -3,21 +3,21 @@ import "./globals.css";
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: "고등학교 서울대 진학 실적 - 데이터 분석",
+  title: "엄마가 보고 있다 - 고등학교 서울대 진학 실적 분석",
   description: "전국 고등학교의 서울대학교 진학 실적을 분석합니다. 5년간 트렌드, 수시/정시 비교, 지역별 분석을 제공합니다.",
-  keywords: "서울대, 진학실적, 고등학교, 입시정보, 수시, 정시, 대입",
+  keywords: "서울대, 진학실적, 고등학교, 입시정보, 수시, 정시, 대입, 엄마가보고있다",
   metadataBase: new URL('https://momwatching.com'),
   openGraph: {
-    title: "고등학교 서울대 진학 실적 - momwatching.com",
+    title: "엄마가 보고 있다 - 고등학교 서울대 진학 실적",
     description: "전국 고등학교 서울대 진학 데이터 분석",
     type: "website",
     url: "https://momwatching.com",
-    siteName: "momwatching.com",
+    siteName: "엄마가 보고 있다",
     locale: "ko_KR",
   },
   twitter: {
     card: "summary_large_image",
-    title: "고등학교 서울대 진학 실적 - momwatching.com",
+    title: "엄마가 보고 있다 - 고등학교 서울대 진학 실적",
     description: "전국 고등학교 서울대 진학 데이터 분석",
   },
   robots: {
@@ -49,7 +49,7 @@ export default function RootLayout({
           <div className="container mx-auto px-4 py-4 max-w-7xl">
             <div className="flex items-center justify-between">
               <Link href="/" className="text-2xl font-bold text-blue-600 hover:text-blue-700">
-                momwatching.com
+                엄마가 보고 있다
               </Link>
               <div className="flex gap-6 items-center">
                 <Link href="/about" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors">
@@ -131,7 +131,7 @@ export default function RootLayout({
           <div className="container mx-auto px-4 max-w-7xl">
             <div className="text-center">
               <p className="text-gray-500 text-xs">
-                © 2025 momwatching.com
+                © 2025 엄마가 보고 있다 (momwatching.com)
               </p>
             </div>
           </div>

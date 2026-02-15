@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Contact - momwatching.com',
-  description: '문의 및 제안사항을 보내주세요',
+  title: 'Contact - 엄마가 보고 있다',
+  description: '엄마가 보고 있다 - 문의 및 제안사항을 보내주세요',
 };
 
 export default function ContactPage() {
