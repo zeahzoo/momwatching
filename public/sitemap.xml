@@ -8,7 +8,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://momwatching.com/</loc>
-    <lastmod>2026-02-11</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -16,7 +16,7 @@
   <!-- About -->
   <url>
     <loc>https://momwatching.com/about</loc>
-    <lastmod>2026-02-11</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -24,58 +24,43 @@
   <!-- Contact -->
   <url>
     <loc>https://momwatching.com/contact</loc>
-    <lastmod>2026-02-11</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-
-  <!-- Medical School Admission -->
-  <url>
-    <loc>https://momwatching.com/medical</loc>
-    <lastmod>2026-02-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://momwatching.com/medical/2024</loc>
-    <lastmod>2026-02-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <!-- Seoul National University Rankings by Year -->
   <url>
     <loc>https://momwatching.com/seoul/2025</loc>
-    <lastmod>2026-02-11</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://momwatching.com/seoul/2024</loc>
-    <lastmod>2026-02-11</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://momwatching.com/seoul/2023</loc>
-    <lastmod>2026-02-11</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://momwatching.com/seoul/2022</loc>
-    <lastmod>2026-02-11</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://momwatching.com/seoul/2021</loc>
-    <lastmod>2026-02-11</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -83,7 +68,7 @@
   <!-- Overall Rankings -->
   <url>
     <loc>https://momwatching.com/rankings</loc>
-    <lastmod>2026-02-11</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -91,15 +76,50 @@
   <!-- News Index -->
   <url>
     <loc>https://momwatching.com/news</loc>
-    <lastmod>2026-02-11</lastmod>
+    <lastmod>2026-02-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Individual News Articles -->
   <url>
-    <loc>https://momwatching.com/news/megastudy-daechi-expansion-2026</loc>
-    <lastmod>2026-02-06</lastmod>
+    <loc>https://momwatching.com/news/gwacheon-foreign-admission-success-2025</loc>
+    <lastmod>2026-02-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://momwatching.com/news/gyeonggi-foreign-ib-success-2025</loc>
+    <lastmod>2026-02-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://momwatching.com/news/daewon-foreign-seoul-admission-2025</loc>
+    <lastmod>2026-02-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://momwatching.com/news/gifted-school-admission-2027-changes</loc>
+    <lastmod>2026-02-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://momwatching.com/news/seoul-admission-2026-top30</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://momwatching.com/news/kpop-university-admissions-2026</loc>
+    <lastmod>2026-02-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -108,12 +128,12 @@
     <loc>https://momwatching.com/news/medical-school-expansion-2027</loc>
     <lastmod>2026-02-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://momwatching.com/news/서울대-update-20260211</loc>
-    <lastmod>2026-02-11</lastmod>
+    <loc>https://momwatching.com/news/megastudy-daechi-expansion-2026</loc>
+    <lastmod>2026-02-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
