@@ -27,7 +27,7 @@ export default function Navigation() {
               height={40} 
               className="w-8 h-8 md:w-10 md:h-10" 
             />
-            <span className="whitespace-nowrap">엄마가 보고 있다</span>
+            <span className="hidden md:inline whitespace-nowrap">엄마가 보고 있다</span>
           </Link>
 
           {/* Desktop Menu */}
