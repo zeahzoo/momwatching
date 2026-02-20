@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import { readFileSync } from 'fs';
+import { join } from 'path';
 
 export const metadata: Metadata = {
   title: 'MW 종합순위 - 전국 고등학교 순위 | 엄마가 보고 있다',
@@ -24,16 +26,9 @@ interface RankingResponse {
 }
 
 async function getRankings(): Promise<RankingResponse> {
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://momwatching.com';
-  const res = await fetch(`${baseUrl}/data/mw-overall-ranking.json`, {
-    next: { revalidate: 3600 } // 1시간마다 재검증
-  });
-  
-  if (!res.ok) {
-    throw new Error('Failed to fetch data');
-  }
-  
-  return res.json();
+  const filePath = join(process.cwd(), 'public', 'data', 'mw-overall-ranking.json');
+  const fileContents = readFileSync(filePath, 'utf8');
+  return JSON.parse(fileContents);
 }
 
 export default async function RankingsPage() {
