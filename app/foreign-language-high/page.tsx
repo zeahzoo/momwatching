@@ -61,7 +61,7 @@ export default async function ForeignLanguageHighPage() {
       <div className="bg-blue-50 border-l-4 border-blue-600 p-6 mb-8 max-w-4xl mx-auto">
         <h2 className="font-bold text-blue-800 mb-2">📊 MW 종합순위란?</h2>
         <p className="text-gray-700 text-sm">
-          서울대 합격자 수 + 의약계열 합격자 수를 합산한 종합 순위입니다.
+          서울대 합격자 수 + 의약계열 합격자 수를 합산한 종합 순위
         </p>
       </div>
 
