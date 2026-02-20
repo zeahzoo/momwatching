@@ -1,133 +1,134 @@
-'use client';
+import type { Metadata } from 'next';
 
-import { useState, useEffect } from 'react';
-import Link from 'next/link';
-import SchoolTable from '@/components/SchoolTable';
-import SearchBar from '@/components/SearchBar';
-import { getRankedSchools, getAvailableYears } from '@/lib/utils';
-import { Database, RankedSchool } from '@/lib/types';
+export const metadata: Metadata = {
+  title: 'MW 종합순위 - 전국 고등학교 순위 | 엄마가 보고 있다',
+  description: '전국 고등학교의 서울대 + 의약계열 합격 실적을 종합한 MW 순위입니다.',
+  keywords: 'MW순위, 고등학교순위, 서울대, 의대, 진학실적, 상산고, 휘문고, 단대부고',
+};
 
-export default function Rankings() {
-  const [data, setData] = useState<Database | null>(null);
-  const [selectedYear, setSelectedYear] = useState('2025');
-  const [selectedRegion, setSelectedRegion] = useState('');
-  const [selectedType, setSelectedType] = useState('');
-  const [rankedSchools, setRankedSchools] = useState<RankedSchool[]>([]);
+interface RankingData {
+  순위: number;
+  학교명: string;
+  종합점수: number;
+}
 
-  useEffect(() => {
-    fetch('/data.json')
-      .then(res => res.json())
-      .then(data => {
-        setData(data);
-        setRankedSchools(getRankedSchools(data, selectedYear));
-      });
-  }, []);
+interface RankingResponse {
+  metadata: {
+    ranking_name: string;
+    ranking_period: string;
+    total_schools: number;
+    last_updated: string;
+    note: string;
+  };
+  rankings: RankingData[];
+}
 
-  useEffect(() => {
-    if (!data) return;
-    setRankedSchools(getRankedSchools(data, selectedYear));
-  }, [data, selectedYear]);
-
-  if (!data) {
-    return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center">
-        <div className="text-2xl font-semibold text-gray-600"> ...</div>
-      </div>
-    );
-  }
-
-  const regions = ['', ...new Set(rankedSchools.map(s => s.region).filter(Boolean))];
-  const types = ['', ...new Set(rankedSchools.map(s => s.type).filter(Boolean))];
-
-  const filteredSchools = rankedSchools.filter(school => {
-    const regionMatch = selectedRegion === '' || school.region === selectedRegion;
-    const typeMatch = selectedType === '' || school.type === selectedType;
-    return regionMatch && typeMatch;
+async function getRankings(): Promise<RankingResponse> {
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://momwatching.com';
+  const res = await fetch(`${baseUrl}/data/mw-overall-ranking.json`, {
+    next: { revalidate: 3600 } // 1시간마다 재검증
   });
+  
+  if (!res.ok) {
+    throw new Error('Failed to fetch data');
+  }
+  
+  return res.json();
+}
 
+export default async function RankingsPage() {
+  const data = await getRankings();
+  
   return (
-    <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
-      <div className="container mx-auto px-4 py-8 max-w-7xl">
-        {/* Header */}
-        <header className="mb-8">
-          <Link href="/" className="text-blue-600 hover:text-blue-800 font-semibold mb-4 inline-block">
-            ← 
-          </Link>
-          <h1 className="text-4xl font-bold text-gray-900 mb-2">
-             
-          </h1>
-          <p className="text-gray-600">
-                |  {rankedSchools.length} 
-          </p>
-        </header>
-
-        {/* Search Bar */}
-        <div className="flex justify-center mb-8">
-          <SearchBar schools={Object.keys(data.schools)} />
-        </div>
-
-        {/* Filters */}
-        <div className="bg-white rounded-lg shadow-md p-6 mb-8">
-          <h2 className="text-lg font-bold text-gray-900 mb-4"></h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {/* Year Filter */}
-            <div>
-              <label className="block text-sm font-semibold text-gray-700 mb-2">
-                
-              </label>
-              <select
-                value={selectedYear}
-                onChange={(e) => setSelectedYear(e.target.value)}
-                className="w-full px-4 py-2 border-2 border-blue-300 rounded-lg focus:outline-none focus:border-blue-500"
-              >
-                {getAvailableYears(data).map(year => (
-                  <option key={year} value={year}>{year}</option>
-                ))}
-              </select>
-            </div>
-
-            {/* Region Filter */}
-            <div>
-              <label className="block text-sm font-semibold text-gray-700 mb-2">
-                
-              </label>
-              <select
-                value={selectedRegion}
-                onChange={(e) => setSelectedRegion(e.target.value)}
-                className="w-full px-4 py-2 border-2 border-blue-300 rounded-lg focus:outline-none focus:border-blue-500"
-              >
-                {regions.map(region => (
-                  <option key={region} value={region}>{region}</option>
-                ))}
-              </select>
-            </div>
-
-            {/* Type Filter */}
-            <div>
-              <label className="block text-sm font-semibold text-gray-700 mb-2">
-                 
-              </label>
-              <select
-                value={selectedType}
-                onChange={(e) => setSelectedType(e.target.value)}
-                className="w-full px-4 py-2 border-2 border-blue-300 rounded-lg focus:outline-none focus:border-blue-500"
-              >
-                {types.map(type => (
-                  <option key={type} value={type}>{type}</option>
-                ))}
-              </select>
-            </div>
-          </div>
-
-          {/* Result Count */}
-          <div className="mt-4 text-sm text-gray-600">
-             <strong className="text-blue-600">{filteredSchools.length}</strong> 
-          </div>
-        </div>
-
-        {/* Rankings List */}
-        <SchoolTable schools={filteredSchools} startRank={1} />
+    <div className="container mx-auto px-4 py-12 max-w-7xl">
+      {/* 헤더 */}
+      <div className="text-center mb-12">
+        <h1 className="text-4xl font-bold text-gray-800 mb-4">
+          MW 종합순위
+        </h1>
+        <p className="text-xl text-gray-600 mb-2">
+          전국 고등학교 서울대 + 의약계열 합격 실적 종합 순위
+        </p>
+        <p className="text-sm text-gray-500">
+          기간: {data.metadata.ranking_period} | 업데이트: {data.metadata.last_updated}
+        </p>
       </div>
-    </main>
+
+      {/* 설명 */}
+      <div className="bg-purple-50 border-l-4 border-purple-600 p-6 mb-8 max-w-4xl mx-auto">
+        <h2 className="font-bold text-purple-800 mb-2">📊 MW 종합순위란?</h2>
+        <p className="text-gray-700 text-sm">
+          서울대 합격자 수 + 의약계열 합격자 수를 합산한 종합 순위
+        </p>
+      </div>
+
+      {/* 순위 테이블 */}
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+        <div className="overflow-x-auto">
+          <table className="min-w-full divide-y divide-gray-200">
+            <thead className="bg-gray-50">
+              <tr>
+                <th className="px-6 py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  순위
+                </th>
+                <th className="px-6 py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  학교명
+                </th>
+                <th className="px-6 py-4 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
+                  MW 종합점수
+                </th>
+              </tr>
+            </thead>
+            <tbody className="bg-white divide-y divide-gray-200">
+              {data.rankings.map((school, index) => (
+                <tr 
+                  key={school.학교명}
+                  className={`hover:bg-gray-50 transition-colors ${
+                    index < 3 ? 'bg-yellow-50' : 
+                    index < 10 ? 'bg-blue-50' : ''
+                  }`}
+                >
+                  <td className="px-6 py-4 whitespace-nowrap">
+                    <div className="flex items-center">
+                      {index === 0 && <span className="text-2xl mr-2">🥇</span>}
+                      {index === 1 && <span className="text-2xl mr-2">🥈</span>}
+                      {index === 2 && <span className="text-2xl mr-2">🥉</span>}
+                      <span className={`text-sm font-bold ${index < 10 ? 'text-gray-900' : 'text-gray-700'}`}>
+                        {school.순위}위
+                      </span>
+                    </div>
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap">
+                    <div className={`text-sm font-medium ${index < 10 ? 'text-gray-900' : 'text-gray-700'}`}>
+                      {school.학교명}
+                    </div>
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap text-center">
+                    <div className={`text-lg font-bold ${
+                      index === 0 ? 'text-yellow-600' :
+                      index === 1 ? 'text-gray-500' :
+                      index === 2 ? 'text-orange-600' :
+                      index < 10 ? 'text-blue-600' :
+                      'text-gray-600'
+                    }`}>
+                      {school.종합점수}점
+                    </div>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      {/* 푸터 안내 */}
+      <div className="mt-8 text-center text-sm text-gray-500">
+        <p>총 {data.metadata.total_schools}개 고등학교</p>
+        <p className="mt-2">
+          * 서울대 = 2024~2026년 합격자 수 합계<br />
+          * 의약계열 = 의대 + 약대 + 치대 + 한의대 + 수의대
+        </p>
+      </div>
+    </div>
   );
 }
