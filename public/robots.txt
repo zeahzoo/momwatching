@@ -1,16 +1,15 @@
-# robots.txt for momwatching.com
-# 고등학교 입시 순위 - 서울대 진학 실적
-
-# Allow all search engines
 User-agent: *
 Allow: /
-
-# Disallow admin/private areas (if any)
-Disallow: /api/
-Disallow: /_next/
-
-# Sitemap location
 Sitemap: https://momwatching.com/sitemap.xml
 
-# Crawl-delay for respectful crawling
-Crawl-delay: 1
+# Disallow admin paths
+Disallow: /admin/
+Disallow: /api/
+
+# Allow all ranking pages
+Allow: /rankings
+Allow: /foreign-language-high
+Allow: /autonomous-high
+Allow: /news
+Allow: /seoul
+Allow: /medical
