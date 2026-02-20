@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '자율형사립고 순위 - MW 종합순위 | 엄마가 보고 있다',
-  description: '전국 자율형사립고등학교의 서울대 합격 실적 및 의약계열 합격 실적을 종합한 MW 순위입니다.',
+  description: '전국 자율형사립고등학교의 서울대 + 의약계열 합격 실적을 종합한 MW 순위입니다.',
   keywords: '자사고, 자율형사립고, 상산고, 휘문고, 하나고, 민사고, 서울대, 의대, 진학실적',
 };
 
@@ -50,7 +50,7 @@ export default async function AutonomousHighPage() {
           자율형사립고 순위
         </h1>
         <p className="text-xl text-gray-600 mb-2">
-          MW 종합순위 기준 (서울대 3개년 + 의약계열 합격 실적)
+          MW 종합순위 기준 (서울대 + 의약계열 합격 실적)
         </p>
         <p className="text-sm text-gray-500">
           기간: {data.metadata.ranking_period} | 업데이트: {data.metadata.last_updated}
@@ -61,7 +61,7 @@ export default async function AutonomousHighPage() {
       <div className="bg-green-50 border-l-4 border-green-600 p-6 mb-8 max-w-4xl mx-auto">
         <h2 className="font-bold text-green-800 mb-2">📊 MW 종합순위란?</h2>
         <p className="text-gray-700 text-sm">
-          서울대 합격자 수 (2024-2026 3개년) + 의약계열 합격자 수 (2025)를 합산한 종합 순위입니다.
+          서울대 합격자 수 + 의약계열 합격자 수를 합산한 종합 순위입니다.
         </p>
       </div>
 
@@ -84,10 +84,10 @@ export default async function AutonomousHighPage() {
                   전체 순위
                 </th>
                 <th className="px-6 py-4 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
-                  서울대<br />(3개년)
+                  서울대
                 </th>
                 <th className="px-6 py-4 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">
-                  의약계열<br />(2025)
+                  의약계열
                 </th>
               </tr>
             </thead>
@@ -145,8 +145,8 @@ export default async function AutonomousHighPage() {
       <div className="mt-8 text-center text-sm text-gray-500">
         <p>총 {data.metadata.total_schools}개 자율형사립고등학교</p>
         <p className="mt-2">
-          * 서울대 3개년 = 2024년 + 2025년 + 2026년 합격자 수<br />
-          * 의약계열 = 의대 + 약대 + 치대 + 한의대 + 수의대 (2025년)
+          * 서울대 = 2024~2026년 합격자 수 합계<br />
+          * 의약계열 = 의대 + 약대 + 치대 + 한의대 + 수의대
         </p>
       </div>
     </div>
