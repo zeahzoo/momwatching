@@ -1,0 +1,18 @@
+<?php
+header("HTTP/1.0 404 Not Found"); 
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>페이지를 표시할 수 없습니다</title>
+</head>
+<body topmargin="0" leftmargin="0">
+요청에 응답할 수 없습니다.<br/><br/>
+
+첫 페이지로 돌아가려면 <a href="/" target="_self" title="홈페이지메인으로 돌아가기" >이곳</a>을클릭하세요
+</body>
+</html>
+<?php
+exit;
+?>
