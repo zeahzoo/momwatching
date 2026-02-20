@@ -58,8 +58,11 @@ export default function RootLayout({
                 <span>엄마가 보고 있다</span>
               </Link>
               <div className="flex gap-6 items-center">
-                <Link href="/about" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors">
-                  About
+                <Link href="/news" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors">
+                  뉴스
+                </Link>
+                <Link href="/rankings" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors">
+                  종합순위
                 </Link>
                 <Link href="/foreign-language-high" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors">
                   외고 순위
@@ -67,14 +70,11 @@ export default function RootLayout({
                 <Link href="/autonomous-high" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors">
                   자사고 순위
                 </Link>
-                <Link href="/rankings" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors">
-                  전체 순위
-                </Link>
-                <Link href="/news" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors">
-                  뉴스
-                </Link>
                 <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors">
                   Contact
+                </Link>
+                <Link href="/about" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors">
+                  About
                 </Link>
               </div>
             </div>
