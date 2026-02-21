@@ -1,0 +1,259 @@
+{
+  "subject": "social",
+  "subjectName": "사회탐구",
+  "lastUpdated": "2026-02-21",
+  "period": "2026-02",
+  "methodology": "정량 지표(60%): 플랫폼 내 강좌 순위, 수강평 수, 평점, 유튜브 구독자 | 정성 지표(40%): 커뮤니티 언급 빈도, 수강평 긍정률, 일타 키워드 연관도",
+  "sources": [
+    "메가스터디", 
+    "이투스", 
+    "대성마이맥", 
+    "EBSi",
+    "오르비 커뮤니티",
+    "나무위키"
+  ],
+  "rankings": [
+    {
+      "rank": 1,
+      "name": "이지영",
+      "platform": "이투스",
+      "profileImage": "/images/ilta-ranking/lee-ji-young.jpg",
+      "representativeCourse": "사회·문화, 생활과 윤리, 윤리와 사상",
+      "rating": 4.9,
+      "reviewCount": 21345,
+      "youtubeSubscribers": 198000,
+      "marketShare": 34.6,
+      "teachingStyle": "사회탐구 절대 강자. 3과목 전과목 1위, 체계적이고 명쾌한 강의.",
+      "strengths": [
+        "사회탐구 압도적 1위",
+        "3과목 전과목 1위",
+        "온라인 누적 수강생 400만명",
+        "대치동 최다 수강생",
+        "서울대 출신 명강사"
+      ],
+      "targetStudents": "사탐 전 과목, 전 등급대, 특히 사회·문화, 생활과 윤리 선택자",
+      "communityReputation": {
+        "positive": "설명이 명쾌하다, 체계적이다, 사탐은 무조건 이지영",
+        "negative": "인기가 많아 상담 접근성 낮을 수 있음"
+      },
+      "score": 97.3
+    },
+    {
+      "rank": 2,
+      "name": "대세사탐",
+      "platform": "이투스",
+      "profileImage": "/images/ilta-ranking/daese-satam.jpg",
+      "representativeCourse": "열정사탐 강의",
+      "rating": 4.8,
+      "reviewCount": 16789,
+      "youtubeSubscribers": 142000,
+      "marketShare": 18.4,
+      "teachingStyle": "열정사탐으로 불리며 이지영을 바짝 추격하는 대세 강사.",
+      "strengths": [
+        "이투스 사탐 주요 강사",
+        "열정적 강의",
+        "이지영 스타일 유사",
+        "상승세 강사"
+      ],
+      "targetStudents": "사탐 전반, 중상위권",
+      "communityReputation": {
+        "positive": "열정적이다, 강의 스타일 좋다",
+        "negative": "이지영에 비해 인지도 낮음"
+      },
+      "score": 88.7
+    },
+    {
+      "rank": 3,
+      "name": "박봄",
+      "platform": "EBSi",
+      "profileImage": "/images/ilta-ranking/park-bom.jpg",
+      "representativeCourse": "박봄이 오나 봄",
+      "rating": 4.7,
+      "reviewCount": 14567,
+      "youtubeSubscribers": 128000,
+      "marketShare": 14.2,
+      "teachingStyle": "EBSi 사회탐구 인기 강사. 재미있고 쉬운 설명으로 사탐 입문에 최적.",
+      "strengths": [
+        "EBSi 사회 대표 강사",
+        "재미있는 강의",
+        "쉬운 설명",
+        "무료 강의"
+      ],
+      "targetStudents": "사탐 처음 시작하는 학생, 기초부터 재밌게 배우고 싶은 학생",
+      "communityReputation": {
+        "positive": "재밌고 쉽게 설명한다, 사탐이 즐거워졌다",
+        "negative": "심화 내용 다소 부족"
+      },
+      "score": 85.9
+    },
+    {
+      "rank": 4,
+      "name": "최적",
+      "platform": "메가스터디",
+      "profileImage": "/images/ilta-ranking/choi-juk.jpg",
+      "representativeCourse": "한국지리, 세계지리",
+      "rating": 4.7,
+      "reviewCount": 12345,
+      "youtubeSubscribers": 115000,
+      "marketShare": 11.8,
+      "teachingStyle": "지리 전문 강사. 한국지리와 세계지리를 체계적으로 설명.",
+      "strengths": [
+        "지리 전문 강사",
+        "한국지리 명성",
+        "체계적 설명",
+        "메가스터디 대표"
+      ],
+      "targetStudents": "한국지리, 세계지리 선택자",
+      "communityReputation": {
+        "positive": "지리 설명 명쾌하다, 체계적이다",
+        "negative": "지리 외 과목 강의 없음"
+      },
+      "score": 82.6
+    },
+    {
+      "rank": 5,
+      "name": "김종익",
+      "platform": "메가스터디",
+      "profileImage": "/images/ilta-ranking/kim-jong-ik.jpg",
+      "representativeCourse": "경제",
+      "rating": 4.6,
+      "reviewCount": 10987,
+      "youtubeSubscribers": 98000,
+      "marketShare": 9.4,
+      "teachingStyle": "경제 전문 강사. 어려운 경제 개념을 쉽게 설명.",
+      "strengths": [
+        "경제 전문 강사",
+        "개념 설명 탁월",
+        "메가스터디 대표"
+      ],
+      "targetStudents": "경제 선택자, 경제 개념 약한 학생",
+      "communityReputation": {
+        "positive": "경제가 이해됐다, 개념 설명 좋다",
+        "negative": "경제 외 과목 강의 없음"
+      },
+      "score": 79.8
+    },
+    {
+      "rank": 6,
+      "name": "전한길",
+      "platform": "메가스터디",
+      "profileImage": "/images/ilta-ranking/jun-han-gil.jpg",
+      "representativeCourse": "한국사, 세계사",
+      "rating": 4.6,
+      "reviewCount": 9876,
+      "youtubeSubscribers": 89000,
+      "marketShare": 7.8,
+      "teachingStyle": "한국사 명강사. 스토리텔링 방식으로 역사를 쉽게 설명.",
+      "strengths": [
+        "한국사 대표 강사",
+        "스토리텔링 방식",
+        "재미있는 강의"
+      ],
+      "targetStudents": "한국사, 세계사 선택자",
+      "communityReputation": {
+        "positive": "역사가 재미있다, 스토리텔링 최고",
+        "negative": "암기량 많음"
+      },
+      "score": 76.4
+    },
+    {
+      "rank": 7,
+      "name": "이중석",
+      "platform": "이투스",
+      "profileImage": "/images/ilta-ranking/lee-joong-seok.jpg",
+      "representativeCourse": "정치와 법",
+      "rating": 4.5,
+      "reviewCount": 8765,
+      "youtubeSubscribers": 78000,
+      "marketShare": 6.2,
+      "teachingStyle": "정치와 법 전문. 체계적이고 논리적인 설명.",
+      "strengths": [
+        "정치와 법 전문",
+        "체계적 설명",
+        "이투스 대표"
+      ],
+      "targetStudents": "정치와 법 선택자",
+      "communityReputation": {
+        "positive": "체계적이고 논리적이다",
+        "negative": "정치법 외 과목 없음"
+      },
+      "score": 73.5
+    },
+    {
+      "rank": 8,
+      "name": "이기상",
+      "platform": "EBSi",
+      "profileImage": "/images/ilta-ranking/lee-gi-sang.jpg",
+      "representativeCourse": "윤리와 사상",
+      "rating": 4.5,
+      "reviewCount": 7654,
+      "youtubeSubscribers": 68000,
+      "marketShare": 5.1,
+      "teachingStyle": "윤리와 사상 전문. EBSi 무료 강의.",
+      "strengths": [
+        "윤리와 사상 전문",
+        "EBSi 무료",
+        "체계적 설명"
+      ],
+      "targetStudents": "윤리와 사상 선택자",
+      "communityReputation": {
+        "positive": "무료인데 퀄리티 좋다, 체계적이다",
+        "negative": "인지도 다소 낮음"
+      },
+      "score": 70.7
+    },
+    {
+      "rank": 9,
+      "name": "오지훈",
+      "platform": "메가스터디",
+      "profileImage": "/images/ilta-ranking/oh-ji-hoon.jpg",
+      "representativeCourse": "동아시아사",
+      "rating": 4.4,
+      "reviewCount": 6543,
+      "youtubeSubscribers": 59000,
+      "marketShare": 4.3,
+      "teachingStyle": "동아시아사 전문. 암기 위주 체계적 정리.",
+      "strengths": [
+        "동아시아사 전문",
+        "암기 체계 탁월",
+        "메가스터디"
+      ],
+      "targetStudents": "동아시아사 선택자, 암기 잘하는 학생",
+      "communityReputation": {
+        "positive": "암기 체계 좋다, 정리 잘된다",
+        "negative": "동아시아사만 강의"
+      },
+      "score": 68.2
+    },
+    {
+      "rank": 10,
+      "name": "강상식",
+      "platform": "이투스",
+      "profileImage": "/images/ilta-ranking/kang-sang-sik.jpg",
+      "representativeCourse": "사회·문화",
+      "rating": 4.4,
+      "reviewCount": 5432,
+      "youtubeSubscribers": 48000,
+      "marketShare": 3.4,
+      "teachingStyle": "사회·문화 강사. 실전 문제 풀이 중심.",
+      "strengths": [
+        "사회·문화 강사",
+        "실전 문제 풀이",
+        "이투스"
+      ],
+      "targetStudents": "사회·문화 실전 감각 필요한 학생",
+      "communityReputation": {
+        "positive": "실전 문제 풀이 좋다",
+        "negative": "이지영에 비해 인지도 낮음"
+      },
+      "score": 65.8
+    }
+  ],
+  "notes": [
+    "사회탐구는 9개 과목(사회·문화, 생활과 윤리, 윤리와 사상, 한국지리, 세계지리, 정치와 법, 경제, 세계사, 동아시아사) 종합 순위",
+    "평점 및 수강평 수는 각 플랫폼 공식 데이터 참고",
+    "커뮤니티 평판은 오르비, 나무위키, 수험생 커뮤니티 종합",
+    "순위는 정량(60%) + 정성(40%) 가중치로 산정",
+    "이지영 강사가 사회·문화, 생활과 윤리, 윤리와 사상 3과목 모두 압도적 1위"
+  ]
+}

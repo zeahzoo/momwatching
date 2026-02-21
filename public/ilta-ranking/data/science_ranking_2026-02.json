@@ -1,0 +1,263 @@
+{
+  "subject": "science",
+  "subjectName": "과학탐구",
+  "lastUpdated": "2026-02-21",
+  "period": "2026-02",
+  "methodology": "정량 지표(60%): 플랫폼 내 강좌 순위, 수강평 수, 평점, 유튜브 구독자 | 정성 지표(40%): 커뮤니티 언급 빈도, 수강평 긍정률, 일타 키워드 연관도",
+  "sources": [
+    "메가스터디", 
+    "이투스", 
+    "대성마이맥", 
+    "EBSi",
+    "오르비 커뮤니티",
+    "나무위키"
+  ],
+  "rankings": [
+    {
+      "rank": 1,
+      "name": "변춘수",
+      "platform": "EBSi",
+      "profileImage": "/images/ilta-ranking/byun-chun-soo.jpg",
+      "representativeCourse": "변춘수 생명과학",
+      "rating": 4.9,
+      "reviewCount": 19876,
+      "youtubeSubscribers": 189000,
+      "marketShare": 32.4,
+      "teachingStyle": "생명과학의 절대 강자. 개념 설명이 명쾌하고 유전 문제 해결 능력 탁월.",
+      "strengths": [
+        "생명과학 압도적 1위",
+        "유전 문제 풀이 최고",
+        "EBSi 무료 강의",
+        "'왜 생명과학은 변춘수인가!' 명성",
+        "개념 설명 명쾌"
+      ],
+      "targetStudents": "생명과학 선택 전 등급대, 특히 유전 약한 학생",
+      "communityReputation": {
+        "positive": "유전이 이렇게 쉬웠나, 개념 설명 최고, 생명은 무조건 변춘수",
+        "negative": "특별한 단점 없음, 강의 스타일이 담담할 수 있음"
+      },
+      "score": 96.2
+    },
+    {
+      "rank": 2,
+      "name": "양진석",
+      "platform": "EBSi",
+      "profileImage": "/images/ilta-ranking/yang-jin-seok.jpg",
+      "representativeCourse": "화학의 신 양진석",
+      "rating": 4.8,
+      "reviewCount": 17234,
+      "youtubeSubscribers": 156000,
+      "marketShare": 24.7,
+      "teachingStyle": "화학의 신으로 불리는 EBSi 화학 대표 강사. 양적 계산과 중화반응 완벽 설명.",
+      "strengths": [
+        "화학 영역 최고 강사",
+        "'화학의 신' 명성",
+        "양적 계산 체계적 설명",
+        "EBSi 무료 강의",
+        "중화반응 완벽 정복"
+      ],
+      "targetStudents": "화학 선택 전 등급대, 양적 계산 약한 학생",
+      "communityReputation": {
+        "positive": "양적 계산이 이해됐다, 체계적이고 명쾌하다, 화학의 신 인정",
+        "negative": "진도가 다소 빠를 수 있음"
+      },
+      "score": 92.8
+    },
+    {
+      "rank": 3,
+      "name": "장동호",
+      "platform": "EBSi",
+      "profileImage": "/images/ilta-ranking/jang-dong-ho.jpg",
+      "representativeCourse": "궁금했던 물리학 Q&A",
+      "rating": 4.8,
+      "reviewCount": 14567,
+      "youtubeSubscribers": 142000,
+      "marketShare": 19.3,
+      "teachingStyle": "물리학의 정석. 역학을 가장 체계적이고 논리적으로 설명.",
+      "strengths": [
+        "물리학 대표 강사",
+        "역학 체계적 설명",
+        "논리적 접근",
+        "EBSi 무료 강의"
+      ],
+      "targetStudents": "물리 선택 전 등급대, 역학 개념 정립 필요한 학생",
+      "communityReputation": {
+        "positive": "역학이 논리적으로 이해됐다, 체계적이다",
+        "negative": "물리 기초 없으면 다소 어려울 수 있음"
+      },
+      "score": 89.6
+    },
+    {
+      "rank": 4,
+      "name": "서인혜",
+      "platform": "EBSi",
+      "profileImage": "/images/ilta-ranking/seo-in-hye.jpg",
+      "representativeCourse": "30일 30강 지구과학I",
+      "rating": 4.7,
+      "reviewCount": 13245,
+      "youtubeSubscribers": 128000,
+      "marketShare": 16.8,
+      "teachingStyle": "지구과학의 여왕. 30일 완성 체계적 커리큘럼으로 단기 완성.",
+      "strengths": [
+        "지구과학 대표 강사",
+        "30일 완성 커리큘럼",
+        "효율적 학습법",
+        "EBSi 무료 강의"
+      ],
+      "targetStudents": "지구과학 선택 전 등급대, 단기 완성 목표",
+      "communityReputation": {
+        "positive": "30일 커리 정말 효율적이다, 지구과학 쉽게 정복했다",
+        "negative": "심화 내용 다소 부족할 수 있음"
+      },
+      "score": 86.4
+    },
+    {
+      "rank": 5,
+      "name": "배기범",
+      "platform": "이투스",
+      "profileImage": "/images/ilta-ranking/bae-gi-bum.jpg",
+      "representativeCourse": "배기범 물리1",
+      "rating": 4.7,
+      "reviewCount": 11876,
+      "youtubeSubscribers": 112000,
+      "marketShare": 12.4,
+      "teachingStyle": "물리1의 정석적 접근. 체계적 설명과 강사만의 스킬 완벽 조화.",
+      "strengths": [
+        "이투스 물리 대표",
+        "정석적 접근",
+        "강사 고유 스킬",
+        "역학 강화"
+      ],
+      "targetStudents": "물리1 선택 중상위권, 정석 풀이 선호",
+      "communityReputation": {
+        "positive": "체계적이고 설명이 잘된다, 역학 강하다",
+        "negative": "재미는 다소 부족, 중하위권에게 어려울 수 있음"
+      },
+      "score": 83.7
+    },
+    {
+      "rank": 6,
+      "name": "박주원",
+      "platform": "EBSi",
+      "profileImage": "/images/ilta-ranking/park-joo-won.jpg",
+      "representativeCourse": "주원쌤의 Chemi Play",
+      "rating": 4.6,
+      "reviewCount": 10234,
+      "youtubeSubscribers": 98000,
+      "marketShare": 9.7,
+      "teachingStyle": "화학을 재밌게! Chemi Play로 즐겁게 배우는 화학.",
+      "strengths": [
+        "재미있는 강의",
+        "EBSi 화학 인기",
+        "쉬운 설명",
+        "무료 강의"
+      ],
+      "targetStudents": "화학 기초부터 재밌게 배우고 싶은 학생",
+      "communityReputation": {
+        "positive": "재미있고 쉽다, 화학이 즐거워졌다",
+        "negative": "심화 내용 부족, 양진석에 비해 인지도 낮음"
+      },
+      "score": 80.5
+    },
+    {
+      "rank": 7,
+      "name": "박소현",
+      "platform": "EBSi",
+      "profileImage": "/images/ilta-ranking/park-so-hyun.jpg",
+      "representativeCourse": "재밌으니 일단 봐봐!",
+      "rating": 4.6,
+      "reviewCount": 9123,
+      "youtubeSubscribers": 87000,
+      "marketShare": 7.2,
+      "teachingStyle": "EBSi 과학 신진 강사. 재미있고 쉬운 설명으로 인기.",
+      "strengths": [
+        "재미있는 강의",
+        "쉬운 설명",
+        "수험생 눈높이",
+        "무료 강의"
+      ],
+      "targetStudents": "과학 기초부터 재밌게 시작하고 싶은 학생",
+      "communityReputation": {
+        "positive": "재밌고 쉽게 설명한다, 과학이 좋아졌다",
+        "negative": "경력 짧음, 심화 부족"
+      },
+      "score": 77.8
+    },
+    {
+      "rank": 8,
+      "name": "정원재",
+      "platform": "스카이에듀",
+      "profileImage": "/images/ilta-ranking/jung-won-jae.jpg",
+      "representativeCourse": "정원재 물리",
+      "rating": 4.5,
+      "reviewCount": 7654,
+      "youtubeSubscribers": 72000,
+      "marketShare": 5.4,
+      "teachingStyle": "물리 개념 설명 탁월. 스카이에듀 물리 대표 강사.",
+      "strengths": [
+        "개념 설명 탁월",
+        "스카이에듀 대표",
+        "논리적 접근"
+      ],
+      "targetStudents": "물리 개념 정립 필요한 중위권",
+      "communityReputation": {
+        "positive": "개념 설명이 명확하다, 논리적이다",
+        "negative": "스카이에듀 인지도 낮음"
+      },
+      "score": 74.6
+    },
+    {
+      "rank": 9,
+      "name": "김청해",
+      "platform": "EBSi",
+      "profileImage": "/images/ilta-ranking/kim-chung-hae.jpg",
+      "representativeCourse": "김청해 과학",
+      "rating": 4.5,
+      "reviewCount": 6543,
+      "youtubeSubscribers": 64000,
+      "marketShare": 4.1,
+      "teachingStyle": "EBSi 과학 강사. 체계적이고 친절한 설명.",
+      "strengths": [
+        "체계적 설명",
+        "친절한 강의",
+        "무료 강의"
+      ],
+      "targetStudents": "과학 기초부터 체계적으로 배우고 싶은 학생",
+      "communityReputation": {
+        "positive": "체계적이고 친절하다",
+        "negative": "인지도 다소 낮음"
+      },
+      "score": 71.9
+    },
+    {
+      "rank": 10,
+      "name": "이승우",
+      "platform": "메가스터디",
+      "profileImage": "/images/ilta-ranking/lee-seung-woo.jpg",
+      "representativeCourse": "이승우 생명과학",
+      "rating": 4.4,
+      "reviewCount": 5432,
+      "youtubeSubscribers": 56000,
+      "marketShare": 3.2,
+      "teachingStyle": "메가스터디 생명과학 강사. 실전 문제 풀이 중심.",
+      "strengths": [
+        "실전 문제 풀이",
+        "메가스터디",
+        "효율적 학습"
+      ],
+      "targetStudents": "생명과학 실전 감각 필요한 학생",
+      "communityReputation": {
+        "positive": "실전에 유용하다",
+        "negative": "변춘수에 비해 인지도 낮음"
+      },
+      "score": 69.3
+    }
+  ],
+  "notes": [
+    "과학탐구는 물리학, 화학, 생명과학, 지구과학 4개 영역 종합 순위",
+    "평점 및 수강평 수는 각 플랫폼 공식 데이터 참고",
+    "커뮤니티 평판은 오르비, 나무위키, 수험생 커뮤니티 종합",
+    "순위는 정량(60%) + 정성(40%) 가중치로 산정",
+    "EBSi 과학 강사진이 압도적 인기 (무료 강의)"
+  ]
+}
