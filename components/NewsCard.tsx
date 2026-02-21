@@ -32,7 +32,7 @@ export default function NewsCard({ article }: NewsCardProps) {
             {article.summary}
           </p>
           <div className="flex flex-wrap gap-2">
-            {article.keywords.slice(0, 3).map((keyword) => (
+            {article.keywords && article.keywords.slice(0, 3).map((keyword) => (
               <span
                 key={keyword}
                 className="text-xs px-2 py-1 bg-blue-100 text-blue-700 rounded"

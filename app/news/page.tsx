@@ -8,6 +8,10 @@ async function getNewsData(): Promise<NewsArticle[]> {
     const filePath = path.join(process.cwd(), 'public', 'data', 'news.json');
     const fileContents = await fs.readFile(filePath, 'utf8');
     const articles = JSON.parse(fileContents);
+    if (!Array.isArray(articles)) {
+      console.error('news.json is not an array');
+      return [];
+    }
     // Sort by date, newest first
     return articles.sort((a: NewsArticle, b: NewsArticle) => 
       new Date(b.date).getTime() - new Date(a.date).getTime()

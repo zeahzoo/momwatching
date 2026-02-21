@@ -9,6 +9,10 @@ async function getLatestNews(): Promise<NewsArticle[]> {
     const filePath = path.join(process.cwd(), 'public', 'data', 'news.json');
     const fileContents = await fs.readFile(filePath, 'utf8');
     const articles = JSON.parse(fileContents);
+    if (!Array.isArray(articles)) {
+      console.error('news.json is not an array');
+      return [];
+    }
     return articles.sort((a: NewsArticle, b: NewsArticle) => 
       new Date(b.date).getTime() - new Date(a.date).getTime()
     ).slice(0, 6);
@@ -29,6 +33,10 @@ async function getMWTopRankings(): Promise<MWRanking[]> {
     const filePath = path.join(process.cwd(), 'public', 'data', 'mw-overall-ranking.json');
     const fileContents = await fs.readFile(filePath, 'utf8');
     const data = JSON.parse(fileContents);
+    if (!data || !Array.isArray(data.rankings)) {
+      console.error('mw-overall-ranking.json is invalid');
+      return [];
+    }
     return data.rankings.slice(0, 10);
   } catch (error) {
     console.error('Error loading MW rankings:', error);

@@ -1,0 +1,255 @@
+{
+  "subject": "math",
+  "subjectName": "수학",
+  "lastUpdated": "2026-02-21",
+  "period": "2026-02",
+  "methodology": "정량 지표(60%): 플랫폼 내 강좌 순위, 수강평 수, 평점, 유튜브 구독자 | 정성 지표(40%): 커뮤니티 언급 빈도, 수강평 긍정률, 일타 키워드 연관도",
+  "sources": [
+    "메가스터디", 
+    "이투스", 
+    "대성마이맥", 
+    "EBSi",
+    "오르비 커뮤니티",
+    "나무위키",
+    "유웨이 설문조사"
+  ],
+  "rankings": [
+    {
+      "rank": 1,
+      "name": "현우진",
+      "platform": "메가스터디",
+      "profileImage": "/images/ilta-ranking/hwang-woo-jin.jpg",
+      "representativeCourse": "뉴런(Newrun) 수학",
+      "rating": 4.9,
+      "reviewCount": 15234,
+      "youtubeSubscribers": 182000,
+      "marketShare": 39.8,
+      "teachingStyle": "도구 정리의 정점. 수능 수학의 표준을 제시하는 체계적이고 효율적인 강의.",
+      "strengths": [
+        "독보적인 컨텐츠 '뉴런'",
+        "압도적인 시장 점유율 (39.8%)",
+        "상위권 학생들의 압도적 선호"
+      ],
+      "targetStudents": "수학 1-2등급 목표, 기초가 탄탄한 상위권",
+      "communityReputation": {
+        "positive": "천재적이다, 풀이가 깔끔하다, 뉴런만 따라가면 된다",
+        "negative": "초보자에게는 너무 어려움, 입문 난도 높음"
+      },
+      "score": 95.2
+    },
+    {
+      "rank": 2,
+      "name": "정승제",
+      "platform": "이투스",
+      "profileImage": "/images/ilta-ranking/jung-seung-je.jpg",
+      "representativeCourse": "수학의 왕도, 50일 수학",
+      "rating": 4.8,
+      "reviewCount": 14567,
+      "youtubeSubscribers": 156000,
+      "marketShare": 18.2,
+      "teachingStyle": "수포자부터 상위권까지 아우르는 흡입력. 개념 원리를 가장 쉽게 설명.",
+      "strengths": [
+        "수포자 구세주로 불림",
+        "사칙연산부터 모든 과정 설명",
+        "EBSi + 사설 양쪽 인기",
+        "2026 브랜드 대상 수상"
+      ],
+      "targetStudents": "수포자부터 중위권, 기초부터 다시 시작하고 싶은 학생",
+      "communityReputation": {
+        "positive": "개념 원리 이해가 쉽다, 동기부여 확실, 친절한 설명",
+        "negative": "상위권에게는 다소 느릴 수 있음"
+      },
+      "score": 88.7
+    },
+    {
+      "rank": 3,
+      "name": "배성민",
+      "platform": "대성마이맥",
+      "profileImage": "/images/ilta-ranking/bae-seong-min.jpg",
+      "representativeCourse": "기어시(Gearsi), 실전개념",
+      "rating": 4.7,
+      "reviewCount": 11234,
+      "youtubeSubscribers": 98000,
+      "marketShare": 7.6,
+      "teachingStyle": "실전 개념 빌드업. 최신 수능 기조에 맞는 효율적인 풀이 강조.",
+      "strengths": [
+        "준킬러 대비 최고",
+        "실전 스킬 중심",
+        "2026 수능 트렌드 반영"
+      ],
+      "targetStudents": "2-3등급에서 1등급 도약, 실전 감각 중요시",
+      "communityReputation": {
+        "positive": "스킬이 매우 실전적, 준킬러 대비 완벽",
+        "negative": "기초 부족하면 따라가기 힘듦"
+      },
+      "score": 82.4
+    },
+    {
+      "rank": 4,
+      "name": "한석원",
+      "platform": "대성마이맥",
+      "profileImage": "/images/ilta-ranking/han-seok-won.jpg",
+      "representativeCourse": "한석원 수학",
+      "rating": 4.7,
+      "reviewCount": 9876,
+      "youtubeSubscribers": 72000,
+      "marketShare": 9.0,
+      "teachingStyle": "정석적인 풀이와 집요한 논리. 깊은 사고력 배양.",
+      "strengths": [
+        "깊은생각 학원 계열",
+        "정석 풀이 중시",
+        "내신+수능 동시 대비"
+      ],
+      "targetStudents": "논리적 사고력 키우고 싶은 중상위권",
+      "communityReputation": {
+        "positive": "깊이 있는 이해, 정석 풀이",
+        "negative": "시간이 오래 걸림"
+      },
+      "score": 79.8
+    },
+    {
+      "rank": 5,
+      "name": "이미지",
+      "platform": "대성마이맥",
+      "profileImage": "/images/ilta-ranking/lee-mi-ji.jpg",
+      "representativeCourse": "세상에서 제일 쉬운 수학(세젤쉬)",
+      "rating": 4.8,
+      "reviewCount": 10234,
+      "youtubeSubscribers": 89000,
+      "marketShare": 5.0,
+      "teachingStyle": "기초부터 탄탄히. 가장 이해하기 쉬운 설명.",
+      "strengths": [
+        "2026년 대성마이맥 수학 1위",
+        "기초 친화적",
+        "세젤쉬 시리즈 인기"
+      ],
+      "targetStudents": "기초가 부족한 3-4등급, 수포자 탈출",
+      "communityReputation": {
+        "positive": "이해하기 쉽고 친절, 기초 학생 구원자",
+        "negative": "상위권에게는 다소 쉬움"
+      },
+      "score": 78.2
+    },
+    {
+      "rank": 6,
+      "name": "양승진",
+      "platform": "메가스터디",
+      "profileImage": "/images/ilta-ranking/yang-seung-jin.jpg",
+      "representativeCourse": "양승진 수학",
+      "rating": 4.6,
+      "reviewCount": 7654,
+      "youtubeSubscribers": 54000,
+      "marketShare": 4.7,
+      "teachingStyle": "빠른 풀이와 효율성 중시. 시간 관리 전략.",
+      "strengths": [
+        "효율적 풀이",
+        "시간 관리 노하우",
+        "메가스터디 주요 강사"
+      ],
+      "targetStudents": "시간 부족한 중상위권, 효율 중시",
+      "communityReputation": {
+        "positive": "빠른 풀이, 효율적",
+        "negative": "개념 설명은 다소 약함"
+      },
+      "score": 74.5
+    },
+    {
+      "rank": 7,
+      "name": "이강민",
+      "platform": "메가스터디",
+      "profileImage": "/images/ilta-ranking/lee-kang-min.jpg",
+      "representativeCourse": "기하와 벡터 특화",
+      "rating": 4.7,
+      "reviewCount": 6789,
+      "youtubeSubscribers": 48000,
+      "marketShare": 3.8,
+      "teachingStyle": "명쾌하고 논리적. 기하 분야 전문.",
+      "strengths": [
+        "기하 분야 명성",
+        "논리적 강의",
+        "고등 수학 전문"
+      ],
+      "targetStudents": "기하 선택자, 논리적 접근 선호",
+      "communityReputation": {
+        "positive": "기하 최고, 명쾌한 설명",
+        "negative": "다른 영역 대비 기하 특화"
+      },
+      "score": 72.1
+    },
+    {
+      "rank": 8,
+      "name": "김성용",
+      "platform": "대성마이맥",
+      "profileImage": "/images/ilta-ranking/kim-seong-yong.jpg",
+      "representativeCourse": "수능 수학의 정석",
+      "rating": 4.6,
+      "reviewCount": 5432,
+      "youtubeSubscribers": 42000,
+      "marketShare": 3.2,
+      "teachingStyle": "체계적이고 단계별 학습. 정석 중시.",
+      "strengths": [
+        "체계적 커리큘럼",
+        "단계별 학습",
+        "정석 풀이"
+      ],
+      "targetStudents": "체계적 학습 선호, 중위권",
+      "communityReputation": {
+        "positive": "체계적, 단계별 접근",
+        "negative": "특별한 스킬은 부족"
+      },
+      "score": 69.8
+    },
+    {
+      "rank": 9,
+      "name": "엄선경",
+      "platform": "메가스터디",
+      "profileImage": "/images/ilta-ranking/eom-seon-kyung.jpg",
+      "representativeCourse": "중위권 특화 수학",
+      "rating": 4.7,
+      "reviewCount": 6123,
+      "youtubeSubscribers": 51000,
+      "marketShare": 3.5,
+      "teachingStyle": "중위권 수험생을 위한 맞춤 강의. 핵심 콕콕.",
+      "strengths": [
+        "중위권 특화",
+        "핵심 정리 탁월",
+        "진학사 Best 강사"
+      ],
+      "targetStudents": "2-3등급 중위권, 핵심만 빠르게",
+      "communityReputation": {
+        "positive": "중위권에게 최적화, 핵심 정리 잘함",
+        "negative": "상위권에게는 부족"
+      },
+      "score": 68.4
+    },
+    {
+      "rank": 10,
+      "name": "김성은",
+      "platform": "메가스터디",
+      "profileImage": "/images/ilta-ranking/kim-seong-eun.jpg",
+      "representativeCourse": "김성은 수학",
+      "rating": 4.5,
+      "reviewCount": 4567,
+      "youtubeSubscribers": 38000,
+      "marketShare": 2.9,
+      "teachingStyle": "친절하고 세심한 설명. 기초 다지기.",
+      "strengths": [
+        "연세대 석사",
+        "친절한 설명",
+        "기초 다지기"
+      ],
+      "targetStudents": "기초 다지기, 3-4등급",
+      "communityReputation": {
+        "positive": "친절, 세심함",
+        "negative": "인지도 다소 낮음"
+      },
+      "score": 65.7
+    }
+  ],
+  "notes": [
+    "시장 점유율은 2026년 유웨이 설문조사 기준",
+    "평점 및 수강평 수는 각 플랫폼 공식 데이터 참고",
+    "커뮤니티 평판은 오르비, 나무위키, 수험생 커뮤니티 종합",
+    "순위는 정량(60%) + 정성(40%) 가중치로 산정"
+  ]
+}
