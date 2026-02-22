@@ -35,9 +35,6 @@ export default function Navigation() {
             <Link href="/news" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors whitespace-nowrap">
               뉴스
             </Link>
-            <Link href="/ilta-ranking" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors whitespace-nowrap">
-              일타강사
-            </Link>
             <Link href="/rankings" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors whitespace-nowrap">
               종합순위
             </Link>
@@ -46,6 +43,9 @@ export default function Navigation() {
             </Link>
             <Link href="/autonomous-high" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors whitespace-nowrap">
               자사고순위
+            </Link>
+            <Link href="/ilta-ranking" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors whitespace-nowrap">
+              일타강사
             </Link>
             <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors whitespace-nowrap">
               Contact
@@ -98,13 +98,6 @@ export default function Navigation() {
                 뉴스
               </Link>
               <Link 
-                href="/ilta-ranking" 
-                className="text-gray-700 hover:text-blue-600 font-semibold transition-colors py-2 px-3 hover:bg-blue-50 rounded"
-                onClick={closeMenu}
-              >
-                일타강사
-              </Link>
-              <Link 
                 href="/rankings" 
                 className="text-gray-700 hover:text-blue-600 font-semibold transition-colors py-2 px-3 hover:bg-blue-50 rounded"
                 onClick={closeMenu}
@@ -124,6 +117,13 @@ export default function Navigation() {
                 onClick={closeMenu}
               >
                 자사고순위
+              </Link>
+              <Link 
+                href="/ilta-ranking" 
+                className="text-gray-700 hover:text-blue-600 font-semibold transition-colors py-2 px-3 hover:bg-blue-50 rounded"
+                onClick={closeMenu}
+              >
+                일타강사
               </Link>
               <Link 
                 href="/contact" 
