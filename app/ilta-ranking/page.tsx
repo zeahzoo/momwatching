@@ -20,33 +20,33 @@ const subjects = [
     id: 'english',
     name: '영어',
     emoji: '📚',
-    description: '이명학, 주혜연, 조정식 등 영어 일타 강사 Top 10',
+    description: '이명학, 조정식, 주혜연 등 영어 일타 강사 Top 10',
     color: 'bg-green-500',
-    available: false
+    available: true
   },
   {
     id: 'korean',
     name: '국어',
     emoji: '✍️',
-    description: '강민철, 김승리, 유대종 등 국어 일타 강사 Top 10',
+    description: '윤혜정, 이원준, 장동준 등 국어 일타 강사 Top 10',
     color: 'bg-purple-500',
-    available: false
+    available: true
   },
   {
     id: 'science',
     name: '과탐',
     emoji: '🔬',
-    description: '물리, 화학, 생명, 지구과학 일타 강사 Top 10',
+    description: '변춘수, 양진석, 장동호 등 과탐 일타 강사 Top 10',
     color: 'bg-orange-500',
-    available: false
+    available: true
   },
   {
     id: 'social',
     name: '사탐',
     emoji: '🌍',
-    description: '사회문화, 윤리, 지리, 역사, 경제 일타 강사 Top 10',
+    description: '이지영, 대세사탐, 박봄 등 사탐 일타 강사 Top 10',
     color: 'bg-red-500',
-    available: false
+    available: true
   }
 ]
 
