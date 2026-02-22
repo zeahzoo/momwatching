@@ -47,6 +47,9 @@ export default function Navigation() {
             <Link href="/ilta-ranking" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors whitespace-nowrap">
               일타강사
             </Link>
+            <Link href="/consulting" className="text-orange-600 hover:text-orange-700 font-semibold transition-colors whitespace-nowrap">
+              상담신청
+            </Link>
             <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-semibold transition-colors whitespace-nowrap">
               Contact
             </Link>
@@ -124,6 +127,13 @@ export default function Navigation() {
                 onClick={closeMenu}
               >
                 일타강사
+              </Link>
+              <Link 
+                href="/consulting" 
+                className="text-orange-600 hover:text-orange-700 font-semibold transition-colors py-2 px-3 hover:bg-orange-50 rounded"
+                onClick={closeMenu}
+              >
+                상담신청
               </Link>
               <Link 
                 href="/contact" 
