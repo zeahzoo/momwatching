@@ -81,6 +81,12 @@ export default async function Home() {
             >
               🎓 자사고 순위
             </Link>
+            <Link 
+              href="/ilta-ranking"
+              className="px-6 py-3 bg-gradient-to-r from-orange-600 to-red-600 text-white rounded-xl hover:shadow-lg transition-all font-semibold"
+            >
+              🔥 일타강사
+            </Link>
           </div>
         </header>
 
