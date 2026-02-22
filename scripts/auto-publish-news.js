@@ -49,8 +49,11 @@ async function main() {
     const { execSync } = require('child_process');
     const workDir = path.join(__dirname, '..');
     
+    // 제목에서 따옴표 제거 및 이스케이프
+    const safeTitle = articleToPublish.title.replace(/['"]/g, '');
+    
     execSync('git add public/data/news.json public/data/news-queue.json', { cwd: workDir });
-    execSync(`git commit -m "Auto-publish: ${articleToPublish.title}"`, { cwd: workDir });
+    execSync(`git commit -m "Auto-publish: ${safeTitle}"`, { cwd: workDir });
     execSync('git push origin main', { cwd: workDir });
 
     console.log(`✅ 발행 완료: ${articleToPublish.title}`);
