@@ -44,7 +44,7 @@ const subjects = [
     id: 'social',
     name: '사탐',
     emoji: '🌍',
-    description: '이지영, 대세사탐, 박봄 등 사탐 일타 강사 Top 10',
+    description: '이지영, 대세사탐, 박봄 등 사탐 일타 강사 Top 9',
     color: 'bg-red-500',
     available: true
   }

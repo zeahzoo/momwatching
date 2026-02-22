@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: '사회탐구 일타 강사 순위 Top 10 - 2026년 2월 | momwatching.com',
-  description: '2026년 최신 사회탐구 일타 강사 순위. 이지영, 대세사탐, 박봄 등 Top 10 강사의 강의 스타일, 추천 대상, 수강평을 비교 분석합니다.',
+  title: '사회탐구 일타 강사 순위 Top 9 - 2026년 2월 | momwatching.com',
+  description: '2026년 최신 사회탐구 일타 강사 순위. 이지영, 대세사탐, 박봄 등 Top 9 강사의 강의 스타일, 추천 대상, 수강평을 비교 분석합니다.',
   keywords: '일타강사, 사탐강사, 이지영, 이투스, EBSi, 사회문화, 생활과윤리, 한국지리, 정치와법'
 }
 
@@ -56,7 +56,7 @@ export default async function SocialRankingPage() {
             ← 일타 강사 순위 홈
           </Link>
           <h1 className="text-4xl font-bold text-gray-900 mb-2">
-            사회탐구 일타 강사 순위 Top 10
+            사회탐구 일타 강사 순위 Top 9
           </h1>
           <p className="text-gray-600">
             최종 업데이트: {data.lastUpdated} | 기준: {data.period}

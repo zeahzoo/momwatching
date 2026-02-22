@@ -135,29 +135,6 @@
     },
     {
       "rank": 6,
-      "name": "전한길",
-      "platform": "메가스터디",
-      "profileImage": "/images/ilta-ranking/jun-han-gil.jpg",
-      "representativeCourse": "한국사, 세계사",
-      "rating": 4.6,
-      "reviewCount": 9876,
-      "youtubeSubscribers": 89000,
-      "marketShare": 7.8,
-      "teachingStyle": "한국사 명강사. 스토리텔링 방식으로 역사를 쉽게 설명.",
-      "strengths": [
-        "한국사 대표 강사",
-        "스토리텔링 방식",
-        "재미있는 강의"
-      ],
-      "targetStudents": "한국사, 세계사 선택자",
-      "communityReputation": {
-        "positive": "역사가 재미있다, 스토리텔링 최고",
-        "negative": "암기량 많음"
-      },
-      "score": 76.4
-    },
-    {
-      "rank": 7,
       "name": "이중석",
       "platform": "이투스",
       "profileImage": "/images/ilta-ranking/lee-joong-seok.jpg",
@@ -180,7 +157,7 @@
       "score": 73.5
     },
     {
-      "rank": 8,
+      "rank": 7,
       "name": "이기상",
       "platform": "EBSi",
       "profileImage": "/images/ilta-ranking/lee-gi-sang.jpg",
@@ -203,7 +180,7 @@
       "score": 70.7
     },
     {
-      "rank": 9,
+      "rank": 8,
       "name": "오지훈",
       "platform": "메가스터디",
       "profileImage": "/images/ilta-ranking/oh-ji-hoon.jpg",
@@ -226,7 +203,7 @@
       "score": 68.2
     },
     {
-      "rank": 10,
+      "rank": 9,
       "name": "강상식",
       "platform": "이투스",
       "profileImage": "/images/ilta-ranking/kang-sang-sik.jpg",
