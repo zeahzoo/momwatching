@@ -7,12 +7,17 @@ interface NewsCardProps {
 }
 
 export default function NewsCard({ article }: NewsCardProps) {
+  const imageUrl = article.image || article.imageUrl || '/images/default-news.jpg';
+  const date = article.date || article.publishDate || new Date().toISOString();
+  const source = article.source || article.author || 'momwatching';
+  const keywords = article.keywords || article.tags || [];
+
   return (
     <Link href={`/news/${article.slug}`}>
       <div className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow overflow-hidden cursor-pointer border-t-4 border-blue-500">
         <div className="relative h-48 w-full">
           <Image
-            src={article.image}
+            src={imageUrl}
             alt={article.title}
             fill
             className="object-cover"
@@ -21,9 +26,9 @@ export default function NewsCard({ article }: NewsCardProps) {
         </div>
         <div className="p-6">
           <div className="flex items-center gap-2 mb-3 text-sm text-gray-500">
-            <span>{new Date(article.date).toLocaleDateString('ko-KR')}</span>
+            <span>{new Date(date).toLocaleDateString('ko-KR')}</span>
             <span>•</span>
-            <span className="text-blue-600">{article.source}</span>
+            <span className="text-blue-600">{source}</span>
           </div>
           <h3 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2 hover:text-blue-600 transition-colors">
             {article.title}
@@ -32,7 +37,7 @@ export default function NewsCard({ article }: NewsCardProps) {
             {article.summary}
           </p>
           <div className="flex flex-wrap gap-2">
-            {article.keywords && article.keywords.slice(0, 3).map((keyword) => (
+            {keywords.slice(0, 3).map((keyword) => (
               <span
                 key={keyword}
                 className="text-xs px-2 py-1 bg-blue-100 text-blue-700 rounded"

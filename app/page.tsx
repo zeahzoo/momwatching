@@ -13,9 +13,11 @@ async function getLatestNews(): Promise<NewsArticle[]> {
       console.error('news.json is not an array');
       return [];
     }
-    return articles.sort((a: NewsArticle, b: NewsArticle) => 
-      new Date(b.date).getTime() - new Date(a.date).getTime()
-    ).slice(0, 6);
+    return articles.sort((a: NewsArticle, b: NewsArticle) => {
+      const dateB = b.date || b.publishDate || new Date().toISOString();
+      const dateA = a.date || a.publishDate || new Date().toISOString();
+      return new Date(dateB).getTime() - new Date(dateA).getTime();
+    }).slice(0, 6);
   } catch (error) {
     console.error('Error loading news.json:', error);
     return [];

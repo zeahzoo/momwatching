@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${article.title} - momwatching.com`,
     description: article.summary,
-    keywords: article.keywords.join(', '),
+    keywords: article.tags?.join(', ') || article.keywords?.join(', ') || '',
   };
 }
 
@@ -69,7 +69,7 @@ export default async function NewsDetailPage({ params }: { params: Promise<{ slu
           {/* Featured Image */}
           <div className="relative h-96 w-full">
             <Image
-              src={article.image}
+              src={article.image || article.imageUrl || '/images/default-news.jpg'}
               alt={article.title}
               fill
               className="object-cover"
@@ -81,14 +81,14 @@ export default async function NewsDetailPage({ params }: { params: Promise<{ slu
           <div className="p-8 md:p-12">
             {/* Meta */}
             <div className="flex items-center gap-3 mb-6 text-sm text-gray-500">
-              <span>{new Date(article.date).toLocaleDateString('ko-KR', { 
+              <span>{new Date(article.date || article.publishDate || new Date()).toLocaleDateString('ko-KR', { 
                 year: 'numeric', 
                 month: 'long', 
                 day: 'numeric',
                 weekday: 'long'
               })}</span>
               <span>•</span>
-              <span className="text-blue-600 font-semibold">{article.source}</span>
+              <span className="text-blue-600 font-semibold">{article.source || article.author || 'momwatching'}</span>
             </div>
 
             {/* Title */}
@@ -112,19 +112,21 @@ export default async function NewsDetailPage({ params }: { params: Promise<{ slu
             </div>
 
             {/* Keywords */}
-            <div className="border-t pt-6">
-              <h3 className="text-sm font-semibold text-gray-700 mb-3">키워드</h3>
-              <div className="flex flex-wrap gap-2">
-                {article.keywords.map((keyword) => (
-                  <span
-                    key={keyword}
-                    className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium"
-                  >
-                    #{keyword}
-                  </span>
-                ))}
+            {(article.tags || article.keywords) && (
+              <div className="border-t pt-6">
+                <h3 className="text-sm font-semibold text-gray-700 mb-3">키워드</h3>
+                <div className="flex flex-wrap gap-2">
+                  {(article.tags || article.keywords || []).map((keyword) => (
+                    <span
+                      key={keyword}
+                      className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium"
+                    >
+                      #{keyword}
+                    </span>
+                  ))}
+                </div>
               </div>
-            </div>
+            )}
           </div>
         </article>
 

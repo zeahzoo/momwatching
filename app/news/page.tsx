@@ -13,9 +13,11 @@ async function getNewsData(): Promise<NewsArticle[]> {
       return [];
     }
     // Sort by date, newest first
-    return articles.sort((a: NewsArticle, b: NewsArticle) => 
-      new Date(b.date).getTime() - new Date(a.date).getTime()
-    );
+    return articles.sort((a: NewsArticle, b: NewsArticle) => {
+      const dateB = b.date || b.publishDate || new Date().toISOString();
+      const dateA = a.date || a.publishDate || new Date().toISOString();
+      return new Date(dateB).getTime() - new Date(dateA).getTime();
+    });
   } catch (error) {
     console.error('Error loading news.json:', error);
     return [];
