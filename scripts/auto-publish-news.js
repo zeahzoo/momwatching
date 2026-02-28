@@ -38,6 +38,15 @@ async function main() {
     // 3. 첫 번째 기사 꺼내기
     const articleToPublish = queuedNews.shift();
 
+    // 3.5. 발행 날짜 추가 (KST 기준)
+    if (!articleToPublish.date) {
+      const now = new Date();
+      // UTC+9 (KST) 변환
+      const kstOffset = 9 * 60; // 분 단위
+      const kstDate = new Date(now.getTime() + kstOffset * 60 * 1000);
+      articleToPublish.date = kstDate.toISOString().split('T')[0]; // YYYY-MM-DD
+    }
+
     // 4. 발행된 뉴스에 추가
     publishedNews.unshift(articleToPublish);
 
