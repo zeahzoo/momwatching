@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Link from 'next/link';
 import Navigation from '@/components/Navigation';
+import Script from 'next/script';
 
 export const metadata: Metadata = {
   title: "엄마가 보고 있다 - 고등학교 서울대 진학 실적 분석",
@@ -49,14 +50,32 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
+      <head>
+        {/* Google AdSense - 신청 후 받은 코드를 여기에 삽입하세요 */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5250822488285541"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+      </head>
       <body className="antialiased">
         <Navigation />
         {children}
         <footer className="bg-gray-900 text-white py-6 mt-12">
           <div className="container mx-auto px-4 max-w-7xl">
-            <div className="text-center">
+            <div className="text-center space-y-2">
+              <div className="text-gray-400 text-sm">
+                <Link href="/privacy-policy" className="hover:text-white transition-colors">
+                  개인정보 처리방침
+                </Link>
+                {' | '}
+                <Link href="/contact" className="hover:text-white transition-colors">
+                  문의하기
+                </Link>
+              </div>
               <p className="text-gray-500 text-xs">
-                © 2025 엄마가 보고 있다 (momwatching.com)
+                © 2026 엄마가 보고 있다 (momwatching.com)
               </p>
             </div>
           </div>
